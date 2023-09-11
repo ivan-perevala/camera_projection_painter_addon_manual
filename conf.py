@@ -7,7 +7,7 @@ extensions = [
     "sphinx.ext.coverage",
     "sphinx.ext.intersphinx",
     "sphinx.ext.autosectionlabel",
-    "sphinx_rtd_theme",
+    # "sphinx_rtd_theme",
 ]
 
 source_suffix = '.rst'
@@ -23,7 +23,7 @@ gettext_compact = False     # optional.
 intersphinx_disabled_reftypes = ["*"]
 
 # html
-html_theme = "sphinx_rtd_theme"
+#html_theme = "sphinx_rtd_theme"
 #html_logo = "bhq_logo_color_v0.svg"
 html_static_path = ["_static"]
 html_templates_path = ["_templates"]
