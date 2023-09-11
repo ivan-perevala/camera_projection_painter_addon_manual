@@ -7,12 +7,13 @@ extensions = [
     "sphinx.ext.coverage",
     "sphinx.ext.intersphinx",
     "sphinx.ext.autosectionlabel",
+    "sphinx_rtd_theme",
 ]
 
 source_suffix = '.rst'
 master_doc = 'index'
 
-language = "uk"  # Українською.
+language = "en"
 
 # sphinx-intl
 locale_dirs = ['locale/']   # path is example but recommended.
@@ -23,11 +24,10 @@ intersphinx_disabled_reftypes = ["*"]
 
 # html
 html_theme = "sphinx_rtd_theme"
-html_logo = "bhq_logo_color_v0.svg"
+#html_logo = "bhq_logo_color_v0.svg"
 html_static_path = ["_static"]
 html_templates_path = ["_templates"]
 html_theme_options = {
     "display_version": True,
     "style_external_links": True,
 }
-
