@@ -33,11 +33,6 @@ Blender.
     :maxdepth: 4
     :caption: Загальне
 
-    common/install
-    common/quick_start
-    common/ui
-    common/unified_name
-
 .. include:: ops/toctrees.inc
 
 

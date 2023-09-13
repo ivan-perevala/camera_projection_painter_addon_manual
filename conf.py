@@ -14,6 +14,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 language = "en"
+locale_dirs = ['locale/']
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]

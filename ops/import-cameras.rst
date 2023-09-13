@@ -1,62 +1,58 @@
 Import Cameras
 ##############
-
 Import camera data
 
 
 Forward
-*******
+=======
 
-.
 
 X Forward
- .
+
 
 Y Forward
- .
+
 
 Z Forward
- .
+
 
 -X Forward
- .
+
 
 -Y Forward
- .
+
 
 -Z Forward
- .
+
 
 Up
-**
+==
 
-.
 
 X Up
- .
+
 
 Y Up
- .
+
 
 Z Up
- .
+
 
 -X Up
- .
+
 
 -Y Up
- .
+
 
 -Z Up
- .
+
 
 File Name
-*********
+=========
 
-.
 
 Comparison Options
-******************
+==================
 
 Options for comparing names. At least one of the options must be selected for each compared type (object, image, etc.).
 
