@@ -6,4 +6,3 @@
     props/wmprops
     props/cameraprops
     props/sceneprops
-    props/imageprops

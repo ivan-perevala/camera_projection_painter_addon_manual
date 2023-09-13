@@ -10,6 +10,8 @@ extensions = [
     "sphinx_rtd_theme",
 ]
 
+suppress_warnings = ["toc.secnum", ]
+
 source_suffix = '.rst'
 master_doc = 'index'
 
