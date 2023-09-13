@@ -1,31 +1,8 @@
 Window Manager
 ##############
 
-setup_context_stage
-===================
+Apply UDIM Materials Fix
+========================
 
-
-Pass-Through
-
-
-Invoked
-
-
-Pre-Cleanup
-
-
-Import Scene
-
-
-Check Canvas
-
-
-Check Cameras
-
-
-Check Images
-
-
-Check Tool
-
+The standard import imports UDIM images as multiple materials and multiple images.
 
