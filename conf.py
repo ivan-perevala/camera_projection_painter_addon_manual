@@ -13,8 +13,9 @@ extensions = [
 source_suffix = '.rst'
 master_doc = 'index'
 
-language = "en"
+language = "uk"
 locale_dirs = ['locale/']
+gettext_compact = True
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
