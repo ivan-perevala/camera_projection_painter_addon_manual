@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Camera Projection Painter Debug (0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 15:04:35.435351\n"
+"POT-Creation-Date: 2023-09-13 15:11:54.216322\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uk\n"
@@ -27,7 +27,7 @@ msgstr "Метод антиальясингу"
 
 #. :src: bpy.types.Preferences.aa_method
 msgid "Anti-aliasing method to be used"
-msgstr ""
+msgstr "Який метод згладжування використовувати"
 
 #. :src: bpy.types.Preferences.aa_method:'FXAA'
 msgctxt "BHQAB_Preferences"
@@ -36,59 +36,59 @@ msgstr ""
 
 #. :src: bpy.types.Preferences.aa_method:'FXAA'
 msgid "Fast approximate anti-aliasing"
-msgstr ""
+msgstr "Швидке спрощене згладжування"
 
 #. :src: bpy.types.Preferences.aa_method:'SMAA'
 msgctxt "BHQAB_Preferences"
 msgid "SMAA"
-msgstr ""
+msgstr "SMAA"
 
 #. :src: bpy.types.Preferences.aa_method:'SMAA'
 msgid "Sub-pixel morphological anti-aliasing"
-msgstr ""
+msgstr "Субпіксельне морфологічне згладжування"
 
 #. :src: bpy.types.Preferences.appearance_section
 msgctxt "PreferencesAppearance"
 msgid "Appearance Section"
-msgstr ""
+msgstr "Секція Відображення"
 
 #. :src: bpy.types.Preferences.appearance_section:'VIEWPORT'
 msgctxt "PreferencesAppearance"
 msgid "Viewport"
-msgstr ""
+msgstr "Регіон 3Д Перегляду"
 
 #. :src: bpy.types.Preferences.appearance_section:'AA'
 msgctxt "PreferencesAppearance"
 msgid "Anti-Aliasing"
-msgstr ""
+msgstr "Згладжування"
 
 #. :src: bpy.types.Preferences.cameras_transparency
 msgctxt "PreferencesAppearance"
 msgid "Cameras Transparency"
-msgstr ""
+msgstr "Прозорість Камер"
 
 #. :src: bpy.types.Preferences.cameras_transparency
 msgid "Transparency of cameras in the viewport"
-msgstr ""
+msgstr "Прозорість камер у вікні перегляду"
 
 #. :src: bpy.types.Preferences.dithering_mix_factor
 msgctxt "PreferencesAppearance"
 msgid "Dithering Strength"
-msgstr ""
+msgstr "Сила дизерингу"
 
 #. :src: bpy.types.Preferences.dithering_mix_factor
 msgid "8x8 Bayer dithering strength"
-msgstr ""
+msgstr "Сила дизерингу Байера 8x8"
 
 #. :src: bpy.types.Preferences.fxaa_preset
 #. :src: bpy.types.Preferences.smaa_preset
 msgctxt "BHQAB_Preferences"
 msgid "Preset"
-msgstr ""
+msgstr "Попередні Налаштування"
 
 #. :src: bpy.types.Preferences.fxaa_preset
 msgid "Fast approximate anti-aliasing quality preset"
-msgstr ""
+msgstr "Попереднє налаштування швидкого спрощеного згладжування"
 
 #. :src: bpy.types.Preferences.fxaa_preset:'NONE'
 #. :src: bpy.types.Preferences.smaa_preset:'NONE'
@@ -835,29 +835,29 @@ msgstr ""
 #. :src: bpy.types.CameraProps.distortion_model:'DIVISION'
 msgctxt "CameraProps"
 msgid "Division"
-msgstr ""
+msgstr "Ділення"
 
 #. :src: bpy.types.CameraProps.distortion_model:'DIVISION'
 msgid "Division lens distortion model with two radial distortion coefficients"
-msgstr ""
+msgstr "Модель ділення з двома коефіцієнтами радіальної дисторсії"
 
 #. :src: bpy.types.CameraProps.distortion_model:'POLYNOMIAL'
 msgctxt "CameraProps"
 msgid "Polynomial"
-msgstr ""
+msgstr "Поліноміальна"
 
 #. :src: bpy.types.CameraProps.distortion_model:'POLYNOMIAL'
 msgid "Polynomial lens distortion model with four radial and two tangential lens distortion coefficients"
-msgstr ""
+msgstr "Поліноміальна модель з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
 
 #. :src: bpy.types.CameraProps.distortion_model:'BROWN'
 msgctxt "CameraProps"
 msgid "Brown"
-msgstr ""
+msgstr "Брауна-Конраді"
 
 #. :src: bpy.types.CameraProps.distortion_model:'BROWN'
 msgid "Brown-Conrady lens distortion model with four radial and two tangential lens distortion coefficients"
-msgstr ""
+msgstr "Модель Брауна-Конраді з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
 
 #. :src: bpy.types.CameraProps.image
 msgctxt "CameraProps"
@@ -1594,10 +1594,6 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "%s - object%s - camera"
-#~ msgstr ""
-
-
 #~ msgid "%s - camera%s - camera%s - objectPointer Type"
 #~ msgstr ""
 
@@ -1606,11 +1602,7 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "%s - camera%s - object%s - image%s - camera%s - object%s - image"
-#~ msgstr ""
-
-
-#~ msgid "%s - image%s - camera%s - image%s - image%s - object"
+#~ msgid "%s - object"
 #~ msgstr ""
 
 
@@ -1618,39 +1610,7 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "%s - object%s - camera%s - camera%s - object%s - image%s - camera%s - object"
-#~ msgstr ""
-
-
-#~ msgid "%s - object%s - image%s - object%s - image%s - image%s - cameraFixed pointer type, empty if variable type"
-#~ msgstr ""
-
-
-#~ msgid "%s - camera%s - image"
-#~ msgstr ""
-
-
-#~ msgid "%s - image"
-#~ msgstr ""
-
-
-#~ msgid "%s - image%s - camera%s - camera%s - object%s - object%s - camera%s - objectRNA collection property to define lists, arrays and mappings"
-#~ msgstr ""
-
-
-#~ msgid "%s - image%s - image%s - object%s - image%s - camera%s - object%s - image%s - object%s - image%s - object"
-#~ msgstr ""
-
-
-#~ msgid "%s - object%s - image%s - object%s - image"
-#~ msgstr ""
-
-
-#~ msgid "%s - object"
-#~ msgstr ""
-
-
-#~ msgid "%s - camera%s - object%s - camera"
+#~ msgid "%s - image%s - camera%s - image%s - image%s - object"
 #~ msgstr ""
 
 
@@ -1658,51 +1618,59 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "In Meshing"
+#~ msgid "%s - object%s - camera%s - object%s - camera"
 #~ msgstr ""
 
 
-#~ msgid "Export Mode"
+#~ msgid "%s - image%s - image%s - object%s - image%s - camera%s - object%s - image%s - object%s - image%s - object"
 #~ msgstr ""
 
 
-#~ msgid "-Z Up"
+#~ msgid "%s - image"
 #~ msgstr ""
 
 
-#~ msgid "Ignore Extensions"
+#~ msgid "%s - camera%s - image"
 #~ msgstr ""
 
 
-#~ msgid "-Z Forward"
+#~ msgid "%s - camera%s - object%s - image%s - camera%s - object%s - image"
 #~ msgstr ""
 
 
-#~ msgid "Ignore character register for matching."
+#~ msgid "%s - camera%s - object%s - camera"
 #~ msgstr ""
 
 
-#~ msgid "Include Editor Options"
+#~ msgid "%s - object%s - image%s - object%s - image%s - image%s - cameraFixed pointer type, empty if variable type"
 #~ msgstr ""
 
 
-#~ msgid "Import Cameras"
+#~ msgid "%s - object%s - image%s - object%s - image"
 #~ msgstr ""
 
 
-#~ msgid "Cleanup existing data"
+#~ msgid "%s - object%s - camera%s - camera%s - object%s - image%s - camera%s - object"
 #~ msgstr ""
 
 
-#~ msgid "Ensure Tool Settings"
+#~ msgid "%s - image%s - image%s - camera%s - camera%s - object%s - object%s - camera%s - objectRNA collection property to define lists, arrays and mappings"
 #~ msgstr ""
 
 
-#~ msgid "Up"
+#~ msgid "Calibration Group"
 #~ msgstr ""
 
 
-#~ msgid "Data Cleanup"
+#~ msgid "Use Camera Name"
+#~ msgstr ""
+
+
+#~ msgid "Cleanup Data"
+#~ msgstr ""
+
+
+#~ msgid "Options for comparing names. At least one of the options must be selected for each compared type (object, image, etc.)."
 #~ msgstr ""
 
 
@@ -1710,23 +1678,11 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Пошук зображень в першу чергу завжди відбувається серед вже відкритих файлів, потім, якщо збігів не знайдено - серед файлів у обраній директорії. Для цього оператор в користувацькому інтерфейсі має два режими запуску. Режим імпорту потрібно використати якщо необхідні зображення ще не відкрито - в цьому випадку буде можливість обрати директорію для пошуку файлів, і якщо буде знайдено збіги - необхідні зображення буде відкрито і пов'язано до камер. Режим пов'язування кардинальної різниці з режимом імпорту не має, але тут немає вибору директорії - якщо необхідних файлів ще не відкрито то буде використано директорію з якої востаннє імпортували зображення або дані камер. Цей режим корисний якщо наприклад, вручну було обрано інші зображення і потрібно прив'язати їх знову за іменами."
+#~ msgid "-Y Forward"
 #~ msgstr ""
 
 
-#~ msgid "Do Not Export"
-#~ msgstr ""
-
-
-#~ msgid "Use Object Name"
-#~ msgstr ""
-
-
-#~ msgid "Bind Images"
-#~ msgstr ""
-
-
-#~ msgid "-Y Up"
+#~ msgid "Ignore character register for matching."
 #~ msgstr ""
 
 
@@ -1734,27 +1690,19 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Y Forward"
+#~ msgid "File Name"
 #~ msgstr ""
 
 
-#~ msgid "Draft"
+#~ msgid "Bind Images"
 #~ msgstr ""
 
 
-#~ msgid "Use Image Name"
+#~ msgid "Ensure Canvas"
 #~ msgstr ""
 
 
-#~ msgid "Exact"
-#~ msgstr ""
-
-
-#~ msgid "Cleanup Images"
-#~ msgstr ""
-
-
-#~ msgid "Export camera data"
+#~ msgid "Export Mode"
 #~ msgstr ""
 
 
@@ -1766,23 +1714,31 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Use name only, no file extension when searching."
-#~ msgstr ""
-
-
 #~ msgid "Import paint object"
 #~ msgstr ""
 
 
-#~ msgid "Ensure Canvas"
+#~ msgid "Draft"
 #~ msgstr ""
 
 
-#~ msgid "Use image data-block name for comparison."
+#~ msgid "Use camera data name for comparison."
 #~ msgstr ""
 
 
-#~ msgid "Options for comparing names. At least one of the options must be selected for each compared type (object, image, etc.)."
+#~ msgid "Z Forward"
+#~ msgstr ""
+
+
+#~ msgid "Cleanup Images"
+#~ msgstr ""
+
+
+#~ msgid "-X Up"
+#~ msgstr ""
+
+
+#~ msgid "Cleanup existing data"
 #~ msgstr ""
 
 
@@ -1790,19 +1746,15 @@ msgstr ""
 #~ msgstr ""
 
 
+#~ msgid "Exact"
+#~ msgstr ""
+
+
+#~ msgid "File type to be imported."
+#~ msgstr ""
+
+
 #~ msgid "Locked"
-#~ msgstr ""
-
-
-#~ msgid "X Forward"
-#~ msgstr ""
-
-
-#~ msgid "-X Forward"
-#~ msgstr ""
-
-
-#~ msgid "Setup Context"
 #~ msgstr ""
 
 
@@ -1810,7 +1762,23 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "File Name"
+#~ msgid "X Forward"
+#~ msgstr ""
+
+
+#~ msgid "Y Up"
+#~ msgstr ""
+
+
+#~ msgid "Ignore Extensions"
+#~ msgstr ""
+
+
+#~ msgid "-Z Up"
+#~ msgstr ""
+
+
+#~ msgid "Data Cleanup"
 #~ msgstr ""
 
 
@@ -1818,7 +1786,95 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Calibration Group"
+#~ msgid "In Meshing"
+#~ msgstr ""
+
+
+#~ msgid "Use Object Name"
+#~ msgstr ""
+
+
+#~ msgid "Z Up"
+#~ msgstr ""
+
+
+#~ msgid "Пошук зображень в першу чергу завжди відбувається серед вже відкритих файлів, потім, якщо збігів не знайдено - серед файлів у обраній директорії. Для цього оператор в користувацькому інтерфейсі має два режими запуску. Режим імпорту потрібно використати якщо необхідні зображення ще не відкрито - в цьому випадку буде можливість обрати директорію для пошуку файлів, і якщо буде знайдено збіги - необхідні зображення буде відкрито і пов'язано до камер. Режим пов'язування кардинальної різниці з режимом імпорту не має, але тут немає вибору директорії - якщо необхідних файлів ще не відкрито то буде використано директорію з якої востаннє імпортували зображення або дані камер. Цей режим корисний якщо наприклад, вручну було обрано інші зображення і потрібно прив'язати їх знову за іменами."
+#~ msgstr ""
+
+
+#~ msgid "Use name only, no file extension when searching."
+#~ msgstr ""
+
+
+#~ msgid "Do Not Export"
+#~ msgstr ""
+
+
+#~ msgid "Use image data-block name for comparison."
+#~ msgstr ""
+
+
+#~ msgid "Export camera data"
+#~ msgstr ""
+
+
+#~ msgid "Forward"
+#~ msgstr ""
+
+
+#~ msgid "Comparison Options"
+#~ msgstr ""
+
+
+#~ msgid "-Y Up"
+#~ msgstr ""
+
+
+#~ msgid "Import Cameras"
+#~ msgstr ""
+
+
+#~ msgid "In Texturing"
+#~ msgstr ""
+
+
+#~ msgid "Пов'язує зображення до камер використовуючи назви. Може бути використаний як для всіх камер що присутні у сцені, так і для активної камери (для режиму малювання текстур це активна камера сцени, для об'єктного режиму - виділена камера або ж також активна камера сцени якщо виділено об'єкт іншого типу)."
+#~ msgstr ""
+
+
+#~ msgid "Include Editor Options"
+#~ msgstr ""
+
+
+#~ msgid "X Up"
+#~ msgstr ""
+
+
+#~ msgid "Setup Context"
+#~ msgstr ""
+
+
+#~ msgid "Y Forward"
+#~ msgstr ""
+
+
+#~ msgid "-Z Forward"
+#~ msgstr ""
+
+
+#~ msgid "Use Image Name"
+#~ msgstr ""
+
+
+#~ msgid "Use image file name for comparison."
+#~ msgstr ""
+
+
+#~ msgid "Ensure Tool Settings"
+#~ msgstr ""
+
+
+#~ msgid "Use Image File Name"
 #~ msgstr ""
 
 
@@ -1830,66 +1886,10 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "-Y Forward"
+#~ msgid "-X Forward"
 #~ msgstr ""
 
 
-#~ msgid "Comparison Options"
-#~ msgstr ""
-
-
-#~ msgid "Z Forward"
-#~ msgstr ""
-
-
-#~ msgid "-X Up"
-#~ msgstr ""
-
-
-#~ msgid "Y Up"
-#~ msgstr ""
-
-
-#~ msgid "Use camera data name for comparison."
-#~ msgstr ""
-
-
-#~ msgid "X Up"
-#~ msgstr ""
-
-
-#~ msgid "Cleanup Data"
-#~ msgstr ""
-
-
-#~ msgid "In Texturing"
-#~ msgstr ""
-
-
-#~ msgid "Forward"
-#~ msgstr ""
-
-
-#~ msgid "File type to be imported."
-#~ msgstr ""
-
-
-#~ msgid "Z Up"
-#~ msgstr ""
-
-
-#~ msgid "Use image file name for comparison."
-#~ msgstr ""
-
-
-#~ msgid "Use Camera Name"
-#~ msgstr ""
-
-
-#~ msgid "Пов'язує зображення до камер використовуючи назви. Може бути використаний як для всіх камер що присутні у сцені, так і для активної камери (для режиму малювання текстур це активна камера сцени, для об'єктного режиму - виділена камера або ж також активна камера сцени якщо виділено об'єкт іншого типу)."
-#~ msgstr ""
-
-
-#~ msgid "Use Image File Name"
+#~ msgid "Up"
 #~ msgstr ""
 

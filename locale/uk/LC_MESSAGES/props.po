@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Camera Projection Painter Debug (0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 15:04:35.435351\n"
+"POT-Creation-Date: 2023-09-13 15:11:54.216322\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: uk\n"
@@ -27,7 +27,7 @@ msgstr "Метод антиальясингу"
 
 #. :src: bpy.types.Preferences.aa_method
 msgid "Anti-aliasing method to be used"
-msgstr ""
+msgstr "Який метод згладжування використовувати"
 
 #. :src: bpy.types.Preferences.aa_method:'FXAA'
 msgctxt "BHQAB_Preferences"
@@ -36,59 +36,59 @@ msgstr ""
 
 #. :src: bpy.types.Preferences.aa_method:'FXAA'
 msgid "Fast approximate anti-aliasing"
-msgstr ""
+msgstr "Швидке спрощене згладжування"
 
 #. :src: bpy.types.Preferences.aa_method:'SMAA'
 msgctxt "BHQAB_Preferences"
 msgid "SMAA"
-msgstr ""
+msgstr "SMAA"
 
 #. :src: bpy.types.Preferences.aa_method:'SMAA'
 msgid "Sub-pixel morphological anti-aliasing"
-msgstr ""
+msgstr "Субпіксельне морфологічне згладжування"
 
 #. :src: bpy.types.Preferences.appearance_section
 msgctxt "PreferencesAppearance"
 msgid "Appearance Section"
-msgstr ""
+msgstr "Секція Відображення"
 
 #. :src: bpy.types.Preferences.appearance_section:'VIEWPORT'
 msgctxt "PreferencesAppearance"
 msgid "Viewport"
-msgstr ""
+msgstr "Регіон 3Д Перегляду"
 
 #. :src: bpy.types.Preferences.appearance_section:'AA'
 msgctxt "PreferencesAppearance"
 msgid "Anti-Aliasing"
-msgstr ""
+msgstr "Згладжування"
 
 #. :src: bpy.types.Preferences.cameras_transparency
 msgctxt "PreferencesAppearance"
 msgid "Cameras Transparency"
-msgstr ""
+msgstr "Прозорість Камер"
 
 #. :src: bpy.types.Preferences.cameras_transparency
 msgid "Transparency of cameras in the viewport"
-msgstr ""
+msgstr "Прозорість камер у вікні перегляду"
 
 #. :src: bpy.types.Preferences.dithering_mix_factor
 msgctxt "PreferencesAppearance"
 msgid "Dithering Strength"
-msgstr ""
+msgstr "Сила дизерингу"
 
 #. :src: bpy.types.Preferences.dithering_mix_factor
 msgid "8x8 Bayer dithering strength"
-msgstr ""
+msgstr "Сила дизерингу Байера 8x8"
 
 #. :src: bpy.types.Preferences.fxaa_preset
 #. :src: bpy.types.Preferences.smaa_preset
 msgctxt "BHQAB_Preferences"
 msgid "Preset"
-msgstr ""
+msgstr "Попередні Налаштування"
 
 #. :src: bpy.types.Preferences.fxaa_preset
 msgid "Fast approximate anti-aliasing quality preset"
-msgstr ""
+msgstr "Попереднє налаштування швидкого спрощеного згладжування"
 
 #. :src: bpy.types.Preferences.fxaa_preset:'NONE'
 #. :src: bpy.types.Preferences.smaa_preset:'NONE'
@@ -835,29 +835,29 @@ msgstr ""
 #. :src: bpy.types.CameraProps.distortion_model:'DIVISION'
 msgctxt "CameraProps"
 msgid "Division"
-msgstr ""
+msgstr "Ділення"
 
 #. :src: bpy.types.CameraProps.distortion_model:'DIVISION'
 msgid "Division lens distortion model with two radial distortion coefficients"
-msgstr ""
+msgstr "Модель ділення з двома коефіцієнтами радіальної дисторсії"
 
 #. :src: bpy.types.CameraProps.distortion_model:'POLYNOMIAL'
 msgctxt "CameraProps"
 msgid "Polynomial"
-msgstr ""
+msgstr "Поліноміальна"
 
 #. :src: bpy.types.CameraProps.distortion_model:'POLYNOMIAL'
 msgid "Polynomial lens distortion model with four radial and two tangential lens distortion coefficients"
-msgstr ""
+msgstr "Поліноміальна модель з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
 
 #. :src: bpy.types.CameraProps.distortion_model:'BROWN'
 msgctxt "CameraProps"
 msgid "Brown"
-msgstr ""
+msgstr "Брауна-Конраді"
 
 #. :src: bpy.types.CameraProps.distortion_model:'BROWN'
 msgid "Brown-Conrady lens distortion model with four radial and two tangential lens distortion coefficients"
-msgstr ""
+msgstr "Модель Брауна-Конраді з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
 
 #. :src: bpy.types.CameraProps.image
 msgctxt "CameraProps"
@@ -1594,10 +1594,6 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "%s - object%s - camera"
-#~ msgstr ""
-
-
 #~ msgid "%s - camera%s - camera%s - objectPointer Type"
 #~ msgstr ""
 
@@ -1606,11 +1602,7 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "%s - camera%s - object%s - image%s - camera%s - object%s - image"
-#~ msgstr ""
-
-
-#~ msgid "%s - image%s - camera%s - image%s - image%s - object"
+#~ msgid "%s - object"
 #~ msgstr ""
 
 
@@ -1618,39 +1610,7 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "%s - object%s - camera%s - camera%s - object%s - image%s - camera%s - object"
-#~ msgstr ""
-
-
-#~ msgid "%s - object%s - image%s - object%s - image%s - image%s - cameraFixed pointer type, empty if variable type"
-#~ msgstr ""
-
-
-#~ msgid "%s - camera%s - image"
-#~ msgstr ""
-
-
-#~ msgid "%s - image"
-#~ msgstr ""
-
-
-#~ msgid "%s - image%s - camera%s - camera%s - object%s - object%s - camera%s - objectRNA collection property to define lists, arrays and mappings"
-#~ msgstr ""
-
-
-#~ msgid "%s - image%s - image%s - object%s - image%s - camera%s - object%s - image%s - object%s - image%s - object"
-#~ msgstr ""
-
-
-#~ msgid "%s - object%s - image%s - object%s - image"
-#~ msgstr ""
-
-
-#~ msgid "%s - object"
-#~ msgstr ""
-
-
-#~ msgid "%s - camera%s - object%s - camera"
+#~ msgid "%s - image%s - camera%s - image%s - image%s - object"
 #~ msgstr ""
 
 
@@ -1658,15 +1618,71 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Use a different color for cameras whose images have landscape (including square) and portrait orientation."
+#~ msgid "%s - object%s - camera%s - object%s - camera"
 #~ msgstr ""
 
 
-#~ msgid "In Meshing"
+#~ msgid "%s - image%s - image%s - object%s - image%s - camera%s - object%s - image%s - object%s - image%s - object"
 #~ msgstr ""
 
 
-#~ msgid "Export Mode"
+#~ msgid "%s - image"
+#~ msgstr ""
+
+
+#~ msgid "%s - camera%s - image"
+#~ msgstr ""
+
+
+#~ msgid "%s - camera%s - object%s - image%s - camera%s - object%s - image"
+#~ msgstr ""
+
+
+#~ msgid "%s - camera%s - object%s - camera"
+#~ msgstr ""
+
+
+#~ msgid "%s - object%s - image%s - object%s - image%s - image%s - cameraFixed pointer type, empty if variable type"
+#~ msgstr ""
+
+
+#~ msgid "%s - object%s - image%s - object%s - image"
+#~ msgstr ""
+
+
+#~ msgid "%s - object%s - camera%s - camera%s - object%s - image%s - camera%s - object"
+#~ msgstr ""
+
+
+#~ msgid "%s - image%s - image%s - camera%s - camera%s - object%s - object%s - camera%s - objectRNA collection property to define lists, arrays and mappings"
+#~ msgstr ""
+
+
+#~ msgid "Calibration Group"
+#~ msgstr ""
+
+
+#~ msgid "Polynomial"
+#~ msgstr ""
+
+
+#~ msgid "Viewport Cameras Size"
+#~ msgstr ""
+
+
+#~ msgid "Principal Y"
+#~ msgstr ""
+
+
+#~ msgid "Highlight Cameras Orientation"
+#~ msgstr ""
+
+
+#~ msgid "Distortion Model"
+#~ msgstr ""
+
+
+#~ msgid "IEEE-754 single precision float."
 #~ msgstr ""
 
 
@@ -1674,79 +1690,23 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Checker pattern outline."
+#~ msgid "K3"
 #~ msgstr ""
 
 
-#~ msgid "Deviation of the camera principal point X."
+#~ msgid "No distortion, only correction."
 #~ msgstr ""
 
 
-#~ msgid "Unit"
+#~ msgid "Camera focal length in millimeters."
 #~ msgstr ""
 
 
-#~ msgid "Precision of display of decimal fractions of camera parameters."
+#~ msgid "The fill type of the highlighted area."
 #~ msgstr ""
 
 
-#~ msgid "The color of the display of cameras in which the images have a portrait orientation."
-#~ msgstr ""
-
-
-#~ msgid "Reality Capture \"Metadata XMP\" properties."
-#~ msgstr ""
-
-
-#~ msgid "Lines"
-#~ msgstr ""
-
-
-#~ msgid "Aspect Ratio"
-#~ msgstr ""
-
-
-#~ msgid "K2"
-#~ msgstr ""
-
-
-#~ msgid "Draft"
-#~ msgstr ""
-
-
-#~ msgid "Exact"
-#~ msgstr ""
-
-
-#~ msgid "Fourth radial coefficient."
-#~ msgstr ""
-
-
-#~ msgid "Division lens distortion model with two radial distortion coefficients."
-#~ msgstr ""
-
-
-#~ msgid "Alt"
-#~ msgstr ""
-
-
-#~ msgid "Single"
-#~ msgstr ""
-
-
-#~ msgid "Highlight Projected Border First Color"
-#~ msgstr ""
-
-
-#~ msgid "Images that were once binded to this camera."
-#~ msgstr ""
-
-
-#~ msgid "Single color outline."
-#~ msgstr ""
-
-
-#~ msgid "Brown"
+#~ msgid "Camera mathematical lens distortion model."
 #~ msgstr ""
 
 
@@ -1754,11 +1714,247 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "The size of the camera sensor in millimeters, taking into account the larger side of the binded image."
+#~ msgid "Deviation of the camera principal point X."
+#~ msgstr ""
+
+
+#~ msgid "Image."
+#~ msgstr ""
+
+
+#~ msgid "Image"
+#~ msgstr ""
+
+
+#~ msgid "Fill Color"
+#~ msgstr ""
+
+
+#~ msgid "Pixels Principal"
+#~ msgstr ""
+
+
+#~ msgid "In Texturing"
+#~ msgstr ""
+
+
+#~ msgid "Heading"
+#~ msgstr ""
+
+
+#~ msgid "Current Image Viewport Transparency"
+#~ msgstr ""
+
+
+#~ msgid "Brown"
+#~ msgstr ""
+
+
+#~ msgid "First radial coefficient."
+#~ msgstr ""
+
+
+#~ msgid "Camera parameters in millimeters."
+#~ msgstr ""
+
+
+#~ msgid "IEEE-754 double precision float."
+#~ msgstr ""
+
+
+#~ msgid "Roll"
+#~ msgstr ""
+
+
+#~ msgid "Transparency of the image when viewed from the camera."
+#~ msgstr ""
+
+
+#~ msgid "The second color that will be used to highlight the parts of the object that are outside of camera frustum."
+#~ msgstr ""
+
+
+#~ msgid "Camera aspect ratio correction factor."
+#~ msgstr ""
+
+
+#~ msgid "Brown-Conrady lens distortion model with four radial and two tangential lens distortion coefficients."
+#~ msgstr ""
+
+
+#~ msgid "Fourth radial coefficient."
+#~ msgstr ""
+
+
+#~ msgid "Cameras Landscape Orientation Color"
+#~ msgstr ""
+
+
+#~ msgid "Export Mode"
+#~ msgstr ""
+
+
+#~ msgid "Distortion Group"
+#~ msgstr ""
+
+
+#~ msgid "Highlight Projected Border"
+#~ msgstr ""
+
+
+#~ msgid "P1"
+#~ msgstr ""
+
+
+#~ msgid "Draft"
+#~ msgstr ""
+
+
+#~ msgid "Object"
+#~ msgstr ""
+
+
+#~ msgid "Exact"
+#~ msgstr ""
+
+
+#~ msgid "None"
+#~ msgstr ""
+
+
+#~ msgid "Location"
+#~ msgstr ""
+
+
+#~ msgid "Do Not Export"
+#~ msgstr ""
+
+
+#~ msgid "Third radial coefficient."
+#~ msgstr ""
+
+
+#~ msgid "Display units of camera parameters."
+#~ msgstr ""
+
+
+#~ msgid "Cameras Portrait Orientation Color"
+#~ msgstr ""
+
+
+#~ msgid "Camera binded image. It will be used as a paint brush. Also, its size affects the distortion parameters in the pixel coordinate system (in which way - described in more detail for the corresponding parameters), and therefore - also the possibility of exporting to certain file formats."
+#~ msgstr ""
+
+
+#~ msgid "Pitch"
+#~ msgstr ""
+
+
+#~ msgid "Pixels Skew"
+#~ msgstr ""
+
+
+#~ msgid "Alt"
+#~ msgstr ""
+
+
+#~ msgid "Millimeters Principal X"
+#~ msgstr ""
+
+
+#~ msgid "Whether to highlight the borders of the frame of the projected image on the object."
+#~ msgstr ""
+
+
+#~ msgid "Omega"
+#~ msgstr ""
+
+
+#~ msgid "Precision of display of decimal fractions of camera parameters."
+#~ msgstr ""
+
+
+#~ msgid "Unit"
+#~ msgstr ""
+
+
+#~ msgid "Checker"
+#~ msgstr ""
+
+
+#~ msgid "Checker pattern outline."
+#~ msgstr ""
+
+
+#~ msgid "The standard import imports UDIM images as multiple materials and multiple images."
+#~ msgstr ""
+
+
+#~ msgid "Double"
+#~ msgstr ""
+
+
+#~ msgid "The color of the display of cameras in which the images have a portrait orientation."
 #~ msgstr ""
 
 
 #~ msgid "Highlight Projected Border Second Color"
+#~ msgstr ""
+
+
+#~ msgid "Z"
+#~ msgstr ""
+
+
+#~ msgid "Camera"
+#~ msgstr ""
+
+
+#~ msgid "Horizontal camera skew in pixels."
+#~ msgstr ""
+
+
+#~ msgid "Locked"
+#~ msgstr ""
+
+
+#~ msgid "Millimeters Focal Length"
+#~ msgstr ""
+
+
+#~ msgid "Horizontal camera skew in millimeters."
+#~ msgstr ""
+
+
+#~ msgid "Images that were once binded to this camera."
+#~ msgstr ""
+
+
+#~ msgid "Single"
+#~ msgstr ""
+
+
+#~ msgid "Deviation of the camera principal point X in millimeters."
+#~ msgstr ""
+
+
+#~ msgid "Y"
+#~ msgstr ""
+
+
+#~ msgid "Aspect Ratio"
+#~ msgstr ""
+
+
+#~ msgid "Rotation Matrix"
+#~ msgstr ""
+
+
+#~ msgid "P2"
+#~ msgstr ""
+
+
+#~ msgid "Division lens distortion model with two radial distortion coefficients."
 #~ msgstr ""
 
 
@@ -1770,207 +1966,7 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "IEEE-754 single precision float."
-#~ msgstr ""
-
-
-#~ msgid "The fill type of the highlighted area."
-#~ msgstr ""
-
-
-#~ msgid "Deviation of the camera principal point Y in millimeters."
-#~ msgstr ""
-
-
-#~ msgid "Camera binded image. It will be used as a paint brush. Also, its size affects the distortion parameters in the pixel coordinate system (in which way - described in more detail for the corresponding parameters), and therefore - also the possibility of exporting to certain file formats."
-#~ msgstr ""
-
-
-#~ msgid "Camera mathematical lens distortion model."
-#~ msgstr ""
-
-
-#~ msgid "Principal Y"
-#~ msgstr ""
-
-
-#~ msgid "Location"
-#~ msgstr ""
-
-
-#~ msgid "Pitch"
-#~ msgstr ""
-
-
-#~ msgid "Camera parameters in millimeters."
-#~ msgstr ""
-
-
-#~ msgid "First tangential coefficient."
-#~ msgstr ""
-
-
-#~ msgid "None"
-#~ msgstr ""
-
-
-#~ msgid "Omega"
-#~ msgstr ""
-
-
-#~ msgid "Millimeters"
-#~ msgstr ""
-
-
-#~ msgid "Deviation of the camera principal point X in millimeters."
-#~ msgstr ""
-
-
-#~ msgid "Image"
-#~ msgstr ""
-
-
-#~ msgid "Camera"
-#~ msgstr ""
-
-
-#~ msgid "Cameras Landscape Orientation Color"
-#~ msgstr ""
-
-
-#~ msgid "Highlight Projected Border"
-#~ msgstr ""
-
-
-#~ msgid "Third radial coefficient."
-#~ msgstr ""
-
-
-#~ msgid "Object"
-#~ msgstr ""
-
-
-#~ msgid "Camera focal length in pixels."
-#~ msgstr ""
-
-
-#~ msgid "Deviation of the camera principal point in pixels."
-#~ msgstr ""
-
-
-#~ msgid "Locked"
-#~ msgstr ""
-
-
-#~ msgid "Distortion Model"
-#~ msgstr ""
-
-
-#~ msgid "P2"
-#~ msgstr ""
-
-
-#~ msgid "Cameras Portrait Orientation Color"
-#~ msgstr ""
-
-
-#~ msgid "Millimeters Principal Y"
-#~ msgstr ""
-
-
-#~ msgid "The second color that will be used to highlight the parts of the object that are outside of camera frustum."
-#~ msgstr ""
-
-
-#~ msgid "Current Image Viewport Transparency"
-#~ msgstr ""
-
-
-#~ msgid "Horizontal camera skew in millimeters."
-#~ msgstr ""
-
-
-#~ msgid "Camera aspect ratio correction factor."
-#~ msgstr ""
-
-
-#~ msgid "Phi"
-#~ msgstr ""
-
-
-#~ msgid "Pixels Skew"
-#~ msgstr ""
-
-
-#~ msgid "Division"
-#~ msgstr ""
-
-
-#~ msgid "Rotation Matrix"
-#~ msgstr ""
-
-
-#~ msgid "Polynomial"
-#~ msgstr ""
-
-
-#~ msgid "First radial coefficient."
-#~ msgstr ""
-
-
-#~ msgid "K3"
-#~ msgstr ""
-
-
-#~ msgid "Do Not Export"
-#~ msgstr ""
-
-
-#~ msgid "Roll"
-#~ msgstr ""
-
-
-#~ msgid "Heading"
-#~ msgstr ""
-
-
-#~ msgid "The standard import imports UDIM images as multiple materials and multiple images."
-#~ msgstr ""
-
-
-#~ msgid "Distortion Group"
-#~ msgstr ""
-
-
-#~ msgid "Pixels"
-#~ msgstr ""
-
-
-#~ msgid "IEEE-754 double precision float."
-#~ msgstr ""
-
-
-#~ msgid "X"
-#~ msgstr ""
-
-
-#~ msgid "Second tangential coefficient."
-#~ msgstr ""
-
-
-#~ msgid "Scene"
-#~ msgstr ""
-
-
-#~ msgid "Polynomial lens distortion model with four radial and two tangential lens distortion coefficients."
-#~ msgstr ""
-
-
-#~ msgid "Camera focal length in millimeters."
-#~ msgstr ""
-
-
-#~ msgid "Horizontal camera skew in pixels."
+#~ msgid "The size of the cameras in the viewport."
 #~ msgstr ""
 
 
@@ -1978,39 +1974,7 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "The first color that will be used to highlight the parts of the object that are outside of camera frustum."
-#~ msgstr ""
-
-
-#~ msgid "Millimeters Skew"
-#~ msgstr ""
-
-
-#~ msgid "Display units of camera parameters."
-#~ msgstr ""
-
-
-#~ msgid "Z"
-#~ msgstr ""
-
-
-#~ msgid "Sensor"
-#~ msgstr ""
-
-
-#~ msgid "Transparency of the image when viewed from the camera."
-#~ msgstr ""
-
-
-#~ msgid "Brown-Conrady lens distortion model with four radial and two tangential lens distortion coefficients."
-#~ msgstr ""
-
-
-#~ msgid "Whether to highlight the borders of the frame of the projected image on the object."
-#~ msgstr ""
-
-
-#~ msgid "Millimeters Principal X"
+#~ msgid "Second tangential coefficient."
 #~ msgstr ""
 
 
@@ -2018,35 +1982,19 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "The size of the cameras in the viewport."
-#~ msgstr ""
-
-
-#~ msgid "Deviation of the camera principal point Y."
-#~ msgstr ""
-
-
-#~ msgid "Pixels Principal"
-#~ msgstr ""
-
-
-#~ msgid "Viewport Cameras Size"
-#~ msgstr ""
-
-
-#~ msgid "Millimeters Focal Length"
-#~ msgstr ""
-
-
 #~ msgid "Kappa"
 #~ msgstr ""
 
 
-#~ msgid "The color of the display of cameras in which the images have a landscape (including square) orientation."
+#~ msgid "Use a different color for cameras whose images have landscape (including square) and portrait orientation."
 #~ msgstr ""
 
 
-#~ msgid "Highlight Cameras Orientation"
+#~ msgid "Phi"
+#~ msgstr ""
+
+
+#~ msgid "Millimeters Principal Y"
 #~ msgstr ""
 
 
@@ -2054,11 +2002,79 @@ msgstr ""
 #~ msgstr ""
 
 
+#~ msgid "Reality Capture \"Metadata XMP\" properties."
+#~ msgstr ""
+
+
+#~ msgid "Scene"
+#~ msgstr ""
+
+
+#~ msgid "Deviation of the camera principal point Y."
+#~ msgstr ""
+
+
+#~ msgid "Millimeters"
+#~ msgstr ""
+
+
+#~ msgid "The size of the camera sensor in millimeters, taking into account the larger side of the binded image."
+#~ msgstr ""
+
+
+#~ msgid "Second radial coefficient."
+#~ msgstr ""
+
+
+#~ msgid "The color of the display of cameras in which the images have a landscape (including square) orientation."
+#~ msgstr ""
+
+
 #~ msgid "Pixels Focal Length"
 #~ msgstr ""
 
 
-#~ msgid "Fill Color"
+#~ msgid "K2"
+#~ msgstr ""
+
+
+#~ msgid "Single color outline."
+#~ msgstr ""
+
+
+#~ msgid "The first color that will be used to highlight the parts of the object that are outside of camera frustum."
+#~ msgstr ""
+
+
+#~ msgid "Sensor"
+#~ msgstr ""
+
+
+#~ msgid "Pixels"
+#~ msgstr ""
+
+
+#~ msgid "Division"
+#~ msgstr ""
+
+
+#~ msgid "Polynomial lens distortion model with four radial and two tangential lens distortion coefficients."
+#~ msgstr ""
+
+
+#~ msgid "Camera focal length in pixels."
+#~ msgstr ""
+
+
+#~ msgid "Millimeters Skew"
+#~ msgstr ""
+
+
+#~ msgid "Highlight Projected Border First Color"
+#~ msgstr ""
+
+
+#~ msgid "In Meshing"
 #~ msgstr ""
 
 
@@ -2066,38 +2082,22 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Image."
+#~ msgid "X"
 #~ msgstr ""
 
 
-#~ msgid "Calibration Group"
+#~ msgid "Lines"
 #~ msgstr ""
 
 
-#~ msgid "Y"
+#~ msgid "Deviation of the camera principal point in pixels."
 #~ msgstr ""
 
 
-#~ msgid "Double"
+#~ msgid "First tangential coefficient."
 #~ msgstr ""
 
 
-#~ msgid "No distortion, only correction."
-#~ msgstr ""
-
-
-#~ msgid "Checker"
-#~ msgstr ""
-
-
-#~ msgid "P1"
-#~ msgstr ""
-
-
-#~ msgid "In Texturing"
-#~ msgstr ""
-
-
-#~ msgid "Second radial coefficient."
+#~ msgid "Deviation of the camera principal point Y in millimeters."
 #~ msgstr ""
 
