@@ -4,1588 +4,259 @@
 # Painter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Camera Projection Painter Debug (0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 15:30:26.492920\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2023-09-13 16:00:45.092055\n"
+"PO-Revision-Date: 2023-09-13 15:11+0200\n"
+"Last-Translator: ivpe <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
-"Language-Team: uk <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.7.1"
 
-#. :src: bpy.types.Preferences.aa_method
-msgctxt "BHQAB_Preferences"
-msgid "AA Method"
-msgstr "Метод антиальясингу"
-
-#. :src: bpy.types.Preferences.aa_method
-msgid "Anti-aliasing method to be used"
-msgstr "Який метод згладжування використовувати"
-
-#. :src: bpy.types.Preferences.aa_method:'FXAA'
-msgctxt "BHQAB_Preferences"
-msgid "FXAA"
+#: ../../ops/bind-images.rst:2
+msgid "Bind Images"
 msgstr ""
 
-#. :src: bpy.types.Preferences.aa_method:'FXAA'
-msgid "Fast approximate anti-aliasing"
-msgstr "Швидке спрощене згладжування"
-
-#. :src: bpy.types.Preferences.aa_method:'SMAA'
-msgctxt "BHQAB_Preferences"
-msgid "SMAA"
-msgstr "SMAA"
-
-#. :src: bpy.types.Preferences.aa_method:'SMAA'
-msgid "Sub-pixel morphological anti-aliasing"
-msgstr "Субпіксельне морфологічне згладжування"
-
-#. :src: bpy.types.Preferences.appearance_section
-msgctxt "PreferencesAppearance"
-msgid "Appearance Section"
-msgstr "Секція Відображення"
-
-#. :src: bpy.types.Preferences.appearance_section:'VIEWPORT'
-msgctxt "PreferencesAppearance"
-msgid "Viewport"
-msgstr "Регіон 3Д Перегляду"
-
-#. :src: bpy.types.Preferences.appearance_section:'AA'
-msgctxt "PreferencesAppearance"
-msgid "Anti-Aliasing"
-msgstr "Згладжування"
-
-#. :src: bpy.types.Preferences.cameras_transparency
-msgctxt "PreferencesAppearance"
-msgid "Cameras Transparency"
-msgstr "Прозорість Камер"
-
-#. :src: bpy.types.Preferences.cameras_transparency
-msgid "Transparency of cameras in the viewport"
-msgstr "Прозорість камер у вікні перегляду"
-
-#. :src: bpy.types.Preferences.dithering_mix_factor
-msgctxt "PreferencesAppearance"
-msgid "Dithering Strength"
-msgstr "Сила дизерингу"
-
-#. :src: bpy.types.Preferences.dithering_mix_factor
-msgid "8x8 Bayer dithering strength"
-msgstr "Сила дизерингу Байера 8x8"
-
-#. :src: bpy.types.Preferences.fxaa_preset
-#. :src: bpy.types.Preferences.smaa_preset
-msgctxt "BHQAB_Preferences"
-msgid "Preset"
-msgstr "Попередні Налаштування"
-
-#. :src: bpy.types.Preferences.fxaa_preset
-msgid "Fast approximate anti-aliasing quality preset"
-msgstr "Попереднє налаштування швидкого спрощеного згладжування"
-
-#. :src: bpy.types.Preferences.fxaa_preset:'NONE'
-#. :src: bpy.types.Preferences.smaa_preset:'NONE'
-msgctxt "BHQAB_Preferences"
-msgid "None"
+#: ../../ops/bind-images.rst:4
+msgid "Пов'язує зображення до камер використовуючи назви. Може бути використаний як для всіх камер що присутні у сцені, так і для активної камери (для режиму малювання текстур це активна камера сцени, для об'єктного режиму - виділена камера або ж також активна камера сцени якщо виділено об'єкт іншого типу)."
 msgstr ""
 
-#. :src: bpy.types.Preferences.fxaa_preset:'NONE'
-msgid "Do not use fast approximate anti-aliasing"
+#: ../../ops/bind-images.rst:8
+msgid "Пошук зображень в першу чергу завжди відбувається серед вже відкритих файлів, потім, якщо збігів не знайдено - серед файлів у обраній директорії. Для цього оператор в користувацькому інтерфейсі має два режими запуску. Режим імпорту потрібно використати якщо необхідні зображення ще не відкрито - в цьому випадку буде можливість обрати директорію для пошуку файлів, і якщо буде знайдено збіги - необхідні зображення буде відкрито і пов'язано до камер. Режим пов'язування кардинальної різниці з режимом імпорту не має, але тут немає вибору директорії - якщо необхідних файлів ще не відкрито то буде використано директорію з якої востаннє імпортували зображення або дані камер. Цей режим корисний якщо наприклад, вручну було обрано інші зображення і потрібно прив'язати їх знову за іменами."
 msgstr ""
 
-#. :src: bpy.types.Preferences.fxaa_preset:'LOW'
-#. :src: bpy.types.Preferences.smaa_preset:'LOW'
-msgctxt "BHQAB_Preferences"
-msgid "Low"
-msgstr ""
-
-#. :src: bpy.types.Preferences.fxaa_preset:'LOW'
-msgid "Default medium dither"
-msgstr ""
-
-#. :src: bpy.types.Preferences.fxaa_preset:'MEDIUM'
-#. :src: bpy.types.Preferences.smaa_preset:'MEDIUM'
-msgctxt "BHQAB_Preferences"
-msgid "Medium"
-msgstr ""
-
-#. :src: bpy.types.Preferences.fxaa_preset:'MEDIUM'
-msgid "Less dither, faster"
-msgstr ""
-
-#. :src: bpy.types.Preferences.fxaa_preset:'HIGH'
-#. :src: bpy.types.Preferences.smaa_preset:'HIGH'
-msgctxt "BHQAB_Preferences"
-msgid "High"
-msgstr ""
-
-#. :src: bpy.types.Preferences.fxaa_preset:'HIGH'
-msgid "Less dither, more expensive"
-msgstr ""
-
-#. :src: bpy.types.Preferences.fxaa_preset:'ULTRA'
-#. :src: bpy.types.Preferences.smaa_preset:'ULTRA'
-msgctxt "BHQAB_Preferences"
-msgid "Ultra"
-msgstr ""
-
-#. :src: bpy.types.Preferences.fxaa_preset:'ULTRA'
-msgid "No dither, very expensive"
-msgstr ""
-
-#. :src: bpy.types.Preferences.fxaa_value
-msgctxt "BHQAB_Preferences"
-msgid "Quality"
-msgstr ""
-
-#. :src: bpy.types.Preferences.fxaa_value
-msgid "FXAA preset quality tuning"
-msgstr ""
-
-#. :src: bpy.types.Preferences.info_section
-msgctxt "PreferencesInfo"
-msgid "Info Section"
-msgstr ""
-
-#. :src: bpy.types.Preferences.info_section:'UPDATES'
-msgctxt "PreferencesInfo"
-msgid "Updates"
-msgstr ""
-
-#. :src: bpy.types.Preferences.info_section:'README'
-msgctxt "PreferencesInfo"
-msgid "Readme"
-msgstr ""
-
-#. :src: bpy.types.Preferences.info_section:'CREDITS'
-msgctxt "PreferencesInfo"
-msgid "Credits"
-msgstr ""
-
-#. :src: bpy.types.Preferences.info_section:'LINKS'
-msgctxt "PreferencesInfo"
-msgid "Links"
-msgstr ""
-
-#. :src: bpy.types.Preferences.info_section:'LICENSE'
-msgctxt "PreferencesInfo"
-msgid "License"
-msgstr ""
-
-#. :src: bpy.types.Preferences.log_level
-msgctxt "PreferencesBehavior"
-msgid "Log Level"
-msgstr ""
-
-#. :src: bpy.types.Preferences.log_level:'DEBUG'
-msgctxt "PreferencesBehavior"
-msgid "Debug"
-msgstr ""
-
-#. :src: bpy.types.Preferences.log_level:'INFO'
-msgctxt "PreferencesBehavior"
-msgid "Info"
-msgstr ""
-
-#. :src: bpy.types.Preferences.log_level:'WARNING'
-msgctxt "PreferencesBehavior"
-msgid "Warning"
-msgstr ""
-
-#. :src: bpy.types.Preferences.log_level:'ERROR'
-msgctxt "PreferencesBehavior"
-msgid "Error"
-msgstr ""
-
-#. :src: bpy.types.Preferences.log_level:'CRITICAL'
-msgctxt "PreferencesBehavior"
-msgid "Critical"
-msgstr ""
-
-#. :src: bpy.types.Preferences.preferred_software_workflow
-msgctxt "PreferencesBehavior"
-msgid "Software"
-msgstr ""
-
-#. :src: bpy.types.Preferences.preferred_software_workflow
-msgid "Preset for software for which the operation will be performed"
-msgstr ""
-
-#. :src: bpy.types.Preferences.preferred_software_workflow:'REALITY_CAPTURE'
-msgctxt "PreferencesBehavior"
-msgid "Reality Capture"
-msgstr ""
-
-#. :src: bpy.types.Preferences.select_framebuffer_scale
-msgctxt "PreferencesBehavior"
-msgid "Select Framebuffer Scale"
-msgstr ""
-
-#. :src: bpy.types.Preferences.select_framebuffer_scale
-msgid "Select framebuffer scale percentage, available in \"Developer Extras\" section. This exists mostly for optimization purposes, since the smaller size of framebuffer significantly reduces the use of both memory and CPU. The point is that the data from framebuffer will be read not only in one particular place, but also to determine which cameras in the field of view of the observer and require rendering of preview. Changing this option requires restarting the active main operator"
-msgstr ""
-
-#. :src: bpy.types.Preferences.smaa_preset
-msgid "Sub-pixel morphological anti-aliasing quality preset"
-msgstr ""
-
-#. :src: bpy.types.Preferences.smaa_preset:'NONE'
-msgid "Do not use sub-pixel morphological anti-aliasing"
-msgstr ""
-
-#. :src: bpy.types.Preferences.smaa_preset:'LOW'
-msgid "60% of the quality. High threshold, very a few search steps, no detection of corners and diagonals"
-msgstr ""
-
-#. :src: bpy.types.Preferences.smaa_preset:'MEDIUM'
-msgid "80% of the quality. Medium threshold, few search steps, no detection of corners and diagonals"
-msgstr ""
-
-#. :src: bpy.types.Preferences.smaa_preset:'HIGH'
-msgid "95% of the quality. Medium threshold, more search steps, detection of corners and diagonals"
-msgstr ""
-
-#. :src: bpy.types.Preferences.smaa_preset:'ULTRA'
-msgid "99% of the quality. A lot of search steps, diagonal and corner search steps, lowest threshold"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_position
-msgctxt "PreferencesAppearance"
-msgid "Tooltip Position"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_position
-msgid "The location of the pop-up tooltip with information about the camera data on which the cursor is hovered"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_position:'REMAIN'
-msgctxt "PreferencesAppearance"
-msgid "Static"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_position:'REMAIN'
-msgid "Appears near the brush and remains in the place where it appeared"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_position:'FOLLOW'
-msgctxt "PreferencesAppearance"
-msgid "Floating"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_position:'FOLLOW'
-msgid "Appears and follows the brush"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_position:'FIXED'
-msgctxt "PreferencesAppearance"
-msgid "Fixed"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_position:'FIXED'
-msgid "Appears only at the bottom of the screen, in the middle"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_preview_size
-msgctxt "PreferencesAppearance"
-msgid "Tooltip Preview Size"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_preview_size
-msgid "The size of the preview image in the tooltip. Does not affect the quality of the displayed preview, only its size"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_preview_size:'NORMAL'
-msgctxt "PreferencesAppearance"
-msgid "Normal"
-msgstr ""
-
-#. :src: bpy.types.Preferences.tooltip_preview_size:'LARGE'
-msgctxt "PreferencesAppearance"
-msgid "Large"
-msgstr ""
-
-#. :src: bpy.types.Preferences.use_mesh_preview
-msgctxt "PreferencesAppearance"
-msgid "Use Mesh Preview"
-msgstr ""
-
-#. :src: bpy.types.Preferences.use_mesh_preview
-msgid "Use mesh preview for brush and inspection"
-msgstr ""
-
-#. :src: bpy.types.Preferences.use_previews
-msgctxt "PreferencesAppearance"
-msgid "Use Previews"
-msgstr ""
-
-#. :src: bpy.types.Preferences.use_previews
-msgid "Use image previews"
-msgstr ""
-
-#. :src: bpy.types.Preferences.use_smooth_previews
-msgctxt "PreferencesAppearance"
-msgid "Smooth Previews"
-msgstr ""
-
-#. :src: bpy.types.Preferences.use_smooth_previews
-msgid "Use fast approximated anti-aliasing for preview images"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_bind_images.directory
-#. :src: bpy.types.CPP_OT_export_cameras.directory
-#. :src: bpy.types.CPP_OT_import_cameras.directory
-#. :src: bpy.types.CPP_OT_import_scene.directory
-msgctxt "CPP_IO"
-msgid "Directory"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_bind_images.un_flags
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags
-msgctxt "PROP_UN_FLAGS"
+#: ../../ops/bind-images.rst:17 ../../ops/import-cameras.rst:55
 msgid "Comparison Options"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags
-msgid "Options for comparing names. At least one of the options must be selected for each compared type (object, image, etc.)"
+#: ../../ops/bind-images.rst:19 ../../ops/import-cameras.rst:57
+msgid "Options for comparing names. At least one of the options must be selected for each compared type (object, image, etc.)."
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'IGNORE_LETTER_CASE'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'IGNORE_LETTER_CASE'
-msgctxt "PROP_UN_FLAGS"
+#: ../../ops/bind-images.rst:22 ../../ops/import-cameras.rst:60
 msgid "Ignore Letter Case"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'IGNORE_LETTER_CASE'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'IGNORE_LETTER_CASE'
-msgid "Ignore character register for matching"
+#: ../../ops/bind-images.rst:22 ../../ops/import-cameras.rst:60
+msgid "Ignore character register for matching."
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'IGNORE_EXTENSION'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'IGNORE_EXTENSION'
-msgctxt "PROP_UN_FLAGS"
+#: ../../ops/bind-images.rst:27 ../../ops/import-cameras.rst:65
 msgid "Ignore Extensions"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'IGNORE_EXTENSION'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'IGNORE_EXTENSION'
-msgid "Use name only, no file extension when searching"
+#: ../../ops/bind-images.rst:25 ../../ops/import-cameras.rst:63
+msgid "Use name only, no file extension when searching."
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_CAMERA_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_CAMERA_NAME'
-msgctxt "PROP_UN_FLAGS"
+#: ../../ops/bind-images.rst:30 ../../ops/import-cameras.rst:68
 msgid "Use Object Name"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_CAMERA_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_CAMERA_NAME'
-msgid "Use camera object name for comparison"
+#: ../../ops/bind-images.rst:30 ../../ops/import-cameras.rst:68
+msgid "Use camera object name for comparison."
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_CAM_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_CAM_NAME'
-msgctxt "PROP_UN_FLAGS"
+#: ../../ops/bind-images.rst:35 ../../ops/import-cameras.rst:73
 msgid "Use Camera Name"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_CAM_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_CAM_NAME'
-msgid "Use camera data name for comparison"
+#: ../../ops/bind-images.rst:33 ../../ops/import-cameras.rst:71
+msgid "Use camera data name for comparison."
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_IMAGE_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_IMAGE_NAME'
-msgctxt "PROP_UN_FLAGS"
+#: ../../ops/bind-images.rst:38 ../../ops/import-cameras.rst:76
 msgid "Use Image Name"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_IMAGE_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_IMAGE_NAME'
-msgid "Use image data-block name for comparison"
+#: ../../ops/bind-images.rst:38 ../../ops/import-cameras.rst:76
+msgid "Use image data-block name for comparison."
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_IMAGE_FILEPATH'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_IMAGE_FILEPATH'
-msgctxt "PROP_UN_FLAGS"
+#: ../../ops/bind-images.rst:41 ../../ops/import-cameras.rst:79
 msgid "Use Image File Name"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_IMAGE_FILEPATH'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_IMAGE_FILEPATH'
-msgid "Use image file name for comparison"
+#: ../../ops/bind-images.rst:41 ../../ops/import-cameras.rst:79
+msgid "Use image file name for comparison."
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_data
-msgctxt "CPP_OT_data_cleanup"
+#: ../../ops/data-cleanup.rst:2
+msgid "Data Cleanup"
+msgstr ""
+
+#: ../../ops/data-cleanup.rst:3
+msgid "Cleanup existing data"
+msgstr ""
+
+#: ../../ops/data-cleanup.rst:7
 msgid "Cleanup Data"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_data
-msgid "Delete object, mesh, material, texture, light and camera data-blocks"
+#: ../../ops/data-cleanup.rst:9
+msgid "Delete object, mesh, material, texture, light and camera data-blocks."
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_images
-msgctxt "CPP_OT_data_cleanup"
+#: ../../ops/data-cleanup.rst:12
 msgid "Cleanup Images"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_images
-msgid "Delete all image data-blocks"
+#: ../../ops/data-cleanup.rst:14
+msgid "Delete all image data-blocks."
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_export_cameras.filename
-#. :src: bpy.types.CPP_OT_import_cameras.filename
-#. :src: bpy.types.CPP_OT_import_scene.filename
-msgctxt "CPP_IO"
-msgid "File Name"
+#: ../../ops/ensure-canvas.rst:2
+msgid "Ensure Canvas"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_export_cameras.filepath
-#. :src: bpy.types.CPP_OT_import_cameras.filepath
-#. :src: bpy.types.CPP_OT_import_scene.filepath
-msgctxt "CPP_IO"
-msgid "File Path"
+#: ../../ops/ensure-tool-settings.rst:2
+msgid "Ensure Tool Settings"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_export_cameras.fmt
-msgctxt "IOFormat"
-msgid "Format"
+#: ../../ops/export-cameras.rst:2
+msgid "Export Cameras"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_export_cameras.fmt:'RC_IECP'
-msgctxt "IOFormat"
-msgid "Internal/External camera parameters"
+#: ../../ops/export-cameras.rst:3
+msgid "Export camera data"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_export_cameras.fmt:'RC_NXYZ'
-msgctxt "IOFormat"
-msgid "Comma-separated Name, X, Y, Z"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.fmt:'RC_NXYZHPR'
-msgctxt "IOFormat"
-msgid "Comma-separated Name, X, Y, Z, Heading, Pitch, Roll"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.fmt:'RC_NXYZOPK'
-msgctxt "IOFormat"
-msgid "Comma-separated Name, X, Y, Z, Omega, Phi, Kappa"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.fmt:'RC_METADATA_XMP'
-msgctxt "IOFormat"
-msgid "Metadata (XMP)"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.fmt_locked
-msgid "Format Locked"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.global_scale_double
-#. :src: bpy.types.CPP_OT_export_cameras.global_scale_single
-#. :src: bpy.types.CPP_OT_import_cameras.global_scale_double
-#. :src: bpy.types.CPP_OT_import_cameras.global_scale_single
-msgctxt "CPP_IO"
-msgid "Global Scale"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.global_scale_single
-#. :src: bpy.types.CPP_OT_import_cameras.global_scale_single
-msgid "The global scale of the dataset"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source
-msgctxt "CPP_OT_export_cameras"
-msgid "Name Source"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source
-msgid "Name source for export"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source:'USE_CAMERA_NAME'
-msgctxt "CPP_OT_export_cameras"
-msgid "Use Object Name"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source:'USE_CAMERA_NAME'
-msgid "Use camera object name as source"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source:'USE_CAM_NAME'
-msgctxt "CPP_OT_export_cameras"
-msgid "Use Camera Name"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source:'USE_CAM_NAME'
-msgid "Use camera data name as source"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source:'USE_IMAGE_NAME'
-msgctxt "CPP_OT_export_cameras"
-msgid "Use Image Name"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source:'USE_IMAGE_NAME'
-msgid "Use image data-block name as source"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source:'USE_IMAGE_FILEPATH'
-msgctxt "CPP_OT_export_cameras"
-msgid "Use Image File Name"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.name_source:'USE_IMAGE_FILEPATH'
-msgid "Use image file name as source"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.open_directory
-msgctxt "CPP_OT_export_cameras"
-msgid "Open Directory"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.open_directory
-msgid "Open directory after export"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_csv_write_num_cameras
-msgctxt "CPP_OT_export_cameras"
-msgid "Number of Cameras"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_csv_write_num_cameras
-msgid "Write number of cameras into a file"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_calibration_group
-#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_calibration_group
-msgctxt "RC_MetadataXMP_Params"
-msgid "Calibration Group"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_distortion_group
-#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_distortion_group
-msgctxt "RC_MetadataXMP_Params"
-msgid "Distortion Group"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode
-#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_export_mode
-msgctxt "RC_METADATA_XMP_ExportMode"
-msgid "Export Mode"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode:'DO_NOT_EXPORT'
-#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_export_mode:'DO_NOT_EXPORT'
-msgctxt "RC_METADATA_XMP_ExportMode"
-msgid "Do Not Export"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode:'DRAFT'
-#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_export_mode:'DRAFT'
-msgctxt "RC_METADATA_XMP_ExportMode"
-msgid "Draft"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode:'EXACT'
-#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_export_mode:'EXACT'
-msgctxt "RC_METADATA_XMP_ExportMode"
-msgid "Exact"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode:'LOCKED'
-#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_export_mode:'LOCKED'
-msgctxt "RC_METADATA_XMP_ExportMode"
-msgid "Locked"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_in_meshing
-#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_in_meshing
-msgctxt "RC_MetadataXMP_Params"
-msgid "In Meshing"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_in_texturing
-#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_in_texturing
-msgctxt "RC_MetadataXMP_Params"
-msgid "In Texturing"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_include_editor_options
-msgctxt "CPP_OT_export_cameras"
-msgid "Include Editor Options"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags
-msgctxt "CPP_OT_export_cameras"
-msgid "Overwrite"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags
-msgid "What data to overwrite"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags:'rc_metadata_xmp_export_mode'
-msgctxt "CPP_OT_export_cameras"
-msgid "Export Mode"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags:'rc_metadata_xmp_calibration_group'
-msgctxt "CPP_OT_export_cameras"
-msgid "Calibration Group"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags:'rc_metadata_xmp_distortion_group'
-msgctxt "CPP_OT_export_cameras"
-msgid "Distortion Group"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags:'rc_metadata_xmp_in_texturing'
-msgctxt "CPP_OT_export_cameras"
-msgid "In Texturing"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags:'rc_metadata_xmp_in_meshing'
-msgctxt "CPP_OT_export_cameras"
-msgid "In Meshing"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_use_calibration_groups
-msgctxt "CPP_OT_export_cameras"
+#: ../../ops/export-cameras.rst:7
 msgid "Calibration Groups"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_import_scene.file_format
-msgid "File type to be imported"
+#: ../../ops/export-cameras.rst:11
+msgid "Include Editor Options"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_setup_context.status:'FINISHED'
-msgid "Finished"
+#: ../../ops/export-cameras.rst:15
+msgid "Export Mode"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_setup_context.status:'CANCELLED'
-msgid "Cancelled"
+#: ../../ops/export-cameras.rst:18
+msgid "Do Not Export"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_setup_context.status:'ABORTED'
-msgid "Aborted"
+#: ../../ops/export-cameras.rst:21
+msgid "Draft"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_calibration
-#. :src: bpy.types.CPP_PT_dataset
-#. :src: bpy.types.CPP_PT_image
-#. :src: bpy.types.CPP_PT_inspection
-#. :src: bpy.types.CPP_PT_inspection_highlight_border
-#. :src: bpy.types.CPP_PT_inspection_image_orientation
-#. :src: bpy.types.CPP_PT_lens_distortion
-#. :src: bpy.types.CPP_PT_rc_rc_xmp_params
-#. :src: bpy.types.CPP_PT_transform
-#. :src: bpy.types.CPP_PT_transform_location_default
-#. :src: bpy.types.CPP_PT_transform_location_rc_xyalt
-#. :src: bpy.types.CPP_PT_transform_rotation
-#. :src: bpy.types.CPP_PT_transform_rotation_rc_hpr
-#. :src: bpy.types.CPP_PT_transform_rotation_rc_opk
-#. :src: bpy.types.CPP_PT_transform_rotation_rc_rotation
-msgid "Camera Painter"
+#: ../../ops/export-cameras.rst:24
+msgid "Exact"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_calibration
-msgctxt "CPP"
-msgid "Calibration"
+#: ../../ops/export-cameras.rst:27
+msgid "Locked"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_dataset
-msgctxt "CPP"
-msgid "Dataset"
+#: ../../ops/export-cameras.rst:31
+msgid "Calibration Group"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_export_cameras_rc_csv
-msgctxt "CPP_OT_export_cameras"
-msgid "Character Separated Values"
+#: ../../ops/export-cameras.rst:35
+msgid "Distortion Group"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_export_cameras_rc_metadata_xmp
-msgctxt "CPP_OT_export_cameras"
-msgid "Metadata (XMP)"
+#: ../../ops/export-cameras.rst:39
+msgid "In Texturing"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_image
-msgctxt "CPP"
-msgid "Image"
+#: ../../ops/export-cameras.rst:43
+msgid "In Meshing"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_inspection
-msgctxt "CPP"
-msgid "Inspection"
+#: ../../ops/export-cameras.rst:47 ../../ops/import-cameras.rst:7
+msgid "Forward"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_inspection_highlight_border
-msgctxt "CPP"
-msgid "Border"
+#: ../../ops/export-cameras.rst:50 ../../ops/import-cameras.rst:10
+msgid "X Forward"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_inspection_image_orientation
-msgctxt "CPP"
-msgid "Orientation"
+#: ../../ops/export-cameras.rst:53 ../../ops/import-cameras.rst:13
+msgid "Y Forward"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_lens_distortion
-msgctxt "CPP"
-msgid "Lens Distortion"
+#: ../../ops/export-cameras.rst:56 ../../ops/import-cameras.rst:16
+msgid "Z Forward"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_rc_rc_xmp_params
-msgctxt "CPP"
-msgid "XMP Parameters"
+#: ../../ops/export-cameras.rst:59 ../../ops/import-cameras.rst:19
+msgid "-X Forward"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_transform
-msgctxt "CPP"
-msgid "Transform"
+#: ../../ops/export-cameras.rst:62 ../../ops/import-cameras.rst:22
+msgid "-Y Forward"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_transform_location_default
-msgctxt "CPP"
-msgid "Location"
+#: ../../ops/export-cameras.rst:65 ../../ops/import-cameras.rst:25
+msgid "-Z Forward"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_transform_location_rc_xyalt
-msgctxt "CPP"
-msgid "X, Y, Alt"
+#: ../../ops/export-cameras.rst:69 ../../ops/import-cameras.rst:29
+msgid "Up"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_transform_rotation
-msgctxt "CPP"
-msgid "Rotation"
+#: ../../ops/export-cameras.rst:72 ../../ops/import-cameras.rst:32
+msgid "X Up"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_transform_rotation_rc_hpr
-msgctxt "CPP"
-msgid "Heading, Pitch, Roll"
+#: ../../ops/export-cameras.rst:75 ../../ops/import-cameras.rst:35
+msgid "Y Up"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_transform_rotation_rc_opk
-msgctxt "CPP"
-msgid "Omega, Phi, Kappa"
+#: ../../ops/export-cameras.rst:78 ../../ops/import-cameras.rst:38
+msgid "Z Up"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_transform_rotation_rc_rotation
-msgctxt "CPP"
-msgid "Rotation Component"
+#: ../../ops/export-cameras.rst:81 ../../ops/import-cameras.rst:41
+msgid "-X Up"
 msgstr ""
 
-#. :src: bpy.types.CPP_PT_unified_name_props
-msgctxt "PROP_UN_FLAGS"
-msgid "Names Comparison"
+#: ../../ops/export-cameras.rst:84 ../../ops/import-cameras.rst:44
+msgid "-Y Up"
 msgstr ""
 
-#. :src: bpy.types.CameraProps.active_bind_index
-msgctxt "CameraProps"
-msgid "Active"
+#: ../../ops/export-cameras.rst:87 ../../ops/import-cameras.rst:47
+msgid "-Z Up"
 msgstr ""
 
-#. :src: bpy.types.CameraProps.active_bind_index
-msgid "Active bind history index"
+#: ../../ops/export-cameras.rst:91 ../../ops/import-cameras.rst:51
+#: ../../ops/import-scene.rst:7
+msgid "File Name"
 msgstr ""
 
-#. :src: bpy.types.CameraProps.aspect_double
-#. :src: bpy.types.CameraProps.aspect_single
-msgctxt "CameraProps"
-msgid "Aspect Ratio"
+#: ../../ops/import-cameras.rst:2
+msgid "Import Cameras"
 msgstr ""
 
-#. :src: bpy.types.CameraProps.aspect_single
-msgid "Camera aspect ratio correction factor"
+#: ../../ops/import-cameras.rst:3
+msgid "Import camera data"
 msgstr ""
 
-#. :src: bpy.types.CameraProps.bind_history
-msgid "Bind History"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.bind_history
-msgid "Images that were once binded to this camera"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.distortion_model
-msgctxt "CameraProps"
-msgid "Distortion Model"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.distortion_model
-msgid "Camera mathematical lens distortion model"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.distortion_model:'NONE'
-msgctxt "CameraProps"
-msgid "None"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.distortion_model:'NONE'
-msgid "No distortion, only correction"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.distortion_model:'DIVISION'
-msgctxt "CameraProps"
-msgid "Division"
-msgstr "Ділення"
-
-#. :src: bpy.types.CameraProps.distortion_model:'DIVISION'
-msgid "Division lens distortion model with two radial distortion coefficients"
-msgstr "Модель ділення з двома коефіцієнтами радіальної дисторсії"
-
-#. :src: bpy.types.CameraProps.distortion_model:'POLYNOMIAL'
-msgctxt "CameraProps"
-msgid "Polynomial"
-msgstr "Поліноміальна"
-
-#. :src: bpy.types.CameraProps.distortion_model:'POLYNOMIAL'
-msgid "Polynomial lens distortion model with four radial and two tangential lens distortion coefficients"
-msgstr "Поліноміальна модель з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
-
-#. :src: bpy.types.CameraProps.distortion_model:'BROWN'
-msgctxt "CameraProps"
-msgid "Brown"
-msgstr "Брауна-Конраді"
-
-#. :src: bpy.types.CameraProps.distortion_model:'BROWN'
-msgid "Brown-Conrady lens distortion model with four radial and two tangential lens distortion coefficients"
-msgstr "Модель Брауна-Конраді з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
-
-#. :src: bpy.types.CameraProps.image
-msgctxt "CameraProps"
-msgid "Image"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.image
-msgid "Camera binded image. It will be used as a paint brush. Also, its size affects the distortion parameters in the pixel coordinate system (in which way - described in more detail for the corresponding parameters), and therefore - also the possibility of exporting to certain file formats"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.k1_double
-#. :src: bpy.types.CameraProps.k1_single
-msgctxt "CameraProps"
-msgid "K1"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.k1_single
-msgid "First radial coefficient"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.k2_double
-#. :src: bpy.types.CameraProps.k2_single
-msgctxt "CameraProps"
-msgid "K2"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.k2_single
-msgid "Second radial coefficient"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.k3_double
-#. :src: bpy.types.CameraProps.k3_single
-msgctxt "CameraProps"
-msgid "K3"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.k3_single
-msgid "Third radial coefficient"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.k4_double
-#. :src: bpy.types.CameraProps.k4_single
-msgctxt "CameraProps"
-msgid "K4"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.k4_single
-msgid "Fourth radial coefficient"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.lens_double
-#. :src: bpy.types.CameraProps.lens_single
-msgctxt "CameraProps"
-msgid "Millimeters Focal Length"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.lens_px
-msgctxt "CameraProps"
-msgid "Pixels Focal Length"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.lens_px
-msgid "Camera focal length in pixels"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.lens_single
-msgid "Camera focal length in millimeters"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.p1_double
-#. :src: bpy.types.CameraProps.p1_single
-msgctxt "CameraProps"
-msgid "P1"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.p1_single
-msgid "First tangential coefficient"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.p2_double
-#. :src: bpy.types.CameraProps.p2_single
-msgctxt "CameraProps"
-msgid "P2"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.p2_single
-msgid "Second tangential coefficient"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_px
-msgctxt "CameraProps"
-msgid "Pixels Principal"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_px
-msgid "Deviation of the camera principal point in pixels"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_x_double
-#. :src: bpy.types.CameraProps.principal_x_single
-msgctxt "CameraProps"
-msgid "Principal X"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_x_mm_double
-#. :src: bpy.types.CameraProps.principal_x_mm_single
-msgctxt "CameraProps"
-msgid "Millimeters Principal X"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_x_mm_single
-msgid "Deviation of the camera principal point X in millimeters"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_x_single
-msgid "Deviation of the camera principal point X"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_y_double
-#. :src: bpy.types.CameraProps.principal_y_single
-msgctxt "CameraProps"
-msgid "Principal Y"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_y_mm_double
-#. :src: bpy.types.CameraProps.principal_y_mm_single
-msgctxt "CameraProps"
-msgid "Millimeters Principal Y"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_y_mm_single
-msgid "Deviation of the camera principal point Y in millimeters"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.principal_y_single
-msgid "Deviation of the camera principal point Y"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.rc_metadata_xmp_props
-msgid "RC Metadata XMP"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.rc_metadata_xmp_props
-msgid "Reality Capture \"Metadata XMP\" properties"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.sensor_double
-#. :src: bpy.types.CameraProps.sensor_single
-msgctxt "CameraProps"
-msgid "Sensor"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.sensor_single
-msgid "The size of the camera sensor in millimeters, taking into account the larger side of the binded image"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.skew_double
-#. :src: bpy.types.CameraProps.skew_single
-msgctxt "CameraProps"
-msgid "Millimeters Skew"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.skew_px
-msgctxt "CameraProps"
-msgid "Pixels Skew"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.skew_px
-msgid "Horizontal camera skew in pixels"
-msgstr ""
-
-#. :src: bpy.types.CameraProps.skew_single
-msgid "Horizontal camera skew in millimeters"
-msgstr ""
-
-#. :src: bpy.types.ImageProps.static_size
-msgid "Image width and height"
-msgstr ""
-
-#. :src: bpy.types.ObjectProps.rc_hpr
-msgid "RC Heading, Pitch, Roll"
-msgstr ""
-
-#. :src: bpy.types.ObjectProps.rc_opk
-msgid "RC Omega, Phi, Kappa"
-msgstr ""
-
-#. :src: bpy.types.ObjectProps.rc_rotation
-msgid "RC Rotation Component"
-msgstr ""
-
-#. :src: bpy.types.ObjectProps.rc_xyalt
-msgid "RC X, Y, Alt"
-msgstr ""
-
-#. :src: bpy.types.RC_HeadingPitchRollProps.heading_double
-#. :src: bpy.types.RC_HeadingPitchRollProps.heading_single
-msgctxt "RC_HeadingPitchRollProps"
-msgid "Heading"
-msgstr ""
-
-#. :src: bpy.types.RC_HeadingPitchRollProps.pitch_double
-#. :src: bpy.types.RC_HeadingPitchRollProps.pitch_single
-msgctxt "RC_HeadingPitchRollProps"
-msgid "Pitch"
-msgstr ""
-
-#. :src: bpy.types.RC_HeadingPitchRollProps.roll_double
-#. :src: bpy.types.RC_HeadingPitchRollProps.roll_single
-msgctxt "RC_HeadingPitchRollProps"
-msgid "Roll"
-msgstr ""
-
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r00_double
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r00_single
-msgid "Item: 1 (Row: 1, Column: 1)"
-msgstr ""
-
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r01_double
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r01_single
-msgid "Item: 2 (Row: 1, Column: 2)"
-msgstr ""
-
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r02_double
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r02_single
-msgid "Item: 3 (Row: 1, Column: 3)"
-msgstr ""
-
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r10_double
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r10_single
-msgid "Item: 4 (Row: 2, Column: 1)"
-msgstr ""
-
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r11_double
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r11_single
-msgid "Item: 5 (Row: 2, Column: 2)"
-msgstr ""
-
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r12_double
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r12_single
-msgid "Item: 6 (Row: 2, Column: 3)"
-msgstr ""
-
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r20_double
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r20_single
-msgid "Item: 7 (Row: 3, Column: 1)"
-msgstr ""
-
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r21_double
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r21_single
-msgid "Item: 8 (Row: 3, Column: 2)"
-msgstr ""
-
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r22_double
-#. :src: bpy.types.RC_MetadataXMP_RotationComponentProps.r22_single
-msgid "Item: 9 (Row: 3, Column: 3)"
-msgstr ""
-
-#. :src: bpy.types.RC_OmegaPhiKappaProps.kappa_double
-#. :src: bpy.types.RC_OmegaPhiKappaProps.kappa_single
-msgctxt "RC_OmegaPhiKappaProps"
-msgid "Kappa"
-msgstr ""
-
-#. :src: bpy.types.RC_OmegaPhiKappaProps.omega_double
-#. :src: bpy.types.RC_OmegaPhiKappaProps.omega_single
-msgctxt "RC_OmegaPhiKappaProps"
-msgid "Omega"
-msgstr ""
-
-#. :src: bpy.types.RC_OmegaPhiKappaProps.phi_double
-#. :src: bpy.types.RC_OmegaPhiKappaProps.phi_single
-msgctxt "RC_OmegaPhiKappaProps"
-msgid "Phi"
-msgstr ""
-
-#. :src: bpy.types.RotationMatrixProperties.r00_double
-#. :src: bpy.types.RotationMatrixProperties.r00_single
-msgid "Row: 1, Column: 1"
-msgstr ""
-
-#. :src: bpy.types.RotationMatrixProperties.r01_double
-#. :src: bpy.types.RotationMatrixProperties.r01_single
-msgid "Row: 1, Column: 2"
-msgstr ""
-
-#. :src: bpy.types.RotationMatrixProperties.r02_double
-#. :src: bpy.types.RotationMatrixProperties.r02_single
-msgid "Row: 1, Column: 3"
-msgstr ""
-
-#. :src: bpy.types.RotationMatrixProperties.r10_double
-#. :src: bpy.types.RotationMatrixProperties.r10_single
-msgid "Row: 2, Column: 1"
-msgstr ""
-
-#. :src: bpy.types.RotationMatrixProperties.r11_double
-#. :src: bpy.types.RotationMatrixProperties.r11_single
-msgid "Row: 2, Column: 2"
-msgstr ""
-
-#. :src: bpy.types.RotationMatrixProperties.r12_double
-#. :src: bpy.types.RotationMatrixProperties.r12_single
-msgid "Row: 2, Column: 3"
-msgstr ""
-
-#. :src: bpy.types.RotationMatrixProperties.r20_double
-#. :src: bpy.types.RotationMatrixProperties.r20_single
-msgid "Row: 3, Column: 1"
-msgstr ""
-
-#. :src: bpy.types.RotationMatrixProperties.r21_double
-#. :src: bpy.types.RotationMatrixProperties.r21_single
-msgid "Row: 3, Column: 2"
-msgstr ""
-
-#. :src: bpy.types.RotationMatrixProperties.r22_double
-#. :src: bpy.types.RotationMatrixProperties.r22_single
-msgid "Row: 3, Column: 3"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.cameras_viewport_size
-msgctxt "SceneProps"
-msgid "Viewport Cameras Size"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.cameras_viewport_size
-msgid "The size of the cameras in the viewport"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.current_image_alpha
-msgctxt "SceneProps"
-msgid "Current Image Viewport Transparency"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.current_image_alpha
-msgid "Transparency of the image when viewed from the camera"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border
-msgctxt "SceneProps"
-msgid "Highlight Projected Border"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border
-msgid "Whether to highlight the borders of the frame of the projected image on the object"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_color_0
-msgctxt "SceneProps"
-msgid "Highlight Projected Border First Color"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_color_0
-msgid "The first color that will be used to highlight the parts of the object that are outside of camera frustum"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_color_1
-msgctxt "SceneProps"
-msgid "Highlight Projected Border Second Color"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_color_1
-msgid "The second color that will be used to highlight the parts of the object that are outside of camera frustum"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_type
-msgctxt "SceneProps"
-msgid "Highlight Projected Border Type"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_type
-msgid "The fill type of the highlighted area"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_type:'FILL'
-msgctxt "SceneProps"
-msgid "Fill Color"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_type:'FILL'
-msgid "Single color outline"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_type:'CHECKER'
-msgctxt "SceneProps"
-msgid "Checker"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_type:'CHECKER'
-msgid "Checker pattern outline"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_type:'LINES'
-msgctxt "SceneProps"
-msgid "Lines"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_border_type:'LINES'
-msgid "Lines pattern outline"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_orientation
-msgctxt "SceneProps"
-msgid "Highlight Cameras Orientation"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_orientation
-msgid "Use a different color for cameras whose images have landscape (including square) and portrait orientation"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_orientation_landscape_color
-msgctxt "SceneProps"
-msgid "Cameras Landscape Orientation Color"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_orientation_landscape_color
-msgid "The color of the display of cameras in which the images have a landscape (including square) orientation"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_orientation_portrait_color
-msgctxt "SceneProps"
-msgid "Cameras Portrait Orientation Color"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.highlight_orientation_portrait_color
-msgid "The color of the display of cameras in which the images have a portrait orientation"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.precision
-msgctxt "SceneProps"
-msgid "Precision"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.precision
-msgid "Precision of display of decimal fractions of camera parameters"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.precision:'SINGLE'
-msgctxt "SceneProps"
-msgid "Single"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.precision:'SINGLE'
-msgid "IEEE-754 single precision float"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.precision:'DOUBLE'
-msgctxt "SceneProps"
-msgid "Double"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.precision:'DOUBLE'
-msgid "IEEE-754 double precision float"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.source_dir
-msgid "Source Directory"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.units
-msgctxt "SceneProps"
-msgid "Unit"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.units
-msgid "Display units of camera parameters"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.units:'MILLIMETERS'
-msgctxt "SceneProps"
-msgid "Millimeters"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.units:'MILLIMETERS'
-msgid "Camera parameters in millimeters"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.units:'PIXELS'
-msgctxt "SceneProps"
-msgid "Pixels"
-msgstr ""
-
-#. :src: bpy.types.SceneProps.units:'PIXELS'
-msgid "Camera parameters relative to image sizes in pixels"
-msgstr ""
-
-#. :src: bpy.types.WMProps.apply_udim_materials_fix
-msgid "Apply UDIM Materials Fix"
-msgstr ""
-
-#. :src: bpy.types.WMProps.apply_udim_materials_fix
-msgid "The standard import imports UDIM images as multiple materials and multiple images"
-msgstr ""
-
-#. :src: bpy.types.WMProps.setup_context_stage:'PASS_THROUGH'
-msgid "Pass-Through"
-msgstr ""
-
-#. :src: bpy.types.WMProps.setup_context_stage:'INVOKED'
-msgid "Invoked"
-msgstr ""
-
-#. :src: bpy.types.WMProps.setup_context_stage:'PRE_CLEANUP'
-msgid "Pre-Cleanup"
-msgstr ""
-
-#. :src: bpy.types.WMProps.setup_context_stage:'IMPORT_SCENE'
+#: ../../ops/import-scene.rst:2
 msgid "Import Scene"
 msgstr ""
 
-#. :src: bpy.types.WMProps.setup_context_stage:'CHECK_CANVAS'
-msgid "Check Canvas"
+#: ../../ops/import-scene.rst:3
+msgid "Import paint object"
 msgstr ""
 
-#. :src: bpy.types.WMProps.setup_context_stage:'CHECK_CAMERAS'
-msgid "Check Cameras"
-msgstr ""
-
-#. :src: bpy.types.WMProps.setup_context_stage:'CHECK_IMAGES'
-msgid "Check Images"
-msgstr ""
-
-#. :src: bpy.types.WMProps.setup_context_stage:'CHECK_TOOL'
-msgid "Check Tool"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:216
-msgid "Warning"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:899
-msgid "Can not check for updates now"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1071
-msgid "Installing update"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:812
-msgctxt "Operator"
-msgid "Update to {tag_name}"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:891
-msgid "Check for updates now"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1063
-msgid "Failed to create backup directory"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1068
-msgid "Failed to make backup"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1079
-msgid "Unable to remove local installation files, please, check directory permissions"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:797
-msgid "Pre-release"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1102
-msgid "Update failed, installation restored from backup. Please install the update manually"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:799
-msgid ""
-"Released version {tag_name} {prerelease_fmt}({published_at}), last checked at {checked_at}\n"
-"Release Notes:\n"
-"\n"
-"{body}"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:853
-msgid ""
-"Cache File: {fp}\n"
-"Rate Limit: {rate_limit}\n"
-"Remaining: {remaining}\n"
-"Reset Time: {reset_at}"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:896
-msgid "Unable check for updates before {reset_at}, exceeded rate limit"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:812
-msgid "Update to {tag_name}"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:819
-msgid "You are using the latest version, checked at {checked_at}"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1188
-msgid "Yes"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1188
-msgid "No"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1205
-msgid ""
-"Image Index: %d\n"
-"Camera Index: %d"
-msgstr ""
-
-#. :src: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1209
-msgid "%s - object"
-msgstr ""
-
-#. :src: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1210
-msgid "%s - camera"
-msgstr ""
-
-#. :src: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1212
-msgid "%s - image"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1196
-msgid "Loaded into memory: %s"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ops\bind_images.py:67
-msgid "Bind the image to the active camera"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ops\bind_images.py:69
-msgid "Bind images to all cameras in the scene"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ops\bind_images.py:179
-msgid ", failed to open %d"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ops\import_cameras.py:47
-msgctxt "IOFormat"
-msgid "file(s)"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\props\camera.py:500
-msgctxt "CameraProps"
-msgid "Lens"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\props\camera.py:520
-msgctxt "CameraProps"
-msgid "Principal"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\props\camera.py:521
-msgctxt "CameraProps"
-msgid "Skew"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\props\pref.py:402
-msgctxt "Operator"
-msgid "Open Log Files Directory"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\props\pref.py:407
-msgctxt "Operator"
-msgid "Open Log: \"{filename}\""
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:202
-msgctxt "Operator"
-msgid "Bind Camera Images"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:275
-msgctxt "Operator"
-msgid "Import Image"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:284
-msgctxt "Operator"
-msgid "Bind Image"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:528
-msgctxt "SceneProps"
-msgid "Camera Size"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:529
-msgctxt "SceneProps"
-msgid "Image Alpha"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:549
-msgctxt "SceneProps"
-msgid "Landscape"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:550
-msgctxt "SceneProps"
-msgid "Portrait"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:571
-msgctxt "SceneProps"
-msgid "Color"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:574
-msgctxt "SceneProps"
+#: ../../ops/import-scene.rst:11
 msgid "Type"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:194
-msgctxt "Operator"
-msgid "Import Camera Images"
+#: ../../ops/import-scene.rst:13
+msgid "File type to be imported."
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:153
-msgctxt "PreferencesUpdate"
-msgid "Update Available"
-msgstr ""
-
-#. :src: Add-on Camera Projection Painter info: name
-msgid "Camera Projection Painter"
-msgstr ""
-
-#. :src: Add-on Camera Projection Painter info: warning
-msgid "Please, follow installation instructions. You are using debug version."
+#: ../../ops/setup-context.rst:2
+msgid "Setup Context"
 msgstr ""
 
