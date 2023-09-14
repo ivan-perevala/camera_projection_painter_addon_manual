@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Camera Projection Painter Debug (0)\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-13 16:37:48.526814\n"
+"POT-Creation-Date: 2023-09-14 08:59:51.170701\n"
 "PO-Revision-Date: 2023-09-13 15:11+0200\n"
 "Last-Translator: ivpe <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,105 +131,149 @@ msgstr ""
 msgid "Calibration Groups"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:11
+#: ../../ops/export-cameras.rst:9
+msgid "Select to export the information on the created calibration groups."
+msgstr ""
+
+#: ../../ops/export-cameras.rst:12
 msgid "Include Editor Options"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:15
+#: ../../ops/export-cameras.rst:14
+msgid "Export editor states, e.g. enabled/disabled flags for texturing, meshing, and similar."
+msgstr ""
+
+#: ../../ops/export-cameras.rst:17
 msgid "Export Mode"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:18
-msgid "Do Not Export"
+#: ../../ops/export-cameras.rst:19
+msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses."
 msgstr ""
 
 #: ../../ops/export-cameras.rst:21
+msgid "Do Not Export"
+msgstr ""
+
+#: ../../ops/export-cameras.rst:25
 msgid "Draft"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:24
+#: ../../ops/export-cameras.rst:25
+msgid "This will treat poses as an imperfect draft to be optimized in the future. The draft mode functions also as a flight log."
+msgstr ""
+
+#: ../../ops/export-cameras.rst:28
 msgid "Exact"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:27
+#: ../../ops/export-cameras.rst:28
+msgid "If you trust the alignment absolutely. By choosing this option, you are saying to the application that poses are precise, but the global position, orientation, and scale is not known."
+msgstr ""
+
+#: ../../ops/export-cameras.rst:31
 msgid "Locked"
 msgstr ""
 
 #: ../../ops/export-cameras.rst:31
+msgid "This is the same as the exact option with the difference that the camera position and calibration will not be changed, when locked."
+msgstr ""
+
+#: ../../ops/export-cameras.rst:34
 msgid "Calibration Group"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:35
-msgid "Distortion Group"
+#: ../../ops/export-cameras.rst:36
+msgid "By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters."
 msgstr ""
 
 #: ../../ops/export-cameras.rst:39
+msgid "Distortion Group"
+msgstr ""
+
+#: ../../ops/export-cameras.rst:41
+msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters."
+msgstr ""
+
+#: ../../ops/export-cameras.rst:44
 msgid "In Texturing"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:43
+#: ../../ops/export-cameras.rst:48
 msgid "In Meshing"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:47 ../../ops/import-cameras.rst:7
+#: ../../ops/export-cameras.rst:52 ../../ops/import-cameras.rst:7
 msgid "Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:50 ../../ops/import-cameras.rst:10
+#: ../../ops/export-cameras.rst:55 ../../ops/import-cameras.rst:10
 msgid "X Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:53 ../../ops/import-cameras.rst:13
+#: ../../ops/export-cameras.rst:58 ../../ops/import-cameras.rst:13
 msgid "Y Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:56 ../../ops/import-cameras.rst:16
+#: ../../ops/export-cameras.rst:61 ../../ops/import-cameras.rst:16
 msgid "Z Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:59 ../../ops/import-cameras.rst:19
+#: ../../ops/export-cameras.rst:64 ../../ops/import-cameras.rst:19
 msgid "-X Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:62 ../../ops/import-cameras.rst:22
+#: ../../ops/export-cameras.rst:67 ../../ops/import-cameras.rst:22
 msgid "-Y Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:65 ../../ops/import-cameras.rst:25
+#: ../../ops/export-cameras.rst:70 ../../ops/import-cameras.rst:25
 msgid "-Z Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:69 ../../ops/import-cameras.rst:29
+#: ../../ops/export-cameras.rst:74 ../../ops/import-cameras.rst:29
 msgid "Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:72 ../../ops/import-cameras.rst:32
+#: ../../ops/export-cameras.rst:77 ../../ops/import-cameras.rst:32
 msgid "X Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:75 ../../ops/import-cameras.rst:35
+#: ../../ops/export-cameras.rst:80 ../../ops/import-cameras.rst:35
 msgid "Y Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:78 ../../ops/import-cameras.rst:38
+#: ../../ops/export-cameras.rst:83 ../../ops/import-cameras.rst:38
 msgid "Z Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:81 ../../ops/import-cameras.rst:41
+#: ../../ops/export-cameras.rst:86 ../../ops/import-cameras.rst:41
 msgid "-X Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:84 ../../ops/import-cameras.rst:44
+#: ../../ops/export-cameras.rst:89 ../../ops/import-cameras.rst:44
 msgid "-Y Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:87 ../../ops/import-cameras.rst:47
+#: ../../ops/export-cameras.rst:92 ../../ops/import-cameras.rst:47
 msgid "-Z Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:91 ../../ops/import-cameras.rst:51
+#: ../../ops/export-cameras.rst:96
+msgid "files"
+msgstr ""
+
+#: ../../ops/export-cameras.rst:101 ../../ops/import-cameras.rst:51
 #: ../../ops/import-scene.rst:7
 msgid "File Name"
+msgstr ""
+
+#: ../../ops/export-cameras.rst:105
+msgid "Directory"
+msgstr ""
+
+#: ../../ops/export-cameras.rst:109
+msgid "File Path"
 msgstr ""
 
 #: ../../ops/import-cameras.rst:2

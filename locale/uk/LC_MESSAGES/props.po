@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the Camera Projection
 # Painter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
-# ivpe, 2023.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Camera Projection Painter Debug (0)\n"
 "Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-14 08:59:51.170701\n"
+"PO-Revision-Date: 2023-09-13 15:11+0200\n"
 "Last-Translator: ivpe <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Virtaal 0.7.1\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Virtaal 0.7.1"
 
 #: ../../props/cameraprops.rst:2
 msgid "Camera"
@@ -230,35 +231,59 @@ msgstr ""
 msgid "Export Mode"
 msgstr ""
 
-#: ../../props/cameraprops.rst:131
+#: ../../props/cameraprops.rst:130
+msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses."
+msgstr ""
+
+#: ../../props/cameraprops.rst:132
 msgid "Do Not Export"
 msgstr ""
 
-#: ../../props/cameraprops.rst:134
+#: ../../props/cameraprops.rst:136
 msgid "Draft"
 msgstr ""
 
-#: ../../props/cameraprops.rst:137
+#: ../../props/cameraprops.rst:136
+msgid "This will treat poses as an imperfect draft to be optimized in the future. The draft mode functions also as a flight log."
+msgstr ""
+
+#: ../../props/cameraprops.rst:139
 msgid "Exact"
 msgstr ""
 
-#: ../../props/cameraprops.rst:140
+#: ../../props/cameraprops.rst:139
+msgid "If you trust the alignment absolutely. By choosing this option, you are saying to the application that poses are precise, but the global position, orientation, and scale is not known."
+msgstr ""
+
+#: ../../props/cameraprops.rst:142
 msgid "Locked"
 msgstr ""
 
-#: ../../props/cameraprops.rst:144
+#: ../../props/cameraprops.rst:142
+msgid "This is the same as the exact option with the difference that the camera position and calibration will not be changed, when locked."
+msgstr ""
+
+#: ../../props/cameraprops.rst:145
 msgid "Calibration Group"
 msgstr ""
 
-#: ../../props/cameraprops.rst:148
+#: ../../props/cameraprops.rst:147
+msgid "By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters."
+msgstr ""
+
+#: ../../props/cameraprops.rst:150
 msgid "Distortion Group"
 msgstr ""
 
 #: ../../props/cameraprops.rst:152
+msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters."
+msgstr ""
+
+#: ../../props/cameraprops.rst:155
 msgid "In Texturing"
 msgstr ""
 
-#: ../../props/cameraprops.rst:156
+#: ../../props/cameraprops.rst:159
 msgid "In Meshing"
 msgstr ""
 
@@ -561,3 +586,4 @@ msgstr ""
 #: ../../props/wmprops.rst:7
 msgid "The standard import imports UDIM images as multiple materials and multiple images."
 msgstr ""
+
