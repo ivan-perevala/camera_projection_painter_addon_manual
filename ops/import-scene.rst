@@ -10,5 +10,5 @@ File Name
 Type
 ====
 
-File type to be imported.
+File type to be imported
 

@@ -6,286 +6,271 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Camera Projection Painter Debug (0)\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-09-14 08:59:51.170701\n"
-"PO-Revision-Date: 2023-09-13 15:11+0200\n"
-"Last-Translator: ivpe <>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: uk\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Virtaal 0.7.1"
 
 #: ../../props/cameraprops.rst:2
 msgid "Camera"
 msgstr ""
 
 #: ../../props/cameraprops.rst:5 ../../props/cameraprops.rst:117
+#: ../../props/cameraprops.rst:119
 msgid "Image"
-msgstr ""
+msgstr "Зображення"
 
 #: ../../props/cameraprops.rst:7
-msgid "Camera binded image. It will be used as a paint brush. Also, its size affects the distortion parameters in the pixel coordinate system (in which way - described in more detail for the corresponding parameters), and therefore - also the possibility of exporting to certain file formats."
-msgstr ""
+msgid "Camera binded image. It will be used as a paint brush. Also, its size affects the distortion parameters in the pixel coordinate system (in which way - described in more detail for the corresponding parameters), and therefore - also the possibility of exporting to certain file formats"
+msgstr "Зображення пов'язане до камери. Буде використано як кисть для малювання. Його розмір впливає на пареметри дисторсії в піксельній системі координат (у який спосіб - детальніше описано для окремих параметрів), а значить - також на можливість експорту в певні формати файлів"
 
 #: ../../props/cameraprops.rst:10
 msgid "Millimeters Focal Length"
-msgstr ""
+msgstr "Фокальна Відстань в Міліметрах"
 
 #: ../../props/cameraprops.rst:12
-msgid "Camera focal length in millimeters."
-msgstr ""
+msgid "Camera focal length in millimeters"
+msgstr "Фокальна відстань камери у міліметрах"
 
 #: ../../props/cameraprops.rst:15
 msgid "Pixels Focal Length"
-msgstr ""
+msgstr "Фокальна Відстань у Пікселях"
 
 #: ../../props/cameraprops.rst:17
-msgid "Camera focal length in pixels."
-msgstr ""
+msgid "Camera focal length in pixels"
+msgstr "Фокальна відстань камери у пікселях"
 
 #: ../../props/cameraprops.rst:20
 msgid "Sensor"
-msgstr ""
+msgstr "Сенсор"
 
 #: ../../props/cameraprops.rst:22
-msgid "The size of the camera sensor in millimeters, taking into account the larger side of the binded image."
-msgstr ""
+msgid "The size of the camera sensor in millimeters, taking into account the larger side of the binded image"
+msgstr "Розмір сенсора камери у міліметрах, зважаючи на більшу сторону прив'язаного зображення"
 
 #: ../../props/cameraprops.rst:25
 msgid "Millimeters Skew"
-msgstr ""
+msgstr "Зсув у Міліметрах"
 
 #: ../../props/cameraprops.rst:27
-msgid "Horizontal camera skew in millimeters."
-msgstr ""
+msgid "Horizontal camera skew in millimeters"
+msgstr "Горизонтальний зсув камери у міліметрах"
 
 #: ../../props/cameraprops.rst:30
 msgid "Pixels Skew"
-msgstr ""
+msgstr "Зсув у Пікселях"
 
 #: ../../props/cameraprops.rst:32
-msgid "Horizontal camera skew in pixels."
-msgstr ""
+msgid "Horizontal camera skew in pixels"
+msgstr "Горизонтальний зсув камери у пікселях"
 
 #: ../../props/cameraprops.rst:35
 msgid "Aspect Ratio"
-msgstr ""
+msgstr "Співвідношення Сторін"
 
 #: ../../props/cameraprops.rst:37
-msgid "Camera aspect ratio correction factor."
-msgstr ""
+msgid "Camera aspect ratio correction factor"
+msgstr "Фактор корекції співвідношення сторін"
 
 #: ../../props/cameraprops.rst:40
 msgid "Principal X"
-msgstr ""
+msgstr "Відхилення X"
 
 #: ../../props/cameraprops.rst:42
-msgid "Deviation of the camera principal point X."
-msgstr ""
+msgid "Deviation of the camera principal point X"
+msgstr "Відхилення від центру зображення за віссю X"
 
 #: ../../props/cameraprops.rst:45
 msgid "Principal Y"
-msgstr ""
+msgstr "Відхилення Y"
 
 #: ../../props/cameraprops.rst:47
-msgid "Deviation of the camera principal point Y."
-msgstr ""
+msgid "Deviation of the camera principal point Y"
+msgstr "Відхилення від центру зображення за віссю Y"
 
 #: ../../props/cameraprops.rst:50
 msgid "Millimeters Principal X"
-msgstr ""
+msgstr "Відхилення у Міліметрах X"
 
 #: ../../props/cameraprops.rst:52
-msgid "Deviation of the camera principal point X in millimeters."
-msgstr ""
+msgid "Deviation of the camera principal point X in millimeters"
+msgstr "Відхилення від центру зображення у міліметрах за віссю X"
 
 #: ../../props/cameraprops.rst:55
 msgid "Millimeters Principal Y"
-msgstr ""
+msgstr "Відхилення у Міліметрах Y"
 
 #: ../../props/cameraprops.rst:57
-msgid "Deviation of the camera principal point Y in millimeters."
-msgstr ""
+msgid "Deviation of the camera principal point Y in millimeters"
+msgstr "Відхилення від центру зображення у міліметрах за віссю Y"
 
 #: ../../props/cameraprops.rst:60
 msgid "Pixels Principal"
-msgstr ""
+msgstr "Відхилення у Пікселях"
 
 #: ../../props/cameraprops.rst:62
-msgid "Deviation of the camera principal point in pixels."
-msgstr ""
+msgid "Deviation of the camera principal point in pixels"
+msgstr "Відхилення від центру зображення у пікселях"
 
 #: ../../props/cameraprops.rst:65
 msgid "Distortion Model"
-msgstr ""
+msgstr "Модель Дисторсії"
 
 #: ../../props/cameraprops.rst:67
-msgid "Camera mathematical lens distortion model."
-msgstr ""
+msgid "Camera mathematical lens distortion model"
+msgstr "Математична модель дисторсії лінзи"
 
 #: ../../props/cameraprops.rst:70
 msgid "None"
-msgstr ""
+msgstr "Немає"
 
 #: ../../props/cameraprops.rst:70
-msgid "No distortion, only correction."
-msgstr ""
+msgid "No distortion, only correction"
+msgstr "Без дисторсії, лише корекція"
 
 #: ../../props/cameraprops.rst:73
 msgid "Division"
 msgstr "Ділення"
 
 #: ../../props/cameraprops.rst:73
-msgid "Division lens distortion model with two radial distortion coefficients."
-msgstr ""
+msgid "Division lens distortion model with two radial distortion coefficients"
+msgstr "Модель ділення з двома коефіцієнтами радіальної дисторсії"
 
 #: ../../props/cameraprops.rst:76
 msgid "Polynomial"
 msgstr "Поліноміальна"
 
 #: ../../props/cameraprops.rst:76
-msgid "Polynomial lens distortion model with four radial and two tangential lens distortion coefficients."
-msgstr ""
+msgid "Polynomial lens distortion model with four radial and two tangential lens distortion coefficients"
+msgstr "Поліноміальна модель з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
 
 #: ../../props/cameraprops.rst:79
 msgid "Brown"
 msgstr "Брауна-Конраді"
 
 #: ../../props/cameraprops.rst:79
-msgid "Brown-Conrady lens distortion model with four radial and two tangential lens distortion coefficients."
-msgstr ""
+msgid "Brown-Conrady lens distortion model with four radial and two tangential lens distortion coefficients"
+msgstr "Модель Брауна-Конраді з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
 
 #: ../../props/cameraprops.rst:82
 msgid "K1"
 msgstr ""
 
 #: ../../props/cameraprops.rst:84
-msgid "First radial coefficient."
-msgstr ""
+msgid "First radial coefficient"
+msgstr "Перший коефіцієнт радіальної дисторсії"
 
 #: ../../props/cameraprops.rst:87
 msgid "K2"
 msgstr ""
 
 #: ../../props/cameraprops.rst:89
-msgid "Second radial coefficient."
-msgstr ""
+msgid "Second radial coefficient"
+msgstr "Другий коефіцієнт радіальної дисторсії"
 
 #: ../../props/cameraprops.rst:92
 msgid "K3"
 msgstr ""
 
 #: ../../props/cameraprops.rst:94
-msgid "Third radial coefficient."
-msgstr ""
+msgid "Third radial coefficient"
+msgstr "Третій коефіцієнт радіальної дисторсії"
 
 #: ../../props/cameraprops.rst:97
 msgid "K4"
 msgstr ""
 
 #: ../../props/cameraprops.rst:99
-msgid "Fourth radial coefficient."
-msgstr ""
+msgid "Fourth radial coefficient"
+msgstr "Четвертий коефіцієнт радіальної дисторсії"
 
 #: ../../props/cameraprops.rst:102
 msgid "P1"
 msgstr ""
 
 #: ../../props/cameraprops.rst:104
-msgid "First tangential coefficient."
-msgstr ""
+msgid "First tangential coefficient"
+msgstr "Перший коефіцієнт тангенціальної дисторсії"
 
 #: ../../props/cameraprops.rst:107
 msgid "P2"
 msgstr ""
 
 #: ../../props/cameraprops.rst:109
-msgid "Second tangential coefficient."
-msgstr ""
+msgid "Second tangential coefficient"
+msgstr "Другий коефіцієнт тангенціальної дисторсії"
 
 #: ../../props/cameraprops.rst:112
 msgid "Bind History"
-msgstr ""
+msgstr "Історія Зображень"
 
 #: ../../props/cameraprops.rst:114
-msgid "Images that were once binded to this camera."
-msgstr ""
-
-#: ../../props/cameraprops.rst:119
-msgid "Image."
-msgstr ""
+msgid "Images that were once binded to this camera"
+msgstr "Зображення що раніше було пов'язано до цієї камери"
 
 #: ../../props/cameraprops.rst:123
 msgid "RC Metadata XMP"
-msgstr ""
+msgstr "RC Метадані XMP"
 
 #: ../../props/cameraprops.rst:125
-msgid "Reality Capture \"Metadata XMP\" properties."
-msgstr ""
+msgid "Reality Capture \"Metadata XMP\" properties"
+msgstr "Параметри Reality Capture \"Метадані XMP\""
 
 #: ../../props/cameraprops.rst:128
 msgid "Export Mode"
-msgstr ""
+msgstr "Режим Експорту"
 
 #: ../../props/cameraprops.rst:130
-msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses."
-msgstr ""
+msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses"
+msgstr "Залежно від того наскільки Ви довіряєте реєстрації, можна обрати відповідні опції або ж не експортувати позиції камер"
 
 #: ../../props/cameraprops.rst:132
 msgid "Do Not Export"
-msgstr ""
+msgstr "Не Експортувати"
 
 #: ../../props/cameraprops.rst:136
 msgid "Draft"
-msgstr ""
+msgstr "Чернетка"
 
 #: ../../props/cameraprops.rst:136
-msgid "This will treat poses as an imperfect draft to be optimized in the future. The draft mode functions also as a flight log."
-msgstr ""
+msgid "This will treat poses as an imperfect draft to be optimized in the future. The draft mode functions also as a flight log"
+msgstr "Позначає позиції як не досконалі чернетки що потрібно оптимізувати в майбутньому. Режим чернетки також може використовуватися як лог польоту"
 
 #: ../../props/cameraprops.rst:139
 msgid "Exact"
-msgstr ""
+msgstr "Чистовик"
 
 #: ../../props/cameraprops.rst:139
-msgid "If you trust the alignment absolutely. By choosing this option, you are saying to the application that poses are precise, but the global position, orientation, and scale is not known."
-msgstr ""
+msgid "If you trust the alignment absolutely. By choosing this option, you are saying to the application that poses are precise, but the global position, orientation, and scale is not known"
+msgstr "Якщо Ви повністю довіряєте вирівнюванню. Обираючи цю опцію, Ви вказуєте аплікації що позиції є прецезійними, але глобальні положення, орієнтація і масштаб не відомі"
 
 #: ../../props/cameraprops.rst:142
 msgid "Locked"
-msgstr ""
+msgstr "Заблокований Чистовик"
 
 #: ../../props/cameraprops.rst:142
-msgid "This is the same as the exact option with the difference that the camera position and calibration will not be changed, when locked."
-msgstr ""
+msgid "This is the same as the exact option with the difference that the camera position and calibration will not be changed, when locked"
+msgstr "Те ж саме що і чистовик але положення камер і параметри калібрації не буде змінено"
 
 #: ../../props/cameraprops.rst:145
 msgid "Calibration Group"
-msgstr ""
+msgstr "Група Калібрації"
 
 #: ../../props/cameraprops.rst:147
-msgid "By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters."
-msgstr ""
+msgid "By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters"
+msgstr "Групою ми зазначаємо що у всіх зображень у цій групі однакові властивості калібрації, тобто однакова фокальна відстань, однакове відхилення від центру, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
 
 #: ../../props/cameraprops.rst:150
 msgid "Distortion Group"
-msgstr ""
+msgstr "Група Дисторсії"
 
 #: ../../props/cameraprops.rst:152
-msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters."
-msgstr ""
+msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
+msgstr "Групою ми зазначаємо що у всіх зображень у цій групі однакові властивості дисторсії, тобто однакові коефіцієнти дисторсії, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
 
 #: ../../props/cameraprops.rst:155
 msgid "In Texturing"
-msgstr ""
+msgstr "Для Текстури"
 
 #: ../../props/cameraprops.rst:159
 msgid "In Meshing"
-msgstr ""
+msgstr "Для Сітки"
 
 #: ../../props/objectprops.rst:2
 msgid "Object"
@@ -297,43 +282,43 @@ msgstr ""
 
 #: ../../props/objectprops.rst:9
 msgid "Row: 1, Column: 1"
-msgstr ""
+msgstr "Рядок: 1, Колона: 1"
 
 #: ../../props/objectprops.rst:13
 msgid "Row: 1, Column: 2"
-msgstr ""
+msgstr "Рядок: 1, Колона: 2"
 
 #: ../../props/objectprops.rst:17
 msgid "Row: 1, Column: 3"
-msgstr ""
+msgstr "Рядок: 1, Колона: 3"
 
 #: ../../props/objectprops.rst:21
 msgid "Row: 2, Column: 1"
-msgstr ""
+msgstr "Рядок: 2, Колона: 1"
 
 #: ../../props/objectprops.rst:25
 msgid "Row: 2, Column: 2"
-msgstr ""
+msgstr "Рядок: 2, Колона: 2"
 
 #: ../../props/objectprops.rst:29
 msgid "Row: 2, Column: 3"
-msgstr ""
+msgstr "Рядок: 2, Колона: 3"
 
 #: ../../props/objectprops.rst:33
 msgid "Row: 3, Column: 1"
-msgstr ""
+msgstr "Рядок: 3, Колона: 1"
 
 #: ../../props/objectprops.rst:37
 msgid "Row: 3, Column: 2"
-msgstr ""
+msgstr "Рядок: 3, Колона: 2"
 
 #: ../../props/objectprops.rst:41
 msgid "Row: 3, Column: 3"
-msgstr ""
+msgstr "Рядок: 3, Колона: 3"
 
 #: ../../props/objectprops.rst:46
 msgid "Location"
-msgstr ""
+msgstr "Розташування"
 
 #: ../../props/objectprops.rst:50 ../../props/objectprops.rst:67
 msgid "X"
@@ -349,7 +334,7 @@ msgstr ""
 
 #: ../../props/objectprops.rst:63
 msgid "RC X, Y, Alt"
-msgstr ""
+msgstr "RC X, Y, Alt"
 
 #: ../../props/objectprops.rst:75
 msgid "Alt"
@@ -357,75 +342,75 @@ msgstr ""
 
 #: ../../props/objectprops.rst:80
 msgid "RC Heading, Pitch, Roll"
-msgstr ""
+msgstr "RC Никання, Тангаж і Крен"
 
 #: ../../props/objectprops.rst:84
 msgid "Heading"
-msgstr ""
+msgstr "Никання"
 
 #: ../../props/objectprops.rst:88
 msgid "Pitch"
-msgstr ""
+msgstr "Тангаж"
 
 #: ../../props/objectprops.rst:92
 msgid "Roll"
-msgstr ""
+msgstr "Крен"
 
 #: ../../props/objectprops.rst:97
 msgid "RC Omega, Phi, Kappa"
-msgstr ""
+msgstr "RC Омега, Фі, Каппа"
 
 #: ../../props/objectprops.rst:101
 msgid "Omega"
-msgstr ""
+msgstr "Омега"
 
 #: ../../props/objectprops.rst:105
 msgid "Phi"
-msgstr ""
+msgstr "Фі"
 
 #: ../../props/objectprops.rst:109
 msgid "Kappa"
-msgstr ""
+msgstr "Каппа"
 
 #: ../../props/objectprops.rst:114
 msgid "RC Rotation Component"
-msgstr ""
+msgstr "RC Компонент Повороту"
 
 #: ../../props/objectprops.rst:118
 msgid "Item: 1 (Row: 1, Column: 1)"
-msgstr ""
+msgstr "Значення: 1 (Рядок: 1, Колона: 1)"
 
 #: ../../props/objectprops.rst:122
 msgid "Item: 2 (Row: 1, Column: 2)"
-msgstr ""
+msgstr "Значення: 2 (Рядок: 1, Колона: 2)"
 
 #: ../../props/objectprops.rst:126
 msgid "Item: 3 (Row: 1, Column: 3)"
-msgstr ""
+msgstr "Значення: 3 (Рядок: 1, Колона: 3)"
 
 #: ../../props/objectprops.rst:130
 msgid "Item: 4 (Row: 2, Column: 1)"
-msgstr ""
+msgstr "Значення: 4 (Рядок: 2, Колона: 1)"
 
 #: ../../props/objectprops.rst:134
 msgid "Item: 5 (Row: 2, Column: 2)"
-msgstr ""
+msgstr "Значення: 5 (Рядок: 2, Колона: 2)"
 
 #: ../../props/objectprops.rst:138
 msgid "Item: 6 (Row: 2, Column: 3)"
-msgstr ""
+msgstr "Значення: 6 (Рядок: 2, Колона: 3)"
 
 #: ../../props/objectprops.rst:142
 msgid "Item: 7 (Row: 3, Column: 1)"
-msgstr ""
+msgstr "Значення: 7 (Рядок: 3, Колона: 1)"
 
 #: ../../props/objectprops.rst:146
 msgid "Item: 8 (Row: 3, Column: 2)"
-msgstr ""
+msgstr "Значення: 8 (Рядок: 3, Колона: 2)"
 
 #: ../../props/objectprops.rst:150
 msgid "Item: 9 (Row: 3, Column: 3)"
-msgstr ""
+msgstr "Значення: 9 (Рядок: 3, Колона: 3)"
 
 #: ../../props/sceneprops.rst:2
 msgid "Scene"
@@ -433,147 +418,171 @@ msgstr ""
 
 #: ../../props/sceneprops.rst:5
 msgid "Unit"
-msgstr ""
+msgstr "Одиниці"
 
 #: ../../props/sceneprops.rst:7
-msgid "Display units of camera parameters."
-msgstr ""
+msgid "Display units of camera parameters"
+msgstr "Одиниці відображення парамерів камери"
 
 #: ../../props/sceneprops.rst:10
 msgid "Millimeters"
-msgstr ""
+msgstr "Міліметри"
 
 #: ../../props/sceneprops.rst:10
-msgid "Camera parameters in millimeters."
-msgstr ""
+msgid "Camera parameters in millimeters"
+msgstr "Параметри камери у міліметрах"
 
 #: ../../props/sceneprops.rst:13
 msgid "Pixels"
-msgstr ""
+msgstr "Пікселі"
 
 #: ../../props/sceneprops.rst:13
-msgid "Camera parameters relative to image sizes in pixels."
-msgstr ""
+msgid "Camera parameters relative to image sizes in pixels"
+msgstr "Параметри камери відносно розміру зображення у пікселях"
 
 #: ../../props/sceneprops.rst:16
 msgid "Precision"
-msgstr ""
+msgstr "Точність"
 
 #: ../../props/sceneprops.rst:18
-msgid "Precision of display of decimal fractions of camera parameters."
-msgstr ""
+msgid "Precision of display of decimal fractions of camera parameters"
+msgstr "Точність відображення параметрів з десятковими дробами"
 
 #: ../../props/sceneprops.rst:21
 msgid "Single"
-msgstr ""
+msgstr "Одинарна"
 
 #: ../../props/sceneprops.rst:21
-msgid "IEEE-754 single precision float."
-msgstr ""
+msgid "IEEE-754 single precision float"
+msgstr "Одинарна точність дробу стандарту IEEE-754"
 
 #: ../../props/sceneprops.rst:24
 msgid "Double"
-msgstr ""
+msgstr "Подвійна"
 
 #: ../../props/sceneprops.rst:24
-msgid "IEEE-754 double precision float."
-msgstr ""
+msgid "IEEE-754 double precision float"
+msgstr "Подвійна точність дробу стандарту IEEE-754"
 
 #: ../../props/sceneprops.rst:27
 msgid "Highlight Cameras Orientation"
-msgstr ""
+msgstr "Показати Орієнтацію Камер"
 
 #: ../../props/sceneprops.rst:29
-msgid "Use a different color for cameras whose images have landscape (including square) and portrait orientation."
-msgstr ""
+msgid "Use a different color for cameras whose images have landscape (including square) and portrait orientation"
+msgstr "Використати різні кольори для камер у яких зображення ландшафтної (включно з квадратними), чи портретної орієнтації"
 
 #: ../../props/sceneprops.rst:32
 msgid "Cameras Landscape Orientation Color"
-msgstr ""
+msgstr "Колір Камер Ландшафтної Орієнтації"
 
 #: ../../props/sceneprops.rst:34
-msgid "The color of the display of cameras in which the images have a landscape (including square) orientation."
-msgstr ""
+msgid "The color of the display of cameras in which the images have a landscape (including square) orientation"
+msgstr "Колір відображення камер з ландшафтною (включно з квадратними зображеннями) орієнтацією"
 
 #: ../../props/sceneprops.rst:37
 msgid "Cameras Portrait Orientation Color"
-msgstr ""
+msgstr "Колір Камер Портретної Орієнтації"
 
 #: ../../props/sceneprops.rst:39
-msgid "The color of the display of cameras in which the images have a portrait orientation."
-msgstr ""
+msgid "The color of the display of cameras in which the images have a portrait orientation"
+msgstr "Колір відображення камер з портретною орієнтацією"
 
 #: ../../props/sceneprops.rst:42
 msgid "Highlight Projected Border"
-msgstr ""
+msgstr "Показати Спроектовану Рамку"
 
 #: ../../props/sceneprops.rst:44
-msgid "Whether to highlight the borders of the frame of the projected image on the object."
-msgstr ""
+msgid "Whether to highlight the borders of the frame of the projected image on the object"
+msgstr "Чи показувати рамку спроектораного на об'єкт зображення"
 
 #: ../../props/sceneprops.rst:47
 msgid "Highlight Projected Border First Color"
-msgstr ""
+msgstr "Перший Колір Спроектованої Рамки"
 
 #: ../../props/sceneprops.rst:49
-msgid "The first color that will be used to highlight the parts of the object that are outside of camera frustum."
-msgstr ""
+msgid "The first color that will be used to highlight the parts of the object that are outside of camera frustum"
+msgstr "Перший колір що буде використано для відображення частин об'єкта що знаходяться за межами зображення"
 
 #: ../../props/sceneprops.rst:52
 msgid "Highlight Projected Border Second Color"
-msgstr ""
+msgstr "Другий Колір Спроектованої Рамки"
 
 #: ../../props/sceneprops.rst:54
-msgid "The second color that will be used to highlight the parts of the object that are outside of camera frustum."
-msgstr ""
+msgid "The second color that will be used to highlight the parts of the object that are outside of camera frustum"
+msgstr "Другий колір що буде використано для відображення частин об'єкта що знаходяться за межами зображення"
 
 #: ../../props/sceneprops.rst:57
 msgid "Highlight Projected Border Type"
-msgstr ""
+msgstr "Тип Рамки"
 
 #: ../../props/sceneprops.rst:59
-msgid "The fill type of the highlighted area."
-msgstr ""
+msgid "The fill type of the highlighted area"
+msgstr "Тип заповнення відображення"
 
 #: ../../props/sceneprops.rst:62
 msgid "Fill Color"
-msgstr ""
+msgstr "Колір заповнення"
 
 #: ../../props/sceneprops.rst:62
-msgid "Single color outline."
-msgstr ""
+msgid "Single color outline"
+msgstr "Заповнення суцільним кольором"
 
 #: ../../props/sceneprops.rst:65
 msgid "Checker"
-msgstr ""
+msgstr "Шашки"
 
 #: ../../props/sceneprops.rst:65
-msgid "Checker pattern outline."
-msgstr ""
+msgid "Checker pattern outline"
+msgstr "Заповнення шашками"
 
 #: ../../props/sceneprops.rst:68
 msgid "Lines"
-msgstr ""
+msgstr "Лінії"
 
 #: ../../props/sceneprops.rst:68
-msgid "Lines pattern outline."
-msgstr ""
+msgid "Lines pattern outline"
+msgstr "Заповнення похилими лініями"
 
 #: ../../props/sceneprops.rst:71
-msgid "Viewport Cameras Size"
-msgstr ""
+msgid "Highlight Projected Border Facing"
+msgstr "Сторона Спроектованої Рамки"
 
 #: ../../props/sceneprops.rst:73
-msgid "The size of the cameras in the viewport."
+msgid "Which side of the polygons that are outside the frame of the projected image to display. Сan be useful for a scene where there is a closed space, for example a room or a street. At least one of the options should be selected"
+msgstr "Яку сторону граней що знаходяться за межами рамки спроектованого зображення буде відображено. Може бути корисним для сцен з замкнутим простором, наприклад, вулиці чи кімнати. Повинна бути обрана принаймні одна опція"
+
+#: ../../props/sceneprops.rst:76
+msgid "Front"
 msgstr ""
 
 #: ../../props/sceneprops.rst:76
-msgid "Current Image Viewport Transparency"
+msgid "Show the front of polygons"
+msgstr "Показувати лицьову сторону граней"
+
+#: ../../props/sceneprops.rst:79
+msgid "Back"
 msgstr ""
 
-#: ../../props/sceneprops.rst:78
-msgid "Transparency of the image when viewed from the camera."
-msgstr ""
+#: ../../props/sceneprops.rst:79
+msgid "Show the back of polygons"
+msgstr "Показувати зворотню сторону граней"
+
+#: ../../props/sceneprops.rst:82
+msgid "Viewport Cameras Size"
+msgstr "Розмір Камер"
+
+#: ../../props/sceneprops.rst:84
+msgid "The size of the cameras in the viewport"
+msgstr "Розмір камер у вікні перегляду"
+
+#: ../../props/sceneprops.rst:87
+msgid "Current Image Viewport Transparency"
+msgstr "Прозорість поточного зображення у вікні перегляду"
+
+#: ../../props/sceneprops.rst:89
+msgid "Transparency of the image when viewed from the camera"
+msgstr "Прозорість зображення коли дивитися з камери"
 
 #: ../../props/wmprops.rst:2
 msgid "Window Manager"
@@ -581,9 +590,9 @@ msgstr ""
 
 #: ../../props/wmprops.rst:5
 msgid "Apply UDIM Materials Fix"
-msgstr ""
+msgstr "Застосувати UDIM Матеріали"
 
 #: ../../props/wmprops.rst:7
-msgid "The standard import imports UDIM images as multiple materials and multiple images."
-msgstr ""
+msgid "The standard import imports UDIM images as multiple materials and multiple images"
+msgstr "Стандартний імпортер імпортує UDIM зображення як декілька матеріалів і зображень"
 
