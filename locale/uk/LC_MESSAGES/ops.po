@@ -187,67 +187,75 @@ msgstr "Групою ми зазначаємо що у всіх зображен
 msgid "In Texturing"
 msgstr "Для Текстури"
 
-#: ../../ops/export-cameras.rst:48
+#: ../../ops/export-cameras.rst:46
+msgid "Whether to use an image to create an object texture"
+msgstr "Чи використовувати зображення для створення текстури об'єкта"
+
+#: ../../ops/export-cameras.rst:49
 msgid "In Meshing"
 msgstr "Для Сітки"
 
-#: ../../ops/export-cameras.rst:52 ../../ops/import-cameras.rst:7
+#: ../../ops/export-cameras.rst:51
+msgid "Whether to use an image to create the object mesh data"
+msgstr "Чи використовувати зображення для створення сітки об'єкта"
+
+#: ../../ops/export-cameras.rst:54 ../../ops/import-cameras.rst:7
 msgid "Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:55 ../../ops/import-cameras.rst:10
+#: ../../ops/export-cameras.rst:57 ../../ops/import-cameras.rst:10
 msgid "X Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:58 ../../ops/import-cameras.rst:13
+#: ../../ops/export-cameras.rst:60 ../../ops/import-cameras.rst:13
 msgid "Y Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:61 ../../ops/import-cameras.rst:16
+#: ../../ops/export-cameras.rst:63 ../../ops/import-cameras.rst:16
 msgid "Z Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:64 ../../ops/import-cameras.rst:19
+#: ../../ops/export-cameras.rst:66 ../../ops/import-cameras.rst:19
 msgid "-X Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:67 ../../ops/import-cameras.rst:22
+#: ../../ops/export-cameras.rst:69 ../../ops/import-cameras.rst:22
 msgid "-Y Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:70 ../../ops/import-cameras.rst:25
+#: ../../ops/export-cameras.rst:72 ../../ops/import-cameras.rst:25
 msgid "-Z Forward"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:74 ../../ops/import-cameras.rst:29
+#: ../../ops/export-cameras.rst:76 ../../ops/import-cameras.rst:29
 msgid "Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:77 ../../ops/import-cameras.rst:32
+#: ../../ops/export-cameras.rst:79 ../../ops/import-cameras.rst:32
 msgid "X Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:80 ../../ops/import-cameras.rst:35
+#: ../../ops/export-cameras.rst:82 ../../ops/import-cameras.rst:35
 msgid "Y Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:83 ../../ops/import-cameras.rst:38
+#: ../../ops/export-cameras.rst:85 ../../ops/import-cameras.rst:38
 msgid "Z Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:86 ../../ops/import-cameras.rst:41
+#: ../../ops/export-cameras.rst:88 ../../ops/import-cameras.rst:41
 msgid "-X Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:89 ../../ops/import-cameras.rst:44
+#: ../../ops/export-cameras.rst:91 ../../ops/import-cameras.rst:44
 msgid "-Y Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:92 ../../ops/import-cameras.rst:47
+#: ../../ops/export-cameras.rst:94 ../../ops/import-cameras.rst:47
 msgid "-Z Up"
 msgstr ""
 
-#: ../../ops/export-cameras.rst:96 ../../ops/import-cameras.rst:51
+#: ../../ops/export-cameras.rst:98 ../../ops/import-cameras.rst:51
 #: ../../ops/import-scene.rst:7
 msgid "File Name"
 msgstr "Назва Файлу"

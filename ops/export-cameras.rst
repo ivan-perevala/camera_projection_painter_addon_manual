@@ -43,10 +43,12 @@ By defining a group we state that all images in this group have the same lens pr
 In Texturing
 ============
 
+Whether to use an image to create an object texture
 
 In Meshing
 ==========
 
+Whether to use an image to create the object mesh data
 
 Forward
 =======

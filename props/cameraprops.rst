@@ -9,114 +9,124 @@ Camera binded image. It will be used as a paint brush. Also, its size affects th
 Millimeters Focal Length
 ========================
 
-Camera focal length in millimeters
+Focal length of the camera in millimeters. The value is stored and can be displayed with double precision
 
 Pixels Focal Length
 ===================
 
-Camera focal length in pixels
+The focal length of the camera in pixels. The value can be displayed with double precision. Calculated by the formula:
+
+`Pixels Focal Lens = F * P / S`
+
+where `F` is the focal length in millimeters, `P` is the larger side of the image, `S` is the size of the camera sensor in millimeters
 
 Sensor
 ======
 
-The size of the camera sensor in millimeters, taking into account the larger side of the binded image
+The size of the camera sensor in millimeters, taking into account the larger side of the attached image. This means that if the sensor fit option is set to horizontal - the width of the sensor will be used for calculations, for vertical fit type - height accordingly. These values can be set manually. But for when working with photogrammetric scenes, it is necessary to use the automatic type of sensor adjustment. In this case, if the image has a landscape orientation (or the sides are equal), the width of the sensor will be used, and in the case of a portrait - the height of the sensor. As you can see, there are opportunities for using non-standard workflows, but the main mode of operation is the automatic sensor type. Also note the camera-bound image, this is important for importing and exporting to some file formats. The value is stored and can be displayed with double precision
 
 Millimeters Skew
 ================
 
-Horizontal camera skew in millimeters
+The horizontal skew of the image in millimeters relative to its center, excluding principal deviation
 
 Pixels Skew
 ===========
 
-Horizontal camera skew in pixels
+Horizontal skew of the image in pixels relative to its center without taking into account deviation. Calculated by the formula:
+
+`Pixels Skew = S * P`
+
+where `S` is the skew value in millimeters, `P` is the size of the larger side of the image
 
 Aspect Ratio
 ============
 
-Camera aspect ratio correction factor
-
-Principal X
-===========
-
-Deviation of the camera principal point X
-
-Principal Y
-===========
-
-Deviation of the camera principal point Y
+Image aspect ratio correction factor. It means the ratio of the height of the image to its width - that is, values ​​greater than 1.0 will stretch it vertically, smaller values ​​will compress it
 
 Millimeters Principal X
 =======================
 
-Deviation of the camera principal point X in millimeters
+The deviation from the center of the image in millimeters along the X axis. Calculated by the formula:
+
+`Millimeters Principal X = Px * S`
+
+where `Px' is the deviation factor, `S' is the size of the camera sensor
 
 Millimeters Principal Y
 =======================
 
-Deviation of the camera principal point Y in millimeters
+The deviation from the center of the image in millimeters along the Y axis. Calculated by the formula:
+
+`Millimeters Principal Y = Py * S`
+
+where `Py' is the deviation factor, `S' is the size of the camera sensor
 
 Pixels Principal
 ================
 
-Deviation of the camera principal point in pixels
+The deviation from the center of the image in pixels. Calculated by the formula:
+
+`Pixels Principal = Pxy * L + (Sxy / 2)`
+
+where `Pxy` is the deviation factor, `L` is the larger side of the image, `Sxy` is the image size
 
 Distortion Model
 ================
 
-Camera mathematical lens distortion model
+Mathematical model of lens distortion. Note that distortion coefficients may be inconsistent between different distortion models
 
 None
  No distortion, only correction
 
 Division
- Division lens distortion model with two radial distortion coefficients
+ The division model with two radial distortion coefficients. This is the simplest mathematical model of linear division of image coordinates, which can be used if the distortion is small, for example, for scenes where the shooting took place close to the object
 
 Polynomial
- Polynomial lens distortion model with four radial and two tangential lens distortion coefficients
+ A polynomial model with four radial and two tangential distortion coefficients. It uses polynomial functions instead of simple linear division, so it is a more accurate and flexible model that can be used for complex scenes with significant lens distortions
 
-Brown
- Brown-Conrady lens distortion model with four radial and two tangential lens distortion coefficients
+Brown-Conrady
+ Brown-Conrady polynomial model with four with four radial and two tangential distortion coefficients. It is the most accurate and flexible model that can be used for complex scenes with significant lens distortions. In general, it is used when a simple linear division model is no longer sufficient
 
 K1
 ==
 
-First radial coefficient
+Represents linear radial distortion. It corrects or introduces distortion that increases linearly with radial distance
 
 K2
 ==
 
-Second radial coefficient
+Represents cubic radial distortion. It corrects or introduces distortion that increases with the cube of the radial distance
 
 K3
 ==
 
-Third radial coefficient
+Represents quintic (fifth-order) radial distortion. It corrects or introduces distortion that increases with the fifth power of the radial distance
 
 K4
 ==
 
-Fourth radial coefficient
+Represents seventh-order radial distortion. It corrects or introduces distortion that increases with the seventh power of the radial distance
 
 P1
 ==
 
-First tangential coefficient
+Represents linear tangential distortion. Corrects or introduces distortion that increases linearly with the distance from the image center
 
 P2
 ==
 
-Second tangential coefficient
+Represents quadratic tangential distortion. Corrects or introduces distortion that increases with the square of the distance from the image center
 
 Bind History
 ============
 
-Images that were once binded to this camera
+Images that were previously binded to this camera. The option is used if, for example, it is necessary to draw some area from another image, and then return to the previous one. Of course, this is not a standard workflow, but it is used sometimes
 
 Image
 -----
 
-Image
+The image that was previously attached to this camera
 
 
 RC Metadata XMP
@@ -154,9 +164,11 @@ By defining a group we state that all images in this group have the same lens pr
 In Texturing
 ------------
 
+Whether to use an image to create an object texture
 
 In Meshing
 ----------
 
+Whether to use an image to create the object mesh data
 
 

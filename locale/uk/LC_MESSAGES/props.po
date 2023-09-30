@@ -9,10 +9,9 @@ msgstr ""
 
 #: ../../props/cameraprops.rst:2
 msgid "Camera"
-msgstr ""
+msgstr "Камера"
 
-#: ../../props/cameraprops.rst:5 ../../props/cameraprops.rst:117
-#: ../../props/cameraprops.rst:119
+#: ../../props/cameraprops.rst:5 ../../props/cameraprops.rst:127
 msgid "Image"
 msgstr "Зображення"
 
@@ -25,252 +24,288 @@ msgid "Millimeters Focal Length"
 msgstr "Фокальна Відстань в Міліметрах"
 
 #: ../../props/cameraprops.rst:12
-msgid "Camera focal length in millimeters"
-msgstr "Фокальна відстань камери у міліметрах"
+msgid "Focal length of the camera in millimeters. The value is stored and can be displayed with double precision"
+msgstr "Фокальна відстань камери у міліметрах. Значення зберігається і може бути відображене з подвійною точністю"
 
 #: ../../props/cameraprops.rst:15
 msgid "Pixels Focal Length"
 msgstr "Фокальна Відстань у Пікселях"
 
 #: ../../props/cameraprops.rst:17
-msgid "Camera focal length in pixels"
-msgstr "Фокальна відстань камери у пікселях"
+msgid "The focal length of the camera in pixels. The value can be displayed with double precision. Calculated by the formula:"
+msgstr "Фокальна відстань камери у пікселях. Значення може бути відображене з подвійною точністю. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:20
+#: ../../props/cameraprops.rst:19
+msgid "`Pixels Focal Lens = F * P / S`"
+msgstr "`Pixels Focal Lens = F * P / S`"
+
+#: ../../props/cameraprops.rst:21
+msgid "where `F` is the focal length in millimeters, `P` is the larger side of the image, `S` is the size of the camera sensor in millimeters"
+msgstr "де `F` - фокальна відстань у міліметрах, `P` - більша сторона зображення, `S` - розмір сенсору камери у міліметрах"
+
+#: ../../props/cameraprops.rst:24
 msgid "Sensor"
 msgstr "Сенсор"
 
-#: ../../props/cameraprops.rst:22
-msgid "The size of the camera sensor in millimeters, taking into account the larger side of the binded image"
-msgstr "Розмір сенсора камери у міліметрах, зважаючи на більшу сторону прив'язаного зображення"
+#: ../../props/cameraprops.rst:26
+msgid "The size of the camera sensor in millimeters, taking into account the larger side of the attached image. This means that if the sensor fit option is set to horizontal - the width of the sensor will be used for calculations, for vertical fit type - height accordingly. These values can be set manually. But for when working with photogrammetric scenes, it is necessary to use the automatic type of sensor adjustment. In this case, if the image has a landscape orientation (or the sides are equal), the width of the sensor will be used, and in the case of a portrait - the height of the sensor. As you can see, there are opportunities for using non-standard workflows, but the main mode of operation is the automatic sensor type. Also note the camera-bound image, this is important for importing and exporting to some file formats. The value is stored and can be displayed with double precision"
+msgstr "Розмір сенсору камери у міліметрах, зважаючи на більшу сторону прив'язаного зображення. Це означає що якщо параметр підгонки сенсора встановлено на горизонтальний - буде використано ширину сенсора для обрахунків, для вертикального типу підгонки - відповідно висоту. Ці значення можна встановити вручну. Але для роботи саме з фотограметричними сценами необхідно використовувати автоматичний тип підгонки сенсора. В такому разі якщо зображення має альбомну орієнтацію (або сторони рівні) - буде використано ширину сенсора, а у випадку портретної - висоту. Як бачите, тут присутні можливості для використання нестандартних робочих процесів, але основним способом роботи є автоматичний тип сенсора. Також зважайте на наявність прив'язаного до камери зображення, це важливо для імпорту і експорту в деякі формати файлів. Значення зберігається і може бути відображене з подвійною точністю"
 
-#: ../../props/cameraprops.rst:25
+#: ../../props/cameraprops.rst:29
 msgid "Millimeters Skew"
 msgstr "Зсув у Міліметрах"
 
-#: ../../props/cameraprops.rst:27
-msgid "Horizontal camera skew in millimeters"
-msgstr "Горизонтальний зсув камери у міліметрах"
+#: ../../props/cameraprops.rst:31
+msgid "The horizontal skew of the image in millimeters relative to its center, excluding principal deviation"
+msgstr "Горизонтальний зсув зображення у міліметрах відносно його центру без урахування відхилення"
 
-#: ../../props/cameraprops.rst:30
+#: ../../props/cameraprops.rst:34
 msgid "Pixels Skew"
 msgstr "Зсув у Пікселях"
 
-#: ../../props/cameraprops.rst:32
-msgid "Horizontal camera skew in pixels"
-msgstr "Горизонтальний зсув камери у пікселях"
+#: ../../props/cameraprops.rst:36
+msgid "Horizontal skew of the image in pixels relative to its center without taking into account deviation. Calculated by the formula:"
+msgstr "Горизонтальний зсув зображення у пікселях відносно його центру без урахування відхилення. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:35
+#: ../../props/cameraprops.rst:38
+msgid "`Pixels Skew = S * P`"
+msgstr "`Зсув = S * P`"
+
+#: ../../props/cameraprops.rst:40
+msgid "where `S` is the skew value in millimeters, `P` is the size of the larger side of the image"
+msgstr "де `S` - значення зсуву у міліметрах, `P` - розмір більшої сторони зображення"
+
+#: ../../props/cameraprops.rst:43
 msgid "Aspect Ratio"
 msgstr "Співвідношення Сторін"
 
-#: ../../props/cameraprops.rst:37
-msgid "Camera aspect ratio correction factor"
-msgstr "Фактор корекції співвідношення сторін"
-
-#: ../../props/cameraprops.rst:40
-msgid "Principal X"
-msgstr "Відхилення X"
-
-#: ../../props/cameraprops.rst:42
-msgid "Deviation of the camera principal point X"
-msgstr "Відхилення від центру зображення за віссю X"
-
 #: ../../props/cameraprops.rst:45
-msgid "Principal Y"
-msgstr "Відхилення Y"
+msgid "Image aspect ratio correction factor. It means the ratio of the height of the image to its width - that is, values ​​greater than 1.0 will stretch it vertically, smaller values ​​will compress it"
+msgstr "Фактор корекції співвідношення сторін зображення. Мається на увазі співвідношення висоти зображення до його ширини - тобто значення більше 1.0 розтягнуть його по вертикалі, менші ж - стиснуть"
 
-#: ../../props/cameraprops.rst:47
-msgid "Deviation of the camera principal point Y"
-msgstr "Відхилення від центру зображення за віссю Y"
-
-#: ../../props/cameraprops.rst:50
+#: ../../props/cameraprops.rst:48
 msgid "Millimeters Principal X"
 msgstr "Відхилення у Міліметрах X"
 
-#: ../../props/cameraprops.rst:52
-msgid "Deviation of the camera principal point X in millimeters"
-msgstr "Відхилення від центру зображення у міліметрах за віссю X"
+#: ../../props/cameraprops.rst:50
+msgid "The deviation from the center of the image in millimeters along the X axis. Calculated by the formula:"
+msgstr "Відхилення від центру зображення у міліметрах за віссю X. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:55
+#: ../../props/cameraprops.rst:52
+msgid "`Millimeters Principal X = Px * S`"
+msgstr "`Millimeters Principal X = Px * S`"
+
+#: ../../props/cameraprops.rst:54
+msgid "where `Px' is the deviation factor, `S' is the size of the camera sensor"
+msgstr "де `Px` - фактор відхилення, `S` - розмір сенсора камери"
+
+#: ../../props/cameraprops.rst:57
 msgid "Millimeters Principal Y"
 msgstr "Відхилення у Міліметрах Y"
 
-#: ../../props/cameraprops.rst:57
-msgid "Deviation of the camera principal point Y in millimeters"
-msgstr "Відхилення від центру зображення у міліметрах за віссю Y"
+#: ../../props/cameraprops.rst:59
+msgid "The deviation from the center of the image in millimeters along the Y axis. Calculated by the formula:"
+msgstr "Відхилення від центру зображення у міліметрах за віссю Y. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:60
+#: ../../props/cameraprops.rst:61
+msgid "`Millimeters Principal Y = Py * S`"
+msgstr "`Millimeters Principal Y = Py * S`"
+
+#: ../../props/cameraprops.rst:63
+msgid "where `Py' is the deviation factor, `S' is the size of the camera sensor"
+msgstr "де `Py` - фактор відхилення, `S` - розмір сенсора камери"
+
+#: ../../props/cameraprops.rst:66
 msgid "Pixels Principal"
 msgstr "Відхилення у Пікселях"
 
-#: ../../props/cameraprops.rst:62
-msgid "Deviation of the camera principal point in pixels"
-msgstr "Відхилення від центру зображення у пікселях"
+#: ../../props/cameraprops.rst:68
+msgid "The deviation from the center of the image in pixels. Calculated by the formula:"
+msgstr "Відхилення від центру зображення у пікселях. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:65
+#: ../../props/cameraprops.rst:70
+msgid "`Pixels Principal = Pxy * L + (Sxy / 2)`"
+msgstr "`Pixels Principal = Pxy * L + (Sxy / 2)`"
+
+#: ../../props/cameraprops.rst:72
+msgid "where `Pxy` is the deviation factor, `L` is the larger side of the image, `Sxy` is the image size"
+msgstr "де `Pxy` - фактор відхилення, `L` - більша сторона зображення, `Sxy` - розмір зображення"
+
+#: ../../props/cameraprops.rst:75
 msgid "Distortion Model"
 msgstr "Модель Дисторсії"
 
-#: ../../props/cameraprops.rst:67
-msgid "Camera mathematical lens distortion model"
-msgstr "Математична модель дисторсії лінзи"
+#: ../../props/cameraprops.rst:77
+msgid "Mathematical model of lens distortion. Note that distortion coefficients may be inconsistent between different distortion models"
+msgstr "Математична модель дисторсії лінзи. Майте на увазі що коефіцієнти дисторсії можуть бути несумісними між різними моделями дисторсії"
 
-#: ../../props/cameraprops.rst:70
+#: ../../props/cameraprops.rst:80
 msgid "None"
 msgstr "Немає"
 
-#: ../../props/cameraprops.rst:70
+#: ../../props/cameraprops.rst:80
 msgid "No distortion, only correction"
 msgstr "Без дисторсії, лише корекція"
 
-#: ../../props/cameraprops.rst:73
+#: ../../props/cameraprops.rst:83
 msgid "Division"
 msgstr "Ділення"
 
-#: ../../props/cameraprops.rst:73
-msgid "Division lens distortion model with two radial distortion coefficients"
-msgstr "Модель ділення з двома коефіцієнтами радіальної дисторсії"
+#: ../../props/cameraprops.rst:83
+msgid "The division model with two radial distortion coefficients. This is the simplest mathematical model of linear division of image coordinates, which can be used if the distortion is small, for example, for scenes where the shooting took place close to the object"
+msgstr "Модель ділення з двома коефіцієнтами радіальної дисторсії. Це найпростіша математична модель лінійного поділу координат зображення, яку можна використати якщо дисторсія невелика, наприклад для сцен де зйомка відбувалася близько до об'єкта"
 
-#: ../../props/cameraprops.rst:76
+#: ../../props/cameraprops.rst:86
 msgid "Polynomial"
 msgstr "Поліноміальна"
 
-#: ../../props/cameraprops.rst:76
-msgid "Polynomial lens distortion model with four radial and two tangential lens distortion coefficients"
-msgstr "Поліноміальна модель з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
+#: ../../props/cameraprops.rst:86
+msgid "A polynomial model with four radial and two tangential distortion coefficients. It uses polynomial functions instead of simple linear division, so it is a more accurate and flexible model that can be used for complex scenes with significant lens distortions"
+msgstr "Поліноміальна модель з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії. Вона використовує поліноміальні функції замість простого лінійного ділення тому це більш точна і гнучка модель, яку можна використати для комплексних сцен зі значними спотворення об'єктива"
 
-#: ../../props/cameraprops.rst:79
-msgid "Brown"
+#: ../../props/cameraprops.rst:89
+msgid "Brown-Conrady"
 msgstr "Брауна-Конраді"
 
-#: ../../props/cameraprops.rst:79
-msgid "Brown-Conrady lens distortion model with four radial and two tangential lens distortion coefficients"
-msgstr "Модель Брауна-Конраді з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії"
+#: ../../props/cameraprops.rst:89
+msgid "Brown-Conrady polynomial model with four with four radial and two tangential distortion coefficients. It is the most accurate and flexible model that can be used for complex scenes with significant lens distortions. In general, it is used when a simple linear division model is no longer sufficient"
+msgstr "Поліноміальна модель Брауна-Конраді з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії. Це більш точна і гнучка модель, яку можна використати для комплексних сцен зі значними спотворення об'єктива. Загалом, її використовують коли моделі простого лінійного ділення вже не достатньо"
 
-#: ../../props/cameraprops.rst:82
+#: ../../props/cameraprops.rst:92
 msgid "K1"
 msgstr ""
 
-#: ../../props/cameraprops.rst:84
-msgid "First radial coefficient"
-msgstr "Перший коефіцієнт радіальної дисторсії"
+#: ../../props/cameraprops.rst:94
+msgid "Represents linear radial distortion. It corrects or introduces distortion that increases linearly with radial distance"
+msgstr "Представляє лінійне радіальне спотворення. Він коригує або вносить викривлення, що лінійно зростає з радіальною відстанню"
 
-#: ../../props/cameraprops.rst:87
+#: ../../props/cameraprops.rst:97
 msgid "K2"
 msgstr ""
 
-#: ../../props/cameraprops.rst:89
-msgid "Second radial coefficient"
-msgstr "Другий коефіцієнт радіальної дисторсії"
+#: ../../props/cameraprops.rst:99
+msgid "Represents cubic radial distortion. It corrects or introduces distortion that increases with the cube of the radial distance"
+msgstr "Представляє кубічне радіальне викривлення. Він коригує або вносить викривлення, що збільшується разом із кубом радіальної відстані"
 
-#: ../../props/cameraprops.rst:92
+#: ../../props/cameraprops.rst:102
 msgid "K3"
 msgstr ""
 
-#: ../../props/cameraprops.rst:94
-msgid "Third radial coefficient"
-msgstr "Третій коефіцієнт радіальної дисторсії"
+#: ../../props/cameraprops.rst:104
+msgid "Represents quintic (fifth-order) radial distortion. It corrects or introduces distortion that increases with the fifth power of the radial distance"
+msgstr "Представляє квінтичне (п’ятого порядку) радіальне викривлення. Він виправляє або вносить викривлення, що збільшується з п’ятим ступенем радіальної відстані"
 
-#: ../../props/cameraprops.rst:97
+#: ../../props/cameraprops.rst:107
 msgid "K4"
 msgstr ""
 
-#: ../../props/cameraprops.rst:99
-msgid "Fourth radial coefficient"
-msgstr "Четвертий коефіцієнт радіальної дисторсії"
+#: ../../props/cameraprops.rst:109
+msgid "Represents seventh-order radial distortion. It corrects or introduces distortion that increases with the seventh power of the radial distance"
+msgstr "Представляє радіальне викривлення сьомого порядку. Він виправляє або вносить викривлення, що збільшується із збільшенням радіальної відстані в сьомому ступені"
 
-#: ../../props/cameraprops.rst:102
+#: ../../props/cameraprops.rst:112
 msgid "P1"
 msgstr ""
 
-#: ../../props/cameraprops.rst:104
-msgid "First tangential coefficient"
-msgstr "Перший коефіцієнт тангенціальної дисторсії"
+#: ../../props/cameraprops.rst:114
+msgid "Represents linear tangential distortion. Corrects or introduces distortion that increases linearly with the distance from the image center"
+msgstr "Представляє лінійне тангенціальне спотворення. Виправляє або вносить спотворення, що лінійно зростає з відстанню від центру зображення"
 
-#: ../../props/cameraprops.rst:107
+#: ../../props/cameraprops.rst:117
 msgid "P2"
 msgstr ""
 
-#: ../../props/cameraprops.rst:109
-msgid "Second tangential coefficient"
-msgstr "Другий коефіцієнт тангенціальної дисторсії"
+#: ../../props/cameraprops.rst:119
+msgid "Represents quadratic tangential distortion. Corrects or introduces distortion that increases with the square of the distance from the image center"
+msgstr "Представляє квадратичне тангенціальне викривлення. Виправляє або вносить спотворення, що збільшується з квадратом відстані від центру зображення"
 
-#: ../../props/cameraprops.rst:112
+#: ../../props/cameraprops.rst:122
 msgid "Bind History"
 msgstr "Історія Зображень"
 
-#: ../../props/cameraprops.rst:114
-msgid "Images that were once binded to this camera"
-msgstr "Зображення що раніше було пов'язано до цієї камери"
+#: ../../props/cameraprops.rst:124
+msgid "Images that were previously binded to this camera. The option is used if, for example, it is necessary to draw some area from another image, and then return to the previous one. Of course, this is not a standard workflow, but it is used sometimes"
+msgstr "Зображення що раніше були пов'язані з цією камерою. Опція використовується якщо наприклад, необхідно намалювати якусь ділянку з іншого зображення, а потім повернутися до попереднього. Звісно, це не стандартний спосіб роботи але інколи використовується"
 
-#: ../../props/cameraprops.rst:123
+#: ../../props/cameraprops.rst:129
+msgid "The image that was previously attached to this camera"
+msgstr "Зображення що раніше було прив'язане до цієї камери"
+
+#: ../../props/cameraprops.rst:133
 msgid "RC Metadata XMP"
 msgstr "RC Метадані XMP"
 
-#: ../../props/cameraprops.rst:125
+#: ../../props/cameraprops.rst:135
 msgid "Reality Capture \"Metadata XMP\" properties"
 msgstr "Параметри Reality Capture \"Метадані XMP\""
 
-#: ../../props/cameraprops.rst:128
+#: ../../props/cameraprops.rst:138
 msgid "Export Mode"
 msgstr "Режим Експорту"
 
-#: ../../props/cameraprops.rst:130
+#: ../../props/cameraprops.rst:140
 msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses"
 msgstr "Залежно від того наскільки Ви довіряєте реєстрації, можна обрати відповідні опції або ж не експортувати позиції камер"
 
-#: ../../props/cameraprops.rst:132
+#: ../../props/cameraprops.rst:142
 msgid "Do Not Export"
 msgstr "Не Експортувати"
 
-#: ../../props/cameraprops.rst:136
+#: ../../props/cameraprops.rst:146
 msgid "Draft"
 msgstr "Чернетка"
 
-#: ../../props/cameraprops.rst:136
+#: ../../props/cameraprops.rst:146
 msgid "This will treat poses as an imperfect draft to be optimized in the future. The draft mode functions also as a flight log"
 msgstr "Позначає позиції як не досконалі чернетки що потрібно оптимізувати в майбутньому. Режим чернетки також може використовуватися як лог польоту"
 
-#: ../../props/cameraprops.rst:139
+#: ../../props/cameraprops.rst:149
 msgid "Exact"
 msgstr "Чистовик"
 
-#: ../../props/cameraprops.rst:139
+#: ../../props/cameraprops.rst:149
 msgid "If you trust the alignment absolutely. By choosing this option, you are saying to the application that poses are precise, but the global position, orientation, and scale is not known"
 msgstr "Якщо Ви повністю довіряєте вирівнюванню. Обираючи цю опцію, Ви вказуєте аплікації що позиції є прецезійними, але глобальні положення, орієнтація і масштаб не відомі"
 
-#: ../../props/cameraprops.rst:142
+#: ../../props/cameraprops.rst:152
 msgid "Locked"
 msgstr "Заблокований Чистовик"
 
-#: ../../props/cameraprops.rst:142
+#: ../../props/cameraprops.rst:152
 msgid "This is the same as the exact option with the difference that the camera position and calibration will not be changed, when locked"
 msgstr "Те ж саме що і чистовик але положення камер і параметри калібрації не буде змінено"
 
-#: ../../props/cameraprops.rst:145
+#: ../../props/cameraprops.rst:155
 msgid "Calibration Group"
 msgstr "Група Калібрації"
 
-#: ../../props/cameraprops.rst:147
+#: ../../props/cameraprops.rst:157
 msgid "By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters"
 msgstr "Групою ми зазначаємо що у всіх зображень у цій групі однакові властивості калібрації, тобто однакова фокальна відстань, однакове відхилення від центру, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
 
-#: ../../props/cameraprops.rst:150
+#: ../../props/cameraprops.rst:160
 msgid "Distortion Group"
 msgstr "Група Дисторсії"
 
-#: ../../props/cameraprops.rst:152
+#: ../../props/cameraprops.rst:162
 msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
 msgstr "Групою ми зазначаємо що у всіх зображень у цій групі однакові властивості дисторсії, тобто однакові коефіцієнти дисторсії, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
 
-#: ../../props/cameraprops.rst:155
+#: ../../props/cameraprops.rst:165
 msgid "In Texturing"
 msgstr "Для Текстури"
 
-#: ../../props/cameraprops.rst:159
+#: ../../props/cameraprops.rst:167
+msgid "Whether to use an image to create an object texture"
+msgstr "Чи використовувати зображення для створення текстури об'єкта"
+
+#: ../../props/cameraprops.rst:170
 msgid "In Meshing"
 msgstr "Для Сітки"
+
+#: ../../props/cameraprops.rst:172
+msgid "Whether to use an image to create the object mesh data"
+msgstr "Чи використовувати зображення для створення сітки об'єкта"
 
 #: ../../props/objectprops.rst:2
 msgid "Object"
