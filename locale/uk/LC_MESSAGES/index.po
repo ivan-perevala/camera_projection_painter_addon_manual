@@ -1,15 +1,33 @@
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-09-30 09:36+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../index.rst:32
 msgid "General"
-msgstr ""
+msgstr "Загальне"
 
 #: ../../ops/toctrees.inc:1
 msgid "Operators"
-msgstr ""
+msgstr "Оператори"
 
 #: ../../props/toctrees.inc:1
 msgid "Properties"
-msgstr ""
+msgstr "Властивості"
 
 #: ../../index.rst:2
 msgid "Camera Projection Painter User Manual"
@@ -17,11 +35,11 @@ msgstr "Мануал Користувача Camera Projection Painter"
 
 #: ../../index.rst:4
 msgid "Add-on for Blender for working with photo scans and photogrammetry."
-msgstr ""
+msgstr "Доповнення для Blender для роботи з фотосканами і фотограметрією"
 
 #: ../../index.rst:7
 msgid "History"
-msgstr ""
+msgstr "Історія"
 
 #: ../../index.rst:9
 msgid ""
@@ -99,7 +117,7 @@ msgstr ""
 
 #: ../../index.rst:43
 msgid "Indices and tables"
-msgstr ""
+msgstr "Індекс і Таблиця"
 
 #: ../../index.rst:45
 msgid ":ref:`genindex`"
@@ -108,3 +126,4 @@ msgstr ""
 #: ../../index.rst:46
 msgid ":ref:`modindex`"
 msgstr ""
+

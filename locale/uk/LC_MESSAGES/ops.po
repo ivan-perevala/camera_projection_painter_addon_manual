@@ -7,109 +7,109 @@
 msgid ""
 msgstr ""
 
-#: ../../ops/bind-images.rst:2
-msgid "Bind Images"
-msgstr ""
+#: ../../ops/bind-camera-images.rst:2
+msgid "Bind Camera Images"
+msgstr "Прив'язати Зображення"
 
-#: ../../ops/bind-images.rst:4
+#: ../../ops/bind-camera-images.rst:4
 msgid "Пов'язує зображення до камер використовуючи назви. Може бути використаний як для всіх камер що присутні у сцені, так і для активної камери (для режиму малювання текстур це активна камера сцени, для об'єктного режиму - виділена камера або ж також активна камера сцени якщо виділено об'єкт іншого типу)."
 msgstr ""
 
-#: ../../ops/bind-images.rst:8
+#: ../../ops/bind-camera-images.rst:8
 msgid "Пошук зображень в першу чергу завжди відбувається серед вже відкритих файлів, потім, якщо збігів не знайдено - серед файлів у обраній директорії. Для цього оператор в користувацькому інтерфейсі має два режими запуску. Режим імпорту потрібно використати якщо необхідні зображення ще не відкрито - в цьому випадку буде можливість обрати директорію для пошуку файлів, і якщо буде знайдено збіги - необхідні зображення буде відкрито і пов'язано до камер. Режим пов'язування кардинальної різниці з режимом імпорту не має, але тут немає вибору директорії - якщо необхідних файлів ще не відкрито то буде використано директорію з якої востаннє імпортували зображення або дані камер. Цей режим корисний якщо наприклад, вручну було обрано інші зображення і потрібно прив'язати їх знову за іменами."
 msgstr ""
 
-#: ../../ops/bind-images.rst:17 ../../ops/import-cameras.rst:55
+#: ../../ops/bind-camera-images.rst:17 ../../ops/import-cameras.rst:55
 msgid "Comparison Options"
 msgstr "Опції Порівняння"
 
-#: ../../ops/bind-images.rst:19 ../../ops/import-cameras.rst:57
+#: ../../ops/bind-camera-images.rst:19 ../../ops/import-cameras.rst:57
 msgid "Options for comparing names. At least one of the options must be selected for each compared type (object, image, etc.)"
 msgstr "Опції для порівняння назв. Принаймні одна з опцій повинна бути обрана для кожного з типів даних що порівнюються (об'єкт, зображення, тощо)"
 
-#: ../../ops/bind-images.rst:22 ../../ops/import-cameras.rst:60
+#: ../../ops/bind-camera-images.rst:22 ../../ops/import-cameras.rst:60
 msgid "Ignore Letter Case"
 msgstr "Ігнорувати Реєстр"
 
-#: ../../ops/bind-images.rst:22 ../../ops/import-cameras.rst:60
+#: ../../ops/bind-camera-images.rst:22 ../../ops/import-cameras.rst:60
 msgid "Ignore character register for matching"
 msgstr "Ігнорувати реєстр символів для пошуку збігів"
 
-#: ../../ops/bind-images.rst:27 ../../ops/import-cameras.rst:65
+#: ../../ops/bind-camera-images.rst:27 ../../ops/import-cameras.rst:65
 msgid "Ignore Extensions"
 msgstr "Ігнорувати Розширення Файлів"
 
-#: ../../ops/bind-images.rst:25 ../../ops/import-cameras.rst:63
+#: ../../ops/bind-camera-images.rst:25 ../../ops/import-cameras.rst:63
 msgid "Use name only, no file extension when searching"
 msgstr "Використовувати лише назви, не враховуючи розширення файлів під час пошуку"
 
-#: ../../ops/bind-images.rst:30 ../../ops/import-cameras.rst:68
+#: ../../ops/bind-camera-images.rst:30 ../../ops/import-cameras.rst:68
 msgid "Use Object Name"
 msgstr "Назва Об'єкту"
 
-#: ../../ops/bind-images.rst:30 ../../ops/import-cameras.rst:68
+#: ../../ops/bind-camera-images.rst:30 ../../ops/import-cameras.rst:68
 msgid "Use camera object name for comparison"
 msgstr "Використовувати назву об'єкта камери для порівняння"
 
-#: ../../ops/bind-images.rst:35 ../../ops/import-cameras.rst:73
+#: ../../ops/bind-camera-images.rst:35 ../../ops/import-cameras.rst:73
 msgid "Use Camera Name"
 msgstr "Назва Камери"
 
-#: ../../ops/bind-images.rst:33 ../../ops/import-cameras.rst:71
+#: ../../ops/bind-camera-images.rst:33 ../../ops/import-cameras.rst:71
 msgid "Use camera data name for comparison"
 msgstr "Використовувати назву камери для порівняння"
 
-#: ../../ops/bind-images.rst:38 ../../ops/import-cameras.rst:76
+#: ../../ops/bind-camera-images.rst:38 ../../ops/import-cameras.rst:76
 msgid "Use Image Name"
 msgstr "Назва Зображення"
 
-#: ../../ops/bind-images.rst:38 ../../ops/import-cameras.rst:76
+#: ../../ops/bind-camera-images.rst:38 ../../ops/import-cameras.rst:76
 msgid "Use image data-block name for comparison"
 msgstr "Використовувати назву блоку даних зображення для порівняння"
 
-#: ../../ops/bind-images.rst:41 ../../ops/import-cameras.rst:79
+#: ../../ops/bind-camera-images.rst:41 ../../ops/import-cameras.rst:79
 msgid "Use Image File Name"
 msgstr "Назва Файлу Зображення"
 
-#: ../../ops/bind-images.rst:41 ../../ops/import-cameras.rst:79
+#: ../../ops/bind-camera-images.rst:41 ../../ops/import-cameras.rst:79
 msgid "Use image file name for comparison"
 msgstr "Використовувати назву файлу зображення для порівняння"
 
-#: ../../ops/data-cleanup.rst:2
-msgid "Data Cleanup"
-msgstr ""
-
-#: ../../ops/data-cleanup.rst:3
+#: ../../ops/cleanup-data.rst:1
 msgid "Cleanup existing data"
 msgstr ""
 
-#: ../../ops/data-cleanup.rst:7
+#: ../../ops/cleanup-data.rst:5 ../../ops/data-cleanup.rst:2
 msgid "Cleanup Data"
 msgstr "Очищення Даних"
 
-#: ../../ops/data-cleanup.rst:9
+#: ../../ops/cleanup-data.rst:7
 msgid "Delete object, mesh, material, texture, light and camera data-blocks"
 msgstr "Видалити об'єкти, сітки, матеріали, текстури, лампи та блоки даних камер"
 
-#: ../../ops/data-cleanup.rst:12
+#: ../../ops/cleanup-data.rst:10
 msgid "Cleanup Images"
 msgstr "Очистити Зображення"
 
-#: ../../ops/data-cleanup.rst:14
+#: ../../ops/cleanup-data.rst:12
 msgid "Delete all image data-blocks"
 msgstr "Видалити всі блоки даних зображень"
 
+#: ../../ops/create-new-canvas.rst:2
+msgid "Create New Canvas"
+msgstr "Створити Нове Полотно"
+
 #: ../../ops/ensure-canvas.rst:2
 msgid "Ensure Canvas"
-msgstr "Встановити Полотно"
+msgstr "Обрати Полотно"
 
 #: ../../ops/ensure-tool-settings.rst:2
 msgid "Ensure Tool Settings"
-msgstr ""
+msgstr "Налаштувати Інструмент"
 
 #: ../../ops/export-cameras.rst:2
 msgid "Export Cameras"
-msgstr ""
+msgstr "Експортувати Камери"
 
 #: ../../ops/export-cameras.rst:3
 msgid "Export camera data"
@@ -252,9 +252,13 @@ msgstr ""
 msgid "File Name"
 msgstr "Назва Файлу"
 
+#: ../../ops/image-quick-select.rst:1
+msgid "Select image"
+msgstr ""
+
 #: ../../ops/import-cameras.rst:2
 msgid "Import Cameras"
-msgstr ""
+msgstr "Імпортувати Камери"
 
 #: ../../ops/import-cameras.rst:3
 msgid "Import camera data"
@@ -262,7 +266,7 @@ msgstr ""
 
 #: ../../ops/import-scene.rst:2
 msgid "Import Scene"
-msgstr "Імпорт Сцени"
+msgstr "Імпортувати Сцену"
 
 #: ../../ops/import-scene.rst:3
 msgid "Import paint object"
@@ -276,7 +280,27 @@ msgstr "Тип"
 msgid "File type to be imported"
 msgstr "Тип файлу для імпорту"
 
+#: ../../ops/quick-select.rst:2
+msgid "Select Image"
+msgstr ""
+
+#: ../../ops/remove-image-from-bind-history.rst:2
+msgid "Remove Image from Bind History"
+msgstr "Видалити з Зображення з Історії"
+
+#: ../../ops/remove-image-from-bind-history.rst:3
+msgid "Remove item from image bind history"
+msgstr ""
+
 #: ../../ops/setup-context.rst:2
 msgid "Setup Context"
+msgstr "Налаштувати Контекст"
+
+#: ../../ops/show-preferences.rst:2
+msgid "Show Preferences"
+msgstr "Відкрити Налаштування"
+
+#: ../../ops/show-preferences.rst:3
+msgid "Camera Projection Painter user preferences"
 msgstr ""
 
