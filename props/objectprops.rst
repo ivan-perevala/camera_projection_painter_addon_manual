@@ -130,58 +130,84 @@ where `Mᵢⱼ` is an element of the rotation matrix
 RC Omega, Phi, Kappa
 ====================
 
+Representation of object orientation as Reality Capture Omega, Phi, Kappa Euler angles. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as Omega, Phi, Kappa
 
 Omega
 -----
 
+The object's omega value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:
+
+`ω = degrees(-atan2(M₀₀, M₀₁))`
+
+where `Mᵢⱼ` is an element of the rotation matrix
 
 Phi
 ---
 
+The object's phi value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:
+
+`φ = degrees(-asin(M₀₂))`
+
+where `Mᵢⱼ` is an element of the rotation matrix
 
 Kappa
 -----
 
+The object's kappa value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:
+
+`κ = degrees(atan2(M₁₂, M₂₂))
+
+where `Mᵢⱼ` is an element of the rotation matrix
 
 
 RC Rotation Component
 =====================
 
+Representation of object orientation as Reality Capture rotation component. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as rotation component
 
 Item: 1 (Row: 1, Column: 1)
 ---------------------------
 
+Corresponds to Blender rotation matrix negative value at column: 2, row: 1
 
 Item: 2 (Row: 1, Column: 2)
 ---------------------------
 
+Corresponds to Blender rotation matrix value at column: 1, row: 1
 
 Item: 3 (Row: 1, Column: 3)
 ---------------------------
 
+Corresponds to Blender rotation matrix value at column: 3, row: 1
 
 Item: 4 (Row: 2, Column: 1)
 ---------------------------
 
+Corresponds to Blender rotation matrix value at column: 2, row: 2
 
 Item: 5 (Row: 2, Column: 2)
 ---------------------------
 
+Corresponds to Blender rotation matrix negative value at column: 1, row: 2
 
 Item: 6 (Row: 2, Column: 3)
 ---------------------------
 
+Corresponds to Blender rotation matrix negative value at column: 3, row: 2
 
 Item: 7 (Row: 3, Column: 1)
 ---------------------------
 
+Corresponds to Blender rotation matrix value at column: 2, row: 3
 
 Item: 8 (Row: 3, Column: 2)
 ---------------------------
 
+Corresponds to Blender rotation matrix negative value at column: 1, row: 3
 
 Item: 9 (Row: 3, Column: 3)
 ---------------------------
 
+Corresponds to Blender rotation matrix negative value at column: 3, row: 3
 
 

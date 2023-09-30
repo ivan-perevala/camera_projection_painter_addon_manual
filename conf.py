@@ -16,7 +16,6 @@ master_doc = 'index'
 language = "uk"
 locale_dirs = ['locale/']
 gettext_compact = True
-gettext_additional_targets = ['p']
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]

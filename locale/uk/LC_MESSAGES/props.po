@@ -418,7 +418,7 @@ msgstr "RC Никання, Тангаж і Крен"
 
 #: ../../props/objectprops.rst:100
 msgid "Representation of object orientation as Reality Capture Heading, Pitch, Roll. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as Heading, Pitch, Roll"
-msgstr "Репрезентація повороту об'єкта у вигляді Reality Capture Heading, Pitch, Roll. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як Heading, Pitch, Roll"
+msgstr "Репрезентація повороту об'єкта у вигляді Reality Capture Никання, Тангаж, Крен. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як Никання, Тангаж, Крен"
 
 #: ../../props/objectprops.rst:103
 msgid "Heading"
@@ -433,7 +433,8 @@ msgid "`Heading = degrees(-atan2(M₁₁, M₀₁))`"
 msgstr "`Никання = degrees(-atan2(M₁₁, M₀₁))`"
 
 #: ../../props/objectprops.rst:109 ../../props/objectprops.rst:118
-#: ../../props/objectprops.rst:127
+#: ../../props/objectprops.rst:127 ../../props/objectprops.rst:142
+#: ../../props/objectprops.rst:151 ../../props/objectprops.rst:160
 msgid "where `Mᵢⱼ` is an element of the rotation matrix"
 msgstr "де `Mᵢⱼ` - елемент матриці повороту"
 
@@ -465,57 +466,125 @@ msgstr "`Крен = degrees(-atan2(M₂₀, M₂₂))`"
 msgid "RC Omega, Phi, Kappa"
 msgstr "RC Омега, Фі, Каппа"
 
-#: ../../props/objectprops.rst:135
+#: ../../props/objectprops.rst:133
+msgid "Representation of object orientation as Reality Capture Omega, Phi, Kappa Euler angles. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as Omega, Phi, Kappa"
+msgstr "Репрезентація повороту об'єкта у вигляді кутів Ейлера Reality Capture Омега, Фі, Каппа. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як Омега, Фі, Каппа"
+
+#: ../../props/objectprops.rst:136
 msgid "Omega"
 msgstr "Омега"
 
-#: ../../props/objectprops.rst:139
+#: ../../props/objectprops.rst:138
+msgid "The object's omega value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
+msgstr "Значення омега об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
+
+#: ../../props/objectprops.rst:140
+msgid "`ω = degrees(-atan2(M₀₀, M₀₁))`"
+msgstr "`ω = degrees(-atan2(M₀₀, M₀₁))`"
+
+#: ../../props/objectprops.rst:145
 msgid "Phi"
 msgstr "Фі"
 
-#: ../../props/objectprops.rst:143
+#: ../../props/objectprops.rst:147
+msgid "The object's phi value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
+msgstr "Значення фі об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
+
+#: ../../props/objectprops.rst:149
+msgid "`φ = degrees(-asin(M₀₂))`"
+msgstr "`φ = degrees(-asin(M₀₂))`"
+
+#: ../../props/objectprops.rst:154
 msgid "Kappa"
 msgstr "Каппа"
 
-#: ../../props/objectprops.rst:148
+#: ../../props/objectprops.rst:156
+msgid "The object's kappa value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
+msgstr "Значення каппа об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
+
+#: ../../props/objectprops.rst:158
+msgid "`κ = degrees(atan2(M₁₂, M₂₂))"
+msgstr "`κ = degrees(atan2(M₁₂, M₂₂))`"
+
+#: ../../props/objectprops.rst:164
 msgid "RC Rotation Component"
 msgstr "RC Компонент Повороту"
 
-#: ../../props/objectprops.rst:152
+#: ../../props/objectprops.rst:166
+msgid "Representation of object orientation as Reality Capture rotation component. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as rotation component"
+msgstr "Репрезентація повороту об'єкта у вигляді компоненту повороту Reality Capture. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як компонент повороту"
+
+#: ../../props/objectprops.rst:169
 msgid "Item: 1 (Row: 1, Column: 1)"
 msgstr "Значення: 1 (Рядок: 1, Колона: 1)"
 
-#: ../../props/objectprops.rst:156
+#: ../../props/objectprops.rst:171
+msgid "Corresponds to Blender rotation matrix negative value at column: 2, row: 1"
+msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 2, рядку: 1"
+
+#: ../../props/objectprops.rst:174
 msgid "Item: 2 (Row: 1, Column: 2)"
 msgstr "Значення: 2 (Рядок: 1, Колона: 2)"
 
-#: ../../props/objectprops.rst:160
+#: ../../props/objectprops.rst:176
+msgid "Corresponds to Blender rotation matrix value at column: 1, row: 1"
+msgstr "Відповідає значенню матриці повороту Blender в колоні: 1, рядку: 1"
+
+#: ../../props/objectprops.rst:179
 msgid "Item: 3 (Row: 1, Column: 3)"
 msgstr "Значення: 3 (Рядок: 1, Колона: 3)"
 
-#: ../../props/objectprops.rst:164
+#: ../../props/objectprops.rst:181
+msgid "Corresponds to Blender rotation matrix value at column: 3, row: 1"
+msgstr "Відповідає значенню матриці повороту Blender в колоні: 3, рядку: 1"
+
+#: ../../props/objectprops.rst:184
 msgid "Item: 4 (Row: 2, Column: 1)"
 msgstr "Значення: 4 (Рядок: 2, Колона: 1)"
 
-#: ../../props/objectprops.rst:168
+#: ../../props/objectprops.rst:186
+msgid "Corresponds to Blender rotation matrix value at column: 2, row: 2"
+msgstr "Відповідає значенню матриці повороту Blender в колоні: 2, рядку: 2"
+
+#: ../../props/objectprops.rst:189
 msgid "Item: 5 (Row: 2, Column: 2)"
 msgstr "Значення: 5 (Рядок: 2, Колона: 2)"
 
-#: ../../props/objectprops.rst:172
+#: ../../props/objectprops.rst:191
+msgid "Corresponds to Blender rotation matrix negative value at column: 1, row: 2"
+msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 1, рядку: 2"
+
+#: ../../props/objectprops.rst:194
 msgid "Item: 6 (Row: 2, Column: 3)"
 msgstr "Значення: 6 (Рядок: 2, Колона: 3)"
 
-#: ../../props/objectprops.rst:176
+#: ../../props/objectprops.rst:196
+msgid "Corresponds to Blender rotation matrix negative value at column: 3, row: 2"
+msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 3, рядку: 2"
+
+#: ../../props/objectprops.rst:199
 msgid "Item: 7 (Row: 3, Column: 1)"
 msgstr "Значення: 7 (Рядок: 3, Колона: 1)"
 
-#: ../../props/objectprops.rst:180
+#: ../../props/objectprops.rst:201
+msgid "Corresponds to Blender rotation matrix value at column: 2, row: 3"
+msgstr "Відповідає значенню матриці повороту Blender в колоні: 2, рядку: 3"
+
+#: ../../props/objectprops.rst:204
 msgid "Item: 8 (Row: 3, Column: 2)"
 msgstr "Значення: 8 (Рядок: 3, Колона: 2)"
 
-#: ../../props/objectprops.rst:184
+#: ../../props/objectprops.rst:206
+msgid "Corresponds to Blender rotation matrix negative value at column: 1, row: 3"
+msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 1, рядку: 3"
+
+#: ../../props/objectprops.rst:209
 msgid "Item: 9 (Row: 3, Column: 3)"
 msgstr "Значення: 9 (Рядок: 3, Колона: 3)"
+
+#: ../../props/objectprops.rst:211
+msgid "Corresponds to Blender rotation matrix negative value at column: 3, row: 3"
+msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 3, рядку: 3"
 
 #: ../../props/preferences.rst:2
 msgid "Preferences"
