@@ -95,3 +95,23 @@ Preset for software for which the operation will be performed
 Reality Capture
 
 
+Log Level
+=========
+
+The level of the log that will be output to the console. For log to file, this level value will not change
+
+Debug
+
+
+Info
+
+
+Warning
+
+
+Error
+
+
+Critical
+
+

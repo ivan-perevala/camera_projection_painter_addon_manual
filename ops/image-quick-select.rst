@@ -1,3 +1,3 @@
-Select image
+Quick image selection by object name
 
 

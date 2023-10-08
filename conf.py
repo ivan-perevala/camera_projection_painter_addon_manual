@@ -1,7 +1,8 @@
 
 project = "Camera Projection Painter"
-author = "Vlad Kuzmin (ssh4), Ivan Perevala (ivpe)"
+author = "Vlad Erium (ssh4), Ivan Perevala (ivpe)"
 version = "3.6.0"
+copyright = "2023 BlenderHQ"
 
 extensions = [
     "sphinx.ext.coverage",
@@ -13,9 +14,10 @@ extensions = [
 source_suffix = '.rst'
 master_doc = 'index'
 
-language = "uk"
+language = "en"
 locale_dirs = ['locale/']
 gettext_compact = True
+gettext_location = False
 
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]

@@ -1,6 +1,6 @@
 Import Scene
 ############
-Import paint object
+Import a scene from third-party software
 
 
 File Name

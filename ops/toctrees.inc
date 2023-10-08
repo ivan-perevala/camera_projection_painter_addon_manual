@@ -6,7 +6,7 @@
     ops/bind-camera-images
     ops/create-new-canvas
     ops/image-quick-select
-    ops/cleanup-data
+    ops/data-cleanup
     ops/ensure-canvas
     ops/ensure-tool-settings
     ops/export-cameras

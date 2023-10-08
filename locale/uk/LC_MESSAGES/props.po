@@ -1,999 +1,1024 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Camera Projection
-# Painter package.
+# Copyright (C) 2023 BlenderHQ
+# This file is distributed under the same license as the Camera Projection Painter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
 msgstr ""
 
-#: ../../props/cameraprops.rst:2
-msgid "Camera"
-msgstr "Камера"
 
-#: ../../props/cameraprops.rst:5 ../../props/cameraprops.rst:127
+msgid "Camera"
+msgstr ""
+
+
 msgid "Image"
 msgstr "Зображення"
 
-#: ../../props/cameraprops.rst:7
+
 msgid "Camera binded image. It will be used as a paint brush. Also, its size affects the distortion parameters in the pixel coordinate system (in which way - described in more detail for the corresponding parameters), and therefore - also the possibility of exporting to certain file formats"
 msgstr "Зображення пов'язане до камери. Буде використано як кисть для малювання. Його розмір впливає на пареметри дисторсії в піксельній системі координат (у який спосіб - детальніше описано для окремих параметрів), а значить - також на можливість експорту в певні формати файлів"
 
-#: ../../props/cameraprops.rst:10
+
 msgid "Millimeters Focal Length"
 msgstr "Фокальна Відстань в Міліметрах"
 
-#: ../../props/cameraprops.rst:12
+
 msgid "Focal length of the camera in millimeters. The value is stored and can be displayed with double precision"
 msgstr "Фокальна відстань камери у міліметрах. Значення зберігається і може бути відображене з подвійною точністю"
 
-#: ../../props/cameraprops.rst:15
+
 msgid "Pixels Focal Length"
 msgstr "Фокальна Відстань у Пікселях"
 
-#: ../../props/cameraprops.rst:17
+
 msgid "The focal length of the camera in pixels. The value can be displayed with double precision. Calculated by the formula:"
 msgstr "Фокальна відстань камери у пікселях. Значення може бути відображене з подвійною точністю. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:19
+
 msgid "`Pixels Focal Lens = F * P / S`"
 msgstr "`Pixels Focal Lens = F * P / S`"
 
-#: ../../props/cameraprops.rst:21
+
 msgid "where `F` is the focal length in millimeters, `P` is the larger side of the image, `S` is the size of the camera sensor in millimeters"
 msgstr "де `F` - фокальна відстань у міліметрах, `P` - більша сторона зображення, `S` - розмір сенсору камери у міліметрах"
 
-#: ../../props/cameraprops.rst:24
+
 msgid "Sensor"
 msgstr "Сенсор"
 
-#: ../../props/cameraprops.rst:26
+
 msgid "The size of the camera sensor in millimeters, taking into account the larger side of the attached image. This means that if the sensor fit option is set to horizontal - the width of the sensor will be used for calculations, for vertical fit type - height accordingly. These values can be set manually. But for when working with photogrammetric scenes, it is necessary to use the automatic type of sensor adjustment. In this case, if the image has a landscape orientation (or the sides are equal), the width of the sensor will be used, and in the case of a portrait - the height of the sensor. As you can see, there are opportunities for using non-standard workflows, but the main mode of operation is the automatic sensor type. Also note the camera-bound image, this is important for importing and exporting to some file formats. The value is stored and can be displayed with double precision"
 msgstr "Розмір сенсору камери у міліметрах, зважаючи на більшу сторону прив'язаного зображення. Це означає що якщо параметр підгонки сенсора встановлено на горизонтальний - буде використано ширину сенсора для обрахунків, для вертикального типу підгонки - відповідно висоту. Ці значення можна встановити вручну. Але для роботи саме з фотограметричними сценами необхідно використовувати автоматичний тип підгонки сенсора. В такому разі якщо зображення має альбомну орієнтацію (або сторони рівні) - буде використано ширину сенсора, а у випадку портретної - висоту. Як бачите, тут присутні можливості для використання нестандартних робочих процесів, але основним способом роботи є автоматичний тип сенсора. Також зважайте на наявність прив'язаного до камери зображення, це важливо для імпорту і експорту в деякі формати файлів. Значення зберігається і може бути відображене з подвійною точністю"
 
-#: ../../props/cameraprops.rst:29
+
 msgid "Millimeters Skew"
 msgstr "Зсув у Міліметрах"
 
-#: ../../props/cameraprops.rst:31
+
 msgid "The horizontal skew of the image in millimeters relative to its center, excluding principal deviation"
 msgstr "Горизонтальний зсув зображення у міліметрах відносно його центру без урахування відхилення"
 
-#: ../../props/cameraprops.rst:34
+
 msgid "Pixels Skew"
 msgstr "Зсув у Пікселях"
 
-#: ../../props/cameraprops.rst:36
+
 msgid "Horizontal skew of the image in pixels relative to its center without taking into account deviation. Calculated by the formula:"
 msgstr "Горизонтальний зсув зображення у пікселях відносно його центру без урахування відхилення. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:38
+
 msgid "`Pixels Skew = S * P`"
 msgstr "`Зсув = S * P`"
 
-#: ../../props/cameraprops.rst:40
+
 msgid "where `S` is the skew value in millimeters, `P` is the size of the larger side of the image"
 msgstr "де `S` - значення зсуву у міліметрах, `P` - розмір більшої сторони зображення"
 
-#: ../../props/cameraprops.rst:43
+
 msgid "Aspect Ratio"
 msgstr "Співвідношення Сторін"
 
-#: ../../props/cameraprops.rst:45
+
 msgid "Image aspect ratio correction factor. It means the ratio of the height of the image to its width - that is, values ​​greater than 1.0 will stretch it vertically, smaller values ​​will compress it"
 msgstr "Фактор корекції співвідношення сторін зображення. Мається на увазі співвідношення висоти зображення до його ширини - тобто значення більше 1.0 розтягнуть його по вертикалі, менші ж - стиснуть"
 
-#: ../../props/cameraprops.rst:48
+
 msgid "Millimeters Principal X"
 msgstr "Відхилення у Міліметрах X"
 
-#: ../../props/cameraprops.rst:50
+
 msgid "The deviation from the center of the image in millimeters along the X axis. Calculated by the formula:"
 msgstr "Відхилення від центру зображення у міліметрах за віссю X. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:52
+
 msgid "`Millimeters Principal X = Px * S`"
 msgstr "`Millimeters Principal X = Px * S`"
 
-#: ../../props/cameraprops.rst:54
+
 msgid "where `Px' is the deviation factor, `S' is the size of the camera sensor"
 msgstr "де `Px` - фактор відхилення, `S` - розмір сенсора камери"
 
-#: ../../props/cameraprops.rst:57
+
 msgid "Millimeters Principal Y"
 msgstr "Відхилення у Міліметрах Y"
 
-#: ../../props/cameraprops.rst:59
+
 msgid "The deviation from the center of the image in millimeters along the Y axis. Calculated by the formula:"
 msgstr "Відхилення від центру зображення у міліметрах за віссю Y. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:61
+
 msgid "`Millimeters Principal Y = Py * S`"
 msgstr "`Millimeters Principal Y = Py * S`"
 
-#: ../../props/cameraprops.rst:63
+
 msgid "where `Py' is the deviation factor, `S' is the size of the camera sensor"
 msgstr "де `Py` - фактор відхилення, `S` - розмір сенсора камери"
 
-#: ../../props/cameraprops.rst:66
+
 msgid "Pixels Principal"
 msgstr "Відхилення у Пікселях"
 
-#: ../../props/cameraprops.rst:68
+
 msgid "The deviation from the center of the image in pixels. Calculated by the formula:"
 msgstr "Відхилення від центру зображення у пікселях. Обраховується за формулою:"
 
-#: ../../props/cameraprops.rst:70
+
 msgid "`Pixels Principal = Pxy * L + (Sxy / 2)`"
 msgstr "`Pixels Principal = Pxy * L + (Sxy / 2)`"
 
-#: ../../props/cameraprops.rst:72
+
 msgid "where `Pxy` is the deviation factor, `L` is the larger side of the image, `Sxy` is the image size"
 msgstr "де `Pxy` - фактор відхилення, `L` - більша сторона зображення, `Sxy` - розмір зображення"
 
-#: ../../props/cameraprops.rst:75
+
 msgid "Distortion Model"
 msgstr "Модель Дисторсії"
 
-#: ../../props/cameraprops.rst:77
+
 msgid "Mathematical model of lens distortion. Note that distortion coefficients may be inconsistent between different distortion models"
 msgstr "Математична модель дисторсії лінзи. Майте на увазі що коефіцієнти дисторсії можуть бути несумісними між різними моделями дисторсії"
 
-#: ../../props/cameraprops.rst:80
+
 msgid "None"
 msgstr "Немає"
 
-#: ../../props/cameraprops.rst:80
+
 msgid "No distortion, only correction"
 msgstr "Без дисторсії, лише корекція"
 
-#: ../../props/cameraprops.rst:83
+
 msgid "Division"
 msgstr "Ділення"
 
-#: ../../props/cameraprops.rst:83
+
 msgid "The division model with two radial distortion coefficients. This is the simplest mathematical model of linear division of image coordinates, which can be used if the distortion is small, for example, for scenes where the shooting took place close to the object"
 msgstr "Модель ділення з двома коефіцієнтами радіальної дисторсії. Це найпростіша математична модель лінійного поділу координат зображення, яку можна використати якщо дисторсія невелика, наприклад для сцен де зйомка відбувалася близько до об'єкта"
 
-#: ../../props/cameraprops.rst:86
+
 msgid "Polynomial"
 msgstr "Поліноміальна"
 
-#: ../../props/cameraprops.rst:86
+
 msgid "A polynomial model with four radial and two tangential distortion coefficients. It uses polynomial functions instead of simple linear division, so it is a more accurate and flexible model that can be used for complex scenes with significant lens distortions"
 msgstr "Поліноміальна модель з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії. Вона використовує поліноміальні функції замість простого лінійного ділення тому це більш точна і гнучка модель, яку можна використати для комплексних сцен зі значними спотворення об'єктива"
 
-#: ../../props/cameraprops.rst:89
+
 msgid "Brown-Conrady"
 msgstr "Брауна-Конраді"
 
-#: ../../props/cameraprops.rst:89
+
 msgid "Brown-Conrady polynomial model with four with four radial and two tangential distortion coefficients. It is the most accurate and flexible model that can be used for complex scenes with significant lens distortions. In general, it is used when a simple linear division model is no longer sufficient"
 msgstr "Поліноміальна модель Брауна-Конраді з чотирма радіальними і двома тангенціальними коефіцієнтами дисторсії. Це більш точна і гнучка модель, яку можна використати для комплексних сцен зі значними спотворення об'єктива. Загалом, її використовують коли моделі простого лінійного ділення вже не достатньо"
 
-#: ../../props/cameraprops.rst:92
+
 msgid "K1"
 msgstr ""
 
-#: ../../props/cameraprops.rst:94
+
 msgid "Represents linear radial distortion. It corrects or introduces distortion that increases linearly with radial distance"
 msgstr "Представляє лінійне радіальне спотворення. Він коригує або вносить викривлення, що лінійно зростає з радіальною відстанню"
 
-#: ../../props/cameraprops.rst:97
+
 msgid "K2"
 msgstr ""
 
-#: ../../props/cameraprops.rst:99
+
 msgid "Represents cubic radial distortion. It corrects or introduces distortion that increases with the cube of the radial distance"
 msgstr "Представляє кубічне радіальне викривлення. Він коригує або вносить викривлення, що збільшується разом із кубом радіальної відстані"
 
-#: ../../props/cameraprops.rst:102
+
 msgid "K3"
 msgstr ""
 
-#: ../../props/cameraprops.rst:104
+
 msgid "Represents quintic (fifth-order) radial distortion. It corrects or introduces distortion that increases with the fifth power of the radial distance"
 msgstr "Представляє квінтичне (п’ятого порядку) радіальне викривлення. Він виправляє або вносить викривлення, що збільшується з п’ятим ступенем радіальної відстані"
 
-#: ../../props/cameraprops.rst:107
+
 msgid "K4"
 msgstr ""
 
-#: ../../props/cameraprops.rst:109
+
 msgid "Represents seventh-order radial distortion. It corrects or introduces distortion that increases with the seventh power of the radial distance"
 msgstr "Представляє радіальне викривлення сьомого порядку. Він виправляє або вносить викривлення, що збільшується із збільшенням радіальної відстані в сьомому ступені"
 
-#: ../../props/cameraprops.rst:112
+
 msgid "P1"
 msgstr ""
 
-#: ../../props/cameraprops.rst:114
+
 msgid "Represents linear tangential distortion. Corrects or introduces distortion that increases linearly with the distance from the image center"
 msgstr "Представляє лінійне тангенціальне спотворення. Виправляє або вносить спотворення, що лінійно зростає з відстанню від центру зображення"
 
-#: ../../props/cameraprops.rst:117
+
 msgid "P2"
 msgstr ""
 
-#: ../../props/cameraprops.rst:119
+
 msgid "Represents quadratic tangential distortion. Corrects or introduces distortion that increases with the square of the distance from the image center"
 msgstr "Представляє квадратичне тангенціальне викривлення. Виправляє або вносить спотворення, що збільшується з квадратом відстані від центру зображення"
 
-#: ../../props/cameraprops.rst:122
+
 msgid "Bind History"
 msgstr "Історія Зображень"
 
-#: ../../props/cameraprops.rst:124
+
 msgid "Images that were previously binded to this camera. The option is used if, for example, it is necessary to draw some area from another image, and then return to the previous one. Of course, this is not a standard workflow, but it is used sometimes"
 msgstr "Зображення що раніше були пов'язані з цією камерою. Опція використовується якщо наприклад, необхідно намалювати якусь ділянку з іншого зображення, а потім повернутися до попереднього. Звісно, це не стандартний спосіб роботи але інколи використовується"
 
-#: ../../props/cameraprops.rst:129
+
 msgid "The image that was previously attached to this camera"
 msgstr "Зображення що раніше було прив'язане до цієї камери"
 
-#: ../../props/cameraprops.rst:133
+
 msgid "RC Metadata XMP"
 msgstr "RC Метадані XMP"
 
-#: ../../props/cameraprops.rst:135
+
 msgid "Reality Capture \"Metadata XMP\" properties"
 msgstr "Параметри Reality Capture \"Метадані XMP\""
 
-#: ../../props/cameraprops.rst:138
+
 msgid "Export Mode"
 msgstr "Режим Експорту"
 
-#: ../../props/cameraprops.rst:140
+
 msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses"
 msgstr "Залежно від того наскільки Ви довіряєте реєстрації, можна обрати відповідні опції або ж не експортувати позиції камер"
 
-#: ../../props/cameraprops.rst:142
+
 msgid "Do Not Export"
 msgstr "Не Експортувати"
 
-#: ../../props/cameraprops.rst:146
+
 msgid "Draft"
 msgstr "Чернетка"
 
-#: ../../props/cameraprops.rst:146
+
 msgid "This will treat poses as an imperfect draft to be optimized in the future. The draft mode functions also as a flight log"
 msgstr "Позначає позиції як не досконалі чернетки що потрібно оптимізувати в майбутньому. Режим чернетки також може використовуватися як лог польоту"
 
-#: ../../props/cameraprops.rst:149
+
 msgid "Exact"
 msgstr "Чистовик"
 
-#: ../../props/cameraprops.rst:149
+
 msgid "If you trust the alignment absolutely. By choosing this option, you are saying to the application that poses are precise, but the global position, orientation, and scale is not known"
 msgstr "Якщо Ви повністю довіряєте вирівнюванню. Обираючи цю опцію, Ви вказуєте аплікації що позиції є прецезійними, але глобальні положення, орієнтація і масштаб не відомі"
 
-#: ../../props/cameraprops.rst:152
+
 msgid "Locked"
 msgstr "Заблокований Чистовик"
 
-#: ../../props/cameraprops.rst:152
+
 msgid "This is the same as the exact option with the difference that the camera position and calibration will not be changed, when locked"
 msgstr "Те ж саме що і чистовик але положення камер і параметри калібрації не буде змінено"
 
-#: ../../props/cameraprops.rst:155
+
 msgid "Calibration Group"
 msgstr "Група Калібрації"
 
-#: ../../props/cameraprops.rst:157
+
 msgid "By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters"
 msgstr "Групою ми зазначаємо що у всіх зображень у цій групі однакові властивості калібрації, тобто однакова фокальна відстань, однакове відхилення від центру, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
 
-#: ../../props/cameraprops.rst:160
+
 msgid "Distortion Group"
 msgstr "Група Дисторсії"
 
-#: ../../props/cameraprops.rst:162
+
 msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
 msgstr "Групою ми зазначаємо що у всіх зображень у цій групі однакові властивості дисторсії, тобто однакові коефіцієнти дисторсії, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
 
-#: ../../props/cameraprops.rst:165
+
 msgid "In Texturing"
 msgstr "Для Текстури"
 
-#: ../../props/cameraprops.rst:167
+
 msgid "Whether to use an image to create an object texture"
 msgstr "Чи використовувати зображення для створення текстури об'єкта"
 
-#: ../../props/cameraprops.rst:170
+
 msgid "In Meshing"
 msgstr "Для Сітки"
 
-#: ../../props/cameraprops.rst:172
+
 msgid "Whether to use an image to create the object mesh data"
 msgstr "Чи використовувати зображення для створення сітки об'єкта"
 
-#: ../../props/objectprops.rst:2
-msgid "Object"
-msgstr "Об'єкт"
 
-#: ../../props/objectprops.rst:5
+msgid "Object"
+msgstr ""
+
+
 msgid "Rotation Matrix"
 msgstr "Матриця Повороту"
 
-#: ../../props/objectprops.rst:7
+
 msgid "Row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system. Properties are stored as double-precision floats, according to the IEEE-754 standard, so imported values ​​will not lose precision"
 msgstr "Матриця повороту 3х3 по рядках у системі координат Blender (Картезіанській). Властивості зберігаються як дроби з подвійною точністю, відповідно до стандарту IEEE-754, тому імпортовані значення не втратять точності"
 
-#: ../../props/objectprops.rst:10
+
 msgid "Row: 1, Column: 1"
 msgstr "Рядок: 1, Колона: 1"
 
-#: ../../props/objectprops.rst:12
+
 msgid "Represents 1 row and 1 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
 msgstr "Відповідає 1 рядку і 1 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
 
-#: ../../props/objectprops.rst:15
+
 msgid "Row: 1, Column: 2"
 msgstr "Рядок: 1, Колона: 2"
 
-#: ../../props/objectprops.rst:17
+
 msgid "Represents 1 row and 2 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
 msgstr "Відповідає 1 рядку і 2 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
 
-#: ../../props/objectprops.rst:20
+
 msgid "Row: 1, Column: 3"
 msgstr "Рядок: 1, Колона: 3"
 
-#: ../../props/objectprops.rst:22
+
 msgid "Represents 1 row and 3 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
 msgstr "Відповідає 1 рядку і 3 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
 
-#: ../../props/objectprops.rst:25
+
 msgid "Row: 2, Column: 1"
 msgstr "Рядок: 2, Колона: 1"
 
-#: ../../props/objectprops.rst:27
+
 msgid "Represents 2 row and 1 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
 msgstr "Відповідає 2 рядку і 1 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
 
-#: ../../props/objectprops.rst:30
+
 msgid "Row: 2, Column: 2"
 msgstr "Рядок: 2, Колона: 2"
 
-#: ../../props/objectprops.rst:32
+
 msgid "Represents 2 row and 2 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
 msgstr "Відповідає 2 рядку і 2 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
 
-#: ../../props/objectprops.rst:35
+
 msgid "Row: 2, Column: 3"
 msgstr "Рядок: 2, Колона: 3"
 
-#: ../../props/objectprops.rst:37
+
 msgid "Represents 2 row and 3 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
 msgstr "Відповідає 2 рядку і 3 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
 
-#: ../../props/objectprops.rst:40
+
 msgid "Row: 3, Column: 1"
 msgstr "Рядок: 3, Колона: 1"
 
-#: ../../props/objectprops.rst:42
+
 msgid "Represents 3 row and 1 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
 msgstr "Відповідає 3 рядку і 1 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
 
-#: ../../props/objectprops.rst:45
+
 msgid "Row: 3, Column: 2"
 msgstr "Рядок: 3, Колона: 2"
 
-#: ../../props/objectprops.rst:47
+
 msgid "Represents 3 row and 2 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
 msgstr "Відповідає 3 рядку і 2 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
 
-#: ../../props/objectprops.rst:50
+
 msgid "Row: 3, Column: 3"
 msgstr "Рядок: 3, Колона: 3"
 
-#: ../../props/objectprops.rst:52
+
 msgid "Represents 3 row and 3 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
 msgstr "Відповідає 3 рядку і 3 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
 
-#: ../../props/objectprops.rst:56
+
 msgid "Location"
 msgstr "Розташування"
 
-#: ../../props/objectprops.rst:58
+
 msgid "The position of the object in Blender's Cartesian coordinate system. Properties are stored as double-precision floats, according to the IEEE-754 standard, so imported values ​​will not lose precision"
 msgstr "Розташування об'єкту у Картезіанській системі координат Blender. Властивості зберігаються як дроби з подвійною точністю, відповідно до стандарту IEEE-754, тому імпортовані значення не втратять точності"
 
-#: ../../props/objectprops.rst:61 ../../props/objectprops.rst:82
+
 msgid "X"
 msgstr ""
 
-#: ../../props/objectprops.rst:63
+
 msgid "The position of the object in Blender's Cartesian coordinate system by X axis"
 msgstr "Розташування об'єкту у Картезіанській системі координат Blender за віссю X"
 
-#: ../../props/objectprops.rst:66 ../../props/objectprops.rst:87
+
 msgid "Y"
 msgstr ""
 
-#: ../../props/objectprops.rst:68
+
 msgid "The position of the object in Blender's Cartesian coordinate system by Y axis"
 msgstr "Розташування об'єкту у Картезіанській системі координат Blender за віссю Y"
 
-#: ../../props/objectprops.rst:71
+
 msgid "Z"
 msgstr ""
 
-#: ../../props/objectprops.rst:73
+
 msgid "The position of the object in Blender's Cartesian coordinate system by Z axis"
 msgstr "Розташування об'єкту у Картезіанській системі координат Blender за віссю Z"
 
-#: ../../props/objectprops.rst:77
+
 msgid "RC X, Y, Alt"
 msgstr "RC X, Y, Alt"
 
-#: ../../props/objectprops.rst:79
+
 msgid "Representation of object position as Reality Capture X, Y, Alt coordinates. Values ​​are stored in double precision according to the IEEE-754 standard in Blender's coordinate system, but can also be displayed in double precision and converted as X, Y, Alt"
 msgstr "Репрезентація розташування об'єкта як координати Reality Capture X, Y, Alt. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у координатній системі Blender, але їх також може бути відображено з подвійною точністю і конвертовано як X, Y, Alt"
 
-#: ../../props/objectprops.rst:84
+
 msgid "The location of the object in the Reality Capture coordinate system along the X-axis. Corresponds to the value along the negative Y-axis in Blender's Cartesian coordinate system"
 msgstr "Розташування об'єкту у координатній системі Reality Capture за віссю X. Відповідає значенню за негативною віссю Y у картезіанській системі координат Blender"
 
-#: ../../props/objectprops.rst:89
+
 msgid "The location of the object in the Reality Capture coordinate system along the Y-axis. Corresponds to the value along the X-axis in Blender's Cartesian coordinate system"
 msgstr "Розташування об'єкту у координатній системі Reality Capture за віссю Y. Відповідає значенню за віссю X у картезіанській системі координат Blender"
 
-#: ../../props/objectprops.rst:92
+
 msgid "Alt"
 msgstr ""
 
-#: ../../props/objectprops.rst:94
+
 msgid "The location of the object in the Reality Capture coordinate system along the Alt-axis. Corresponds to the value along the X-axis in Blender's Cartesian coordinate system"
 msgstr "Розташування об'єкту у координатній системі Reality Capture за віссю Alt. Відповідає значенню за віссю Z у картезіанській системі координат Blender"
 
-#: ../../props/objectprops.rst:98
+
 msgid "RC Heading, Pitch, Roll"
 msgstr "RC Никання, Тангаж і Крен"
 
-#: ../../props/objectprops.rst:100
+
 msgid "Representation of object orientation as Reality Capture Heading, Pitch, Roll. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as Heading, Pitch, Roll"
 msgstr "Репрезентація повороту об'єкта у вигляді Reality Capture Никання, Тангаж, Крен. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як Никання, Тангаж, Крен"
 
-#: ../../props/objectprops.rst:103
+
 msgid "Heading"
 msgstr "Никання"
 
-#: ../../props/objectprops.rst:105
+
 msgid "The object's heading value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
 msgstr "Значення никання об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
 
-#: ../../props/objectprops.rst:107
+
 msgid "`Heading = degrees(-atan2(M₁₁, M₀₁))`"
 msgstr "`Никання = degrees(-atan2(M₁₁, M₀₁))`"
 
-#: ../../props/objectprops.rst:109 ../../props/objectprops.rst:118
-#: ../../props/objectprops.rst:127 ../../props/objectprops.rst:142
-#: ../../props/objectprops.rst:151 ../../props/objectprops.rst:160
+
 msgid "where `Mᵢⱼ` is an element of the rotation matrix"
 msgstr "де `Mᵢⱼ` - елемент матриці повороту"
 
-#: ../../props/objectprops.rst:112
+
 msgid "Pitch"
 msgstr "Тангаж"
 
-#: ../../props/objectprops.rst:114
+
 msgid "The object's pitch value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
 msgstr "Значення тангажу об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
 
-#: ../../props/objectprops.rst:116
+
 msgid "`Pitch = degrees(asin(M₂₁))`"
 msgstr "`Тангаж = degrees(asin(M₂₁))`"
 
-#: ../../props/objectprops.rst:121
+
 msgid "Roll"
 msgstr "Крен"
 
-#: ../../props/objectprops.rst:123
+
 msgid "The object's roll value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
 msgstr "Значення крену об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
 
-#: ../../props/objectprops.rst:125
+
 msgid "`Roll = degrees(-atan2(M₂₀, M₂₂))`"
 msgstr "`Крен = degrees(-atan2(M₂₀, M₂₂))`"
 
-#: ../../props/objectprops.rst:131
+
 msgid "RC Omega, Phi, Kappa"
 msgstr "RC Омега, Фі, Каппа"
 
-#: ../../props/objectprops.rst:133
+
 msgid "Representation of object orientation as Reality Capture Omega, Phi, Kappa Euler angles. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as Omega, Phi, Kappa"
 msgstr "Репрезентація повороту об'єкта у вигляді кутів Ейлера Reality Capture Омега, Фі, Каппа. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як Омега, Фі, Каппа"
 
-#: ../../props/objectprops.rst:136
+
 msgid "Omega"
 msgstr "Омега"
 
-#: ../../props/objectprops.rst:138
+
 msgid "The object's omega value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
 msgstr "Значення омега об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
 
-#: ../../props/objectprops.rst:140
+
 msgid "`ω = degrees(-atan2(M₀₀, M₀₁))`"
 msgstr "`ω = degrees(-atan2(M₀₀, M₀₁))`"
 
-#: ../../props/objectprops.rst:145
+
 msgid "Phi"
 msgstr "Фі"
 
-#: ../../props/objectprops.rst:147
+
 msgid "The object's phi value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
 msgstr "Значення фі об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
 
-#: ../../props/objectprops.rst:149
+
 msgid "`φ = degrees(-asin(M₀₂))`"
 msgstr "`φ = degrees(-asin(M₀₂))`"
 
-#: ../../props/objectprops.rst:154
+
 msgid "Kappa"
 msgstr "Каппа"
 
-#: ../../props/objectprops.rst:156
+
 msgid "The object's kappa value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
 msgstr "Значення каппа об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
 
-#: ../../props/objectprops.rst:158
+
 msgid "`κ = degrees(atan2(M₁₂, M₂₂))"
 msgstr "`κ = degrees(atan2(M₁₂, M₂₂))`"
 
-#: ../../props/objectprops.rst:164
+
 msgid "RC Rotation Component"
 msgstr "RC Компонент Повороту"
 
-#: ../../props/objectprops.rst:166
+
 msgid "Representation of object orientation as Reality Capture rotation component. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as rotation component"
 msgstr "Репрезентація повороту об'єкта у вигляді компоненту повороту Reality Capture. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як компонент повороту"
 
-#: ../../props/objectprops.rst:169
+
 msgid "Item: 1 (Row: 1, Column: 1)"
 msgstr "Значення: 1 (Рядок: 1, Колона: 1)"
 
-#: ../../props/objectprops.rst:171
+
 msgid "Corresponds to Blender rotation matrix negative value at column: 2, row: 1"
 msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 2, рядку: 1"
 
-#: ../../props/objectprops.rst:174
+
 msgid "Item: 2 (Row: 1, Column: 2)"
 msgstr "Значення: 2 (Рядок: 1, Колона: 2)"
 
-#: ../../props/objectprops.rst:176
+
 msgid "Corresponds to Blender rotation matrix value at column: 1, row: 1"
 msgstr "Відповідає значенню матриці повороту Blender в колоні: 1, рядку: 1"
 
-#: ../../props/objectprops.rst:179
+
 msgid "Item: 3 (Row: 1, Column: 3)"
 msgstr "Значення: 3 (Рядок: 1, Колона: 3)"
 
-#: ../../props/objectprops.rst:181
+
 msgid "Corresponds to Blender rotation matrix value at column: 3, row: 1"
 msgstr "Відповідає значенню матриці повороту Blender в колоні: 3, рядку: 1"
 
-#: ../../props/objectprops.rst:184
+
 msgid "Item: 4 (Row: 2, Column: 1)"
 msgstr "Значення: 4 (Рядок: 2, Колона: 1)"
 
-#: ../../props/objectprops.rst:186
+
 msgid "Corresponds to Blender rotation matrix value at column: 2, row: 2"
 msgstr "Відповідає значенню матриці повороту Blender в колоні: 2, рядку: 2"
 
-#: ../../props/objectprops.rst:189
+
 msgid "Item: 5 (Row: 2, Column: 2)"
 msgstr "Значення: 5 (Рядок: 2, Колона: 2)"
 
-#: ../../props/objectprops.rst:191
+
 msgid "Corresponds to Blender rotation matrix negative value at column: 1, row: 2"
 msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 1, рядку: 2"
 
-#: ../../props/objectprops.rst:194
+
 msgid "Item: 6 (Row: 2, Column: 3)"
 msgstr "Значення: 6 (Рядок: 2, Колона: 3)"
 
-#: ../../props/objectprops.rst:196
+
 msgid "Corresponds to Blender rotation matrix negative value at column: 3, row: 2"
 msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 3, рядку: 2"
 
-#: ../../props/objectprops.rst:199
+
 msgid "Item: 7 (Row: 3, Column: 1)"
 msgstr "Значення: 7 (Рядок: 3, Колона: 1)"
 
-#: ../../props/objectprops.rst:201
+
 msgid "Corresponds to Blender rotation matrix value at column: 2, row: 3"
 msgstr "Відповідає значенню матриці повороту Blender в колоні: 2, рядку: 3"
 
-#: ../../props/objectprops.rst:204
+
 msgid "Item: 8 (Row: 3, Column: 2)"
 msgstr "Значення: 8 (Рядок: 3, Колона: 2)"
 
-#: ../../props/objectprops.rst:206
+
 msgid "Corresponds to Blender rotation matrix negative value at column: 1, row: 3"
 msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 1, рядку: 3"
 
-#: ../../props/objectprops.rst:209
+
 msgid "Item: 9 (Row: 3, Column: 3)"
 msgstr "Значення: 9 (Рядок: 3, Колона: 3)"
 
-#: ../../props/objectprops.rst:211
+
 msgid "Corresponds to Blender rotation matrix negative value at column: 3, row: 3"
 msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 3, рядку: 3"
 
-#: ../../props/preferences.rst:2
+
 msgid "Preferences"
 msgstr ""
 
-#: ../../props/preferences.rst:5
+
 msgid "Tab"
 msgstr ""
 
-#: ../../props/preferences.rst:7
+
 msgid "Active tab for viewing user preferences"
 msgstr "Активна вкладка для перегляду користувацьких налаштувань"
 
-#: ../../props/preferences.rst:10
+
 msgid "Appearance Section"
 msgstr "Секція Відображення"
 
-#: ../../props/preferences.rst:12
+
 msgid "Active appearance section"
 msgstr "Секція Відображення"
 
-#: ../../props/preferences.rst:15
+
 msgid "Viewport"
 msgstr "Вікно Перегляду"
 
-#: ../../props/preferences.rst:15
+
 msgid "Common viewport settings"
 msgstr "Загальні налаштування вікна перегляду"
 
-#: ../../props/preferences.rst:18
+
 msgid "Anti-Aliasing"
 msgstr "Згладжування"
 
-#: ../../props/preferences.rst:18
+
 msgid "Anti-aliasing settings"
 msgstr "Налаштування згладжування"
 
-#: ../../props/preferences.rst:21
-msgid "Info Section"
-msgstr "Інформація"
 
-#: ../../props/preferences.rst:23
+msgid "Info Section"
+msgstr ""
+
+
 msgid "Active information section"
 msgstr "Активна інформаційна секція"
 
-#: ../../props/preferences.rst:26
+
 msgid "Updates"
 msgstr "Оновлення"
 
-#: ../../props/preferences.rst:26
+
 msgid "Information about available updates. Here you can check for a new release, review the release notes, and update the addon"
 msgstr "Інформація про наявність оновлень. Тут можна перевірити наявність оновлень, прочитати замітки щодо випуску а також оновити доповнення"
 
-#: ../../props/preferences.rst:29
-msgid "Readme"
-msgstr "Нотатки"
 
-#: ../../props/preferences.rst:29
+msgid "Readme"
+msgstr ""
+
+
 msgid "Notes that can help you start using the addon, for example, if there is no internet connection"
 msgstr "Замітки що можуть допомогти почати використовувати доповнення, наприклад якщо відсутнє підключення до інтернету"
 
-#: ../../props/preferences.rst:32
-msgid "Credits"
-msgstr "Подяка"
 
-#: ../../props/preferences.rst:32
+msgid "Credits"
+msgstr ""
+
+
 msgid "Thanks to those involved in creating the addon"
 msgstr "Подяка причетним до створення доповнення"
 
-#: ../../props/preferences.rst:35
+
 msgid "Links"
 msgstr ""
 
-#: ../../props/preferences.rst:35
+
 msgid "Useful links to online resources that can help you use the addon"
 msgstr "Корисні посилання на онлайн ресурси які можуть допомогти користуватися доповненням"
 
-#: ../../props/preferences.rst:38
+
 msgid "License"
 msgstr ""
 
-#: ../../props/preferences.rst:38
+
 msgid "Addon license information"
 msgstr "Інформація про ліцензію доповнення"
 
-#: ../../props/preferences.rst:41
+
 msgid "Use Mesh Preview"
 msgstr "Відображення Прев'ю Сітки"
 
-#: ../../props/preferences.rst:43
+
 msgid "Use mesh preview for brush and inspection. This option can be useful to significantly reduce the use of video memory, for example, if the purpose of using the addon is only to import and export cameras. The current implementation of Blender forces the display to save the object's data and re-render it, just to show the brush preview. Of course, this is convenient, but it significantly increases the load on the system. Therefore, if it is not critical for you to see a preview of the brush you are drawing with, you can disable the preview"
 msgstr "Чи використовувати попередній перегляд для кисті. Опція може бути корисною для того щоб значно зменшити використання відеопам'яті, наприклад, якщо доповнення використовується лише для імпорту і експорту камер. Поточна імплементація Blender змушує додатково зберігати дані об'єкту і повторно їх відображувати, лише для того аби показати попередній перегляд кисті. Звісно, це зручно але значно збільшує завантаження системи. Тому якщо відображення попереднього перегляду кисті не критичне, його можна просто вимкнути"
 
-#: ../../props/preferences.rst:46
+
 msgid "Use Previews"
 msgstr "Попередній Перегляд"
 
-#: ../../props/preferences.rst:48
+
 msgid "Use image previews. Whether to generate and display image previews in the viewport. This does not significantly increase the amount of video memory, but it can cause small friezes in the viewport. The generation system works according to the principle of displaying the necessary previews. That is, all camera frames in the observer's field of view will be added to the render queue. Of course, the faster you read data from the disk, the faster it will be generated. The camera on which the cursor is hovered on is always added to render queue first"
 msgstr "Використовувати попередній перегляд зображень. Чи генерувати і відображувати попередній перегляд зображень у вікні перегляду. Це не надто збільшить кількість використаної відеопам'яті, проте може спричинити незначні переривання у роботі вікна перегляду."
 
-#: ../../props/preferences.rst:51
+
 msgid "Dithering Strength"
 msgstr "Сила дизерингу"
 
-#: ../../props/preferences.rst:53
+
 msgid "8x8 Bayer dithering strength. The resolution of the previews is rather small - 128x128 pixels. Of course, this add-on performs smoothing of the generated previews, but for a clearer understanding of what is shown, you can use dithering and mix it with the original preview"
 msgstr "Сила дизерингу Байера 8х8. Роздільна здатність зображень попереднього перегляду є доволі малою - 128х128 пікселів. Звісно, доповнення виконує згладжування згенерованих прев'ю, але для покращення читальності відображеного, можна використати дизеринг і змішати його з оригінальним прев'ю"
 
-#: ../../props/preferences.rst:56
+
 msgid "Smooth Previews"
 msgstr "Згладжування Попереднього Перегляду"
 
-#: ../../props/preferences.rst:58
+
 msgid "Use fast approximated anti-aliasing for preview images. Blender generates previews as Nearest, so readability is lost. This option does not add more data from the original image but performs smoothing and thus makes it more readable"
 msgstr ""
 
-#: ../../props/preferences.rst:61
+
 msgid "Cameras Transparency"
 msgstr "Прозорість Камер"
 
-#: ../../props/preferences.rst:63
+
 msgid "Transparency of cameras in the viewport."
 msgstr "Прозорість камер у вікні перегляду"
 
-#: ../../props/preferences.rst:66
+
 msgid "Tooltip Preview Size"
 msgstr "Розмір Прев'ю Підказки"
 
-#: ../../props/preferences.rst:68
+
 msgid "The size of the preview image in the tooltip. Does not affect the quality of the displayed preview, only its size"
 msgstr "Розмір зображення попереднього перегляду в підказці. Не впливає на якість зображень попереднього перегляду, лише на їх розмір."
 
-#: ../../props/preferences.rst:71
+
 msgid "Normal"
 msgstr "Нормальний"
 
-#: ../../props/preferences.rst:71
+
 msgid "Standard size, 128x128 pixels"
 msgstr "Стандартний розмір, 128х128 пікселів"
 
-#: ../../props/preferences.rst:74
+
 msgid "Large"
 msgstr "Збільшений"
 
-#: ../../props/preferences.rst:74
+
 msgid "Stretched to double size"
 msgstr "Двічі розтягнутий стандартний розмір"
 
-#: ../../props/preferences.rst:77
+
 msgid "Tooltip Position"
 msgstr "Розташування Підказки"
 
-#: ../../props/preferences.rst:79
+
 msgid "The location of the pop-up tooltip with information about the camera data on which the cursor is hovered"
 msgstr "Розташування плаваючої підказки з інформацією про дані камери на яку наведено курсор"
 
-#: ../../props/preferences.rst:82
+
 msgid "Static"
 msgstr "Статична"
 
-#: ../../props/preferences.rst:82
+
 msgid "Appears near the brush and remains in the place where it appeared"
 msgstr "З'являється поблизу кисті і залишається в тому місці де з'явилась"
 
-#: ../../props/preferences.rst:85
+
 msgid "Floating"
 msgstr "Плаваюча"
 
-#: ../../props/preferences.rst:85
+
 msgid "Appears and follows the brush"
 msgstr "З'являється поблизу кисті і слідує за нею"
 
-#: ../../props/preferences.rst:88
+
 msgid "Fixed"
 msgstr "Фіксований"
 
-#: ../../props/preferences.rst:88
+
 msgid "Appears only at the bottom of the screen, in the middle"
 msgstr "З'являється внизу екрану, посередині"
 
-#: ../../props/preferences.rst:91
+
 msgid "Software"
 msgstr "Програмне Забезпечення"
 
-#: ../../props/preferences.rst:93
+
 msgid "Preset for software for which the operation will be performed"
 msgstr "Попередні налаштування для програмного забазпечення для якого буде виконано операцію"
 
-#: ../../props/preferences.rst:95
+
 msgid "Reality Capture"
 msgstr ""
 
-#: ../../props/sceneprops.rst:2
+
+msgid "Log Level"
+msgstr ""
+
+
+msgid "The level of the log that will be output to the console. For log to file, this level value will not change"
+msgstr ""
+
+
+msgid "Debug"
+msgstr ""
+
+
+msgid "Info"
+msgstr ""
+
+
+msgid "Warning"
+msgstr "Попередження"
+
+
+msgid "Error"
+msgstr ""
+
+
+msgid "Critical"
+msgstr ""
+
+
 msgid "Scene"
 msgstr ""
 
-#: ../../props/sceneprops.rst:5
+
 msgid "Unit"
 msgstr "Одиниці"
 
-#: ../../props/sceneprops.rst:7
+
 msgid "Display units of camera parameters"
 msgstr "Одиниці відображення парамерів камери"
 
-#: ../../props/sceneprops.rst:10
+
 msgid "Millimeters"
 msgstr "Міліметри"
 
-#: ../../props/sceneprops.rst:10
+
 msgid "Camera parameters in millimeters"
 msgstr "Параметри камери у міліметрах"
 
-#: ../../props/sceneprops.rst:13
+
 msgid "Pixels"
 msgstr "Пікселі"
 
-#: ../../props/sceneprops.rst:13
+
 msgid "Camera parameters relative to image sizes in pixels"
 msgstr "Параметри камери відносно розміру зображення у пікселях"
 
-#: ../../props/sceneprops.rst:16
+
 msgid "Precision"
 msgstr "Точність"
 
-#: ../../props/sceneprops.rst:18
+
 msgid "Precision of display of decimal fractions of camera parameters"
 msgstr "Точність відображення параметрів з десятковими дробами"
 
-#: ../../props/sceneprops.rst:21
+
 msgid "Single"
 msgstr "Одинарна"
 
-#: ../../props/sceneprops.rst:21
+
 msgid "IEEE-754 single precision float"
 msgstr "Одинарна точність дробу стандарту IEEE-754"
 
-#: ../../props/sceneprops.rst:24
+
 msgid "Double"
 msgstr "Подвійна"
 
-#: ../../props/sceneprops.rst:24
+
 msgid "IEEE-754 double precision float"
 msgstr "Подвійна точність дробу стандарту IEEE-754"
 
-#: ../../props/sceneprops.rst:27
+
 msgid "Highlight Cameras Orientation"
 msgstr "Показати Орієнтацію Камер"
 
-#: ../../props/sceneprops.rst:29
+
 msgid "Use a different color for cameras whose images have landscape (including square) and portrait orientation"
 msgstr "Використати різні кольори для камер у яких зображення ландшафтної (включно з квадратними), чи портретної орієнтації"
 
-#: ../../props/sceneprops.rst:32
+
 msgid "Cameras Landscape Orientation Color"
 msgstr "Колір Камер Ландшафтної Орієнтації"
 
-#: ../../props/sceneprops.rst:34
+
 msgid "The color of the display of cameras in which the images have a landscape (including square) orientation"
 msgstr "Колір відображення камер з ландшафтною (включно з квадратними зображеннями) орієнтацією"
 
-#: ../../props/sceneprops.rst:37
+
 msgid "Cameras Portrait Orientation Color"
 msgstr "Колір Камер Портретної Орієнтації"
 
-#: ../../props/sceneprops.rst:39
+
 msgid "The color of the display of cameras in which the images have a portrait orientation"
 msgstr "Колір відображення камер з портретною орієнтацією"
 
-#: ../../props/sceneprops.rst:42
+
 msgid "Highlight Projected Border"
 msgstr "Показати Спроектовану Рамку"
 
-#: ../../props/sceneprops.rst:44
+
 msgid "Whether to highlight the borders of the frame of the projected image on the object"
 msgstr "Чи показувати рамку спроектораного на об'єкт зображення"
 
-#: ../../props/sceneprops.rst:47
+
 msgid "Highlight Projected Border First Color"
 msgstr "Перший Колір Спроектованої Рамки"
 
-#: ../../props/sceneprops.rst:49
+
 msgid "The first color that will be used to highlight the parts of the object that are outside of camera frustum"
 msgstr "Перший колір що буде використано для відображення частин об'єкта що знаходяться за межами зображення"
 
-#: ../../props/sceneprops.rst:52
+
 msgid "Highlight Projected Border Second Color"
 msgstr "Другий Колір Спроектованої Рамки"
 
-#: ../../props/sceneprops.rst:54
+
 msgid "The second color that will be used to highlight the parts of the object that are outside of camera frustum"
 msgstr "Другий колір що буде використано для відображення частин об'єкта що знаходяться за межами зображення"
 
-#: ../../props/sceneprops.rst:57
+
 msgid "Highlight Projected Border Type"
 msgstr "Тип Рамки"
 
-#: ../../props/sceneprops.rst:59
+
 msgid "The fill type of the highlighted area"
 msgstr "Тип заповнення відображення"
 
-#: ../../props/sceneprops.rst:62
+
 msgid "Fill Color"
 msgstr "Колір заповнення"
 
-#: ../../props/sceneprops.rst:62
+
 msgid "Single color outline"
 msgstr "Заповнення суцільним кольором"
 
-#: ../../props/sceneprops.rst:65
+
 msgid "Checker"
 msgstr "Шашки"
 
-#: ../../props/sceneprops.rst:65
+
 msgid "Checker pattern outline"
 msgstr "Заповнення шашками"
 
-#: ../../props/sceneprops.rst:68
+
 msgid "Lines"
 msgstr "Лінії"
 
-#: ../../props/sceneprops.rst:68
+
 msgid "Lines pattern outline"
 msgstr "Заповнення похилими лініями"
 
-#: ../../props/sceneprops.rst:71
+
 msgid "Highlight Projected Border Facing"
 msgstr "Сторона Спроектованої Рамки"
 
-#: ../../props/sceneprops.rst:73
+
 msgid "Which side of the polygons that are outside the frame of the projected image to display. Сan be useful for a scene where there is a closed space, for example a room or a street. At least one of the options should be selected"
 msgstr "Яку сторону граней що знаходяться за межами рамки спроектованого зображення буде відображено. Може бути корисним для сцен з замкнутим простором, наприклад, вулиці чи кімнати. Повинна бути обрана принаймні одна опція"
 
-#: ../../props/sceneprops.rst:76
+
 msgid "Front"
 msgstr ""
 
-#: ../../props/sceneprops.rst:76
+
 msgid "Show the front of polygons"
 msgstr "Показувати лицьову сторону граней"
 
-#: ../../props/sceneprops.rst:79
+
 msgid "Back"
 msgstr ""
 
-#: ../../props/sceneprops.rst:79
+
 msgid "Show the back of polygons"
 msgstr "Показувати зворотню сторону граней"
 
-#: ../../props/sceneprops.rst:82
+
 msgid "Viewport Cameras Size"
 msgstr "Розмір Камер"
 
-#: ../../props/sceneprops.rst:84
+
 msgid "The size of the cameras in the viewport"
 msgstr "Розмір камер у вікні перегляду"
 
-#: ../../props/sceneprops.rst:87
+
 msgid "Current Image Viewport Transparency"
 msgstr "Прозорість поточного зображення у вікні перегляду"
 
-#: ../../props/sceneprops.rst:89
+
 msgid "Transparency of the image when viewed from the camera"
 msgstr "Прозорість зображення коли дивитися з камери"
 
-#: ../../props/wmprops.rst:2
+
 msgid "Window Manager"
 msgstr ""
 
-#: ../../props/wmprops.rst:5
-msgid "Apply UDIM Materials Fix"
-msgstr "Застосувати UDIM Матеріали"
 
-#: ../../props/wmprops.rst:7
-msgid "The standard import imports UDIM images as multiple materials and multiple images"
-msgstr "Стандартний імпортер імпортує UDIM зображення як декілька матеріалів і зображень"
+msgid "Configure UDIM"
+msgstr "Налаштувати UDIM"
+
+
+msgid "The add-on uses some standard methods for importing, but in certain situations this creates incorrect data for the add-on to work with. If this option is activated, after importing the object, the materials for working with UDIM textures will be set, and after selecting the canvas, the image settings will be checked and adjusted"
+msgstr "Доповнення використовує деякі стандартні методи для імпорту, але в певних ситуаціях це створює некоректні для роботи з доповненням дані. Якщо дана опція активована то після імпорту об'єкту відбудеться налаштування матеріалів для роботи з UDIM текстурами, а після вибору полотна - перевірка і корегування налаштувань зображення"
 

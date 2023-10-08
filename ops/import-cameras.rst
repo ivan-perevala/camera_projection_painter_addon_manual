@@ -6,46 +6,48 @@ Import camera data
 Forward
 =======
 
+Axis forward
 
 X Forward
-
+ Use the global X axis as the forward direction
 
 Y Forward
-
+ Use the global Y axis as the forward direction
 
 Z Forward
+ Use the global Z axis as the forward direction
 
+Negative X Forward
+ Use the negative global X axis as the forward direction
 
--X Forward
+Negative Y Forward
+ Use the negative global Y axis as the forward direction
 
-
--Y Forward
-
-
--Z Forward
-
+Negative Z Forward
+ Use the negative global Z axis as the forward direction
 
 Up
 ==
 
+Axis up
 
 X Up
-
+ Use the global X axis as the up direction
 
 Y Up
-
+ Use the global Y axis as the up direction
 
 Z Up
+ Use the global Z axis as the up direction
 
+Negative X Up
+ Use the negative global X axis as the up direction
 
--X Up
+Negative Y Up
+ Use the negative global Y axis as the up direction
 
-
--Y Up
-
-
--Z Up
-
+Negative Z Up
+ Use the negative global Z axis as the up direction
 
 File Name
 =========

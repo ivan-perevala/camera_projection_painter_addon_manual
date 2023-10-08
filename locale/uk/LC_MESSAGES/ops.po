@@ -1,314 +1,392 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C)
-# This file is distributed under the same license as the Camera Projection
-# Painter package.
+# Copyright (C) 2023 BlenderHQ
+# This file is distributed under the same license as the Camera Projection Painter package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
 msgstr ""
 
-#: ../../ops/bind-camera-images.rst:2
+
 msgid "Bind Camera Images"
 msgstr "Прив'язати Зображення"
 
-#: ../../ops/bind-camera-images.rst:4
-msgid "Пов'язує зображення до камер використовуючи назви. Може бути використаний як для всіх камер що присутні у сцені, так і для активної камери (для режиму малювання текстур це активна камера сцени, для об'єктного режиму - виділена камера або ж також активна камера сцени якщо виділено об'єкт іншого типу)."
-msgstr ""
 
-#: ../../ops/bind-camera-images.rst:8
-msgid "Пошук зображень в першу чергу завжди відбувається серед вже відкритих файлів, потім, якщо збігів не знайдено - серед файлів у обраній директорії. Для цього оператор в користувацькому інтерфейсі має два режими запуску. Режим імпорту потрібно використати якщо необхідні зображення ще не відкрито - в цьому випадку буде можливість обрати директорію для пошуку файлів, і якщо буде знайдено збіги - необхідні зображення буде відкрито і пов'язано до камер. Режим пов'язування кардинальної різниці з режимом імпорту не має, але тут немає вибору директорії - якщо необхідних файлів ще не відкрито то буде використано директорію з якої востаннє імпортували зображення або дані камер. Цей режим корисний якщо наприклад, вручну було обрано інші зображення і потрібно прив'язати їх знову за іменами."
-msgstr ""
+msgid "Associates images to cameras using names. Can be used both for all cameras present in the scene, and for the active camera (for the texture drawing mode, this is the scene's active camera, for object mode - the selected camera or the scene camera is also active if an object of a different type is selected)."
+msgstr "Пов'язує зображення до камер використовуючи назви. Може бути використаний як для всіх камер що присутні у сцені, так і для активної камери (для режиму малювання текстур це активна камера сцени, для об'єктного режиму - виділена камера або ж також активна камера сцени якщо виділено об'єкт іншого типу)."
 
-#: ../../ops/bind-camera-images.rst:17 ../../ops/import-cameras.rst:55
+
+msgid "The search for images first of all always takes place among already open files, then, if no matches are found, among files in the selected directory. For this, the operator in the user interface has two launch modes. Import mode should be used if the required images are not yet open - in this case, it will be possible to choose a directory for searching for files, and if matches are found - the necessary images will be opened and linked to the cameras. Binding mode there is no fundamental difference with the import mode, but there is no directory selection here - if the necessary files have not yet been opened then the directory from which images or camera data were last imported will be used. This mode is useful if, for example, other images were manually selected and need to be linked again by name."
+msgstr "Пошук зображень в першу чергу завжди відбувається серед вже відкритих файлів, потім, якщо збігів не знайдено - серед файлів у обраній директорії. Для цього оператор в користувацькому інтерфейсі має два режими запуску. Режим імпорту потрібно використати якщо необхідні зображення ще не відкрито - в цьому випадку буде можливість обрати директорію для пошуку файлів, і якщо буде знайдено збіги - необхідні зображення буде відкрито і пов'язано до камер. Режим пов'язування кардинальної різниці з режимом імпорту не має, але тут немає вибору директорії - якщо необхідних файлів ще не відкрито то буде використано директорію з якої востаннє імпортували зображення або дані камер. Цей режим корисний якщо наприклад, вручну було обрано інші зображення і потрібно прив'язати їх знову за іменами."
+
+
 msgid "Comparison Options"
 msgstr "Опції Порівняння"
 
-#: ../../ops/bind-camera-images.rst:19 ../../ops/import-cameras.rst:57
+
 msgid "Options for comparing names. At least one of the options must be selected for each compared type (object, image, etc.)"
 msgstr "Опції для порівняння назв. Принаймні одна з опцій повинна бути обрана для кожного з типів даних що порівнюються (об'єкт, зображення, тощо)"
 
-#: ../../ops/bind-camera-images.rst:22 ../../ops/import-cameras.rst:60
+
 msgid "Ignore Letter Case"
 msgstr "Ігнорувати Реєстр"
 
-#: ../../ops/bind-camera-images.rst:22 ../../ops/import-cameras.rst:60
+
 msgid "Ignore character register for matching"
 msgstr "Ігнорувати реєстр символів для пошуку збігів"
 
-#: ../../ops/bind-camera-images.rst:27 ../../ops/import-cameras.rst:65
+
 msgid "Ignore Extensions"
 msgstr "Ігнорувати Розширення Файлів"
 
-#: ../../ops/bind-camera-images.rst:25 ../../ops/import-cameras.rst:63
+
 msgid "Use name only, no file extension when searching"
 msgstr "Використовувати лише назви, не враховуючи розширення файлів під час пошуку"
 
-#: ../../ops/bind-camera-images.rst:30 ../../ops/import-cameras.rst:68
+
 msgid "Use Object Name"
 msgstr "Назва Об'єкту"
 
-#: ../../ops/bind-camera-images.rst:30 ../../ops/import-cameras.rst:68
+
 msgid "Use camera object name for comparison"
 msgstr "Використовувати назву об'єкта камери для порівняння"
 
-#: ../../ops/bind-camera-images.rst:35 ../../ops/import-cameras.rst:73
+
 msgid "Use Camera Name"
 msgstr "Назва Камери"
 
-#: ../../ops/bind-camera-images.rst:33 ../../ops/import-cameras.rst:71
+
 msgid "Use camera data name for comparison"
 msgstr "Використовувати назву камери для порівняння"
 
-#: ../../ops/bind-camera-images.rst:38 ../../ops/import-cameras.rst:76
+
 msgid "Use Image Name"
 msgstr "Назва Зображення"
 
-#: ../../ops/bind-camera-images.rst:38 ../../ops/import-cameras.rst:76
+
 msgid "Use image data-block name for comparison"
 msgstr "Використовувати назву блоку даних зображення для порівняння"
 
-#: ../../ops/bind-camera-images.rst:41 ../../ops/import-cameras.rst:79
+
 msgid "Use Image File Name"
 msgstr "Назва Файлу Зображення"
 
-#: ../../ops/bind-camera-images.rst:41 ../../ops/import-cameras.rst:79
+
 msgid "Use image file name for comparison"
 msgstr "Використовувати назву файлу зображення для порівняння"
 
-#: ../../ops/cleanup-data.rst:1
-msgid "Cleanup existing data"
-msgstr ""
 
-#: ../../ops/cleanup-data.rst:5 ../../ops/data-cleanup.rst:2
-msgid "Cleanup Data"
-msgstr "Очищення Даних"
-
-#: ../../ops/cleanup-data.rst:7
-msgid "Delete object, mesh, material, texture, light and camera data-blocks"
-msgstr "Видалити об'єкти, сітки, матеріали, текстури, лампи та блоки даних камер"
-
-#: ../../ops/cleanup-data.rst:10
-msgid "Cleanup Images"
-msgstr "Очистити Зображення"
-
-#: ../../ops/cleanup-data.rst:12
-msgid "Delete all image data-blocks"
-msgstr "Видалити всі блоки даних зображень"
-
-#: ../../ops/create-new-canvas.rst:2
 msgid "Create New Canvas"
 msgstr "Створити Нове Полотно"
 
-#: ../../ops/ensure-canvas.rst:2
+
+msgid "A simple operator to create a new canvas with a size of 2048x2048 pixels. It can be used if there is no exported texture."
+msgstr "Простий оператор для створення нового полотна розміром 2048x2048 пікселі. Його можна використати якщо відсутня експортована текстура."
+
+
+msgid "Data Cleanup"
+msgstr "Очищення Даних"
+
+
+msgid "Operator to clear existing data before starting a new scene setup."
+msgstr "Оператор для очищення наявних даних перед початком налаштування нової сцени."
+
+
+msgid "If the scene contains only data from a standard file, namely 3 objects: a cube with standard material, a camera and a lamp, then the operator will automatically offer to clear this data (of course, there is a chance that someone will work with it, but it is small). The same goes for images. If the file contains only one standard image that is reserved for the render result, it will also be prompted to delete it."
+msgstr "Якщо сцена містить лише дані зі стандартного файлу, а саме 3 об'єкти: куб зі стандартним матеріалом, камера і лампа то оператор автоматично запропонує очистити ці дані (звісно існує ймовірність того що хтось буде з ними працювати, але вона невелика). Те ж саме стосується і зображень. Якщо файл містить лише одне стандартне зображення, яке зарезервовано для результату рендеру, його теж буде запропоновано видалити."
+
+
+msgid "When it comes to the context setting order, this statement is always executed first. If you do not need to clear the data, you just need to remove both flags and agree to the execution. In this case, all the data will remain in place - this can be useful for resetting the context for the current scene (for example, if you need to finish the context setting interrupted at one of the following stages)."
+msgstr "Коли мова йде про порядок налаштування контексту, цей оператор завжди виконується першим. Якщо не потрібно очищувати дані, необхідно просто прибрати обидва прапорці і погодитися з виконанням. У такому разі всі дані залишаться на місці - це може бути корисним, для переналаштування контексту для поточної сцени (наприклад якщо потрібно закінчити налаштування контексту, перерване на одному із наступних етапів)."
+
+
+msgid "Cleanup Data"
+msgstr "Очистити Дані"
+
+
+msgid "Delete object, mesh, material, texture, light and camera data-blocks"
+msgstr "Видалити об'єкти, сітки, матеріали, текстури, лампи та блоки даних камер"
+
+
+msgid "Cleanup Images"
+msgstr "Очистити Зображення"
+
+
+msgid "Delete all image data-blocks"
+msgstr "Видалити всі блоки даних зображень"
+
+
 msgid "Ensure Canvas"
-msgstr "Обрати Полотно"
+msgstr "Налаштування Полотна"
 
-#: ../../ops/ensure-tool-settings.rst:2
+
+msgid "Operator for selecting canvas for drawing."
+msgstr "Оператор для вибору полотна для малювання."
+
+
 msgid "Ensure Tool Settings"
-msgstr "Налаштувати Інструмент"
+msgstr "Налаштування Інструменту"
 
-#: ../../ops/export-cameras.rst:2
+
 msgid "Export Cameras"
 msgstr "Експортувати Камери"
 
-#: ../../ops/export-cameras.rst:3
-msgid "Export camera data"
-msgstr ""
 
-#: ../../ops/export-cameras.rst:7
+msgid "Export camera data"
+msgstr "Експортувати дані камер"
+
+
 msgid "Calibration Groups"
 msgstr "Групи Калібрації"
 
-#: ../../ops/export-cameras.rst:9
+
 msgid "Select to export the information on the created calibration groups"
 msgstr "Чи експортувати інформацію про групи калібрації"
 
-#: ../../ops/export-cameras.rst:12
+
 msgid "Include Editor Options"
 msgstr "Включити Опції Редактора"
 
-#: ../../ops/export-cameras.rst:14
+
 msgid "Export editor states, e.g. enabled/disabled flags for texturing, meshing, and similar"
 msgstr "Експортувати прапори редактора, наприклад опції що вказують чи використовувати камеру для створення сітки або текстури"
 
-#: ../../ops/export-cameras.rst:17
+
 msgid "Export Mode"
 msgstr "Режим Експорту"
 
-#: ../../ops/export-cameras.rst:19
+
 msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses"
 msgstr "Залежно від того наскільки Ви довіряєте реєстрації, можна обрати відповідні опції або ж не експортувати позиції камер"
 
-#: ../../ops/export-cameras.rst:21
+
 msgid "Do Not Export"
 msgstr "Не Експортувати"
 
-#: ../../ops/export-cameras.rst:25
+
 msgid "Draft"
 msgstr "Чернетка"
 
-#: ../../ops/export-cameras.rst:25
+
 msgid "This will treat poses as an imperfect draft to be optimized in the future. The draft mode functions also as a flight log"
 msgstr "Позначає позиції як не досконалі чернетки що потрібно оптимізувати в майбутньому. Режим чернетки також може використовуватися як лог польоту"
 
-#: ../../ops/export-cameras.rst:28
+
 msgid "Exact"
 msgstr "Чистовик"
 
-#: ../../ops/export-cameras.rst:28
+
 msgid "If you trust the alignment absolutely. By choosing this option, you are saying to the application that poses are precise, but the global position, orientation, and scale is not known"
 msgstr "Якщо Ви повністю довіряєте вирівнюванню. Обираючи цю опцію, Ви вказуєте аплікації що позиції є прецезійними, але глобальні положення, орієнтація і масштаб не відомі"
 
-#: ../../ops/export-cameras.rst:31
+
 msgid "Locked"
 msgstr "Заблокований Чистовик"
 
-#: ../../ops/export-cameras.rst:31
+
 msgid "This is the same as the exact option with the difference that the camera position and calibration will not be changed, when locked"
 msgstr "Те ж саме що і чистовик але положення камер і параметри калібрації не буде змінено"
 
-#: ../../ops/export-cameras.rst:34
+
 msgid "Calibration Group"
 msgstr "Група Калібрації"
 
-#: ../../ops/export-cameras.rst:36
+
 msgid "By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters"
 msgstr "Групою ми зазначаємо що у всіх зображень у цій групі однакові властивості калібрації, тобто однакова фокальна відстань, однакове відхилення від центру, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
 
-#: ../../ops/export-cameras.rst:39
+
 msgid "Distortion Group"
 msgstr "Група Дисторсії"
 
-#: ../../ops/export-cameras.rst:41
+
 msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
 msgstr "Групою ми зазначаємо що у всіх зображень у цій групі однакові властивості дисторсії, тобто однакові коефіцієнти дисторсії, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
 
-#: ../../ops/export-cameras.rst:44
+
 msgid "In Texturing"
 msgstr "Для Текстури"
 
-#: ../../ops/export-cameras.rst:46
+
 msgid "Whether to use an image to create an object texture"
 msgstr "Чи використовувати зображення для створення текстури об'єкта"
 
-#: ../../ops/export-cameras.rst:49
+
 msgid "In Meshing"
 msgstr "Для Сітки"
 
-#: ../../ops/export-cameras.rst:51
+
 msgid "Whether to use an image to create the object mesh data"
 msgstr "Чи використовувати зображення для створення сітки об'єкта"
 
-#: ../../ops/export-cameras.rst:54 ../../ops/import-cameras.rst:7
+
 msgid "Forward"
-msgstr ""
+msgstr "Вперед"
 
-#: ../../ops/export-cameras.rst:57 ../../ops/import-cameras.rst:10
+
+msgid "Axis forward"
+msgstr "Вісь вперед"
+
+
 msgid "X Forward"
-msgstr ""
+msgstr "X Вперед"
 
-#: ../../ops/export-cameras.rst:60 ../../ops/import-cameras.rst:13
+
+msgid "Use the global X axis as the forward direction"
+msgstr "Використати глобальну вісь X як напрямок вперед"
+
+
 msgid "Y Forward"
-msgstr ""
+msgstr "Y Вперед"
 
-#: ../../ops/export-cameras.rst:63 ../../ops/import-cameras.rst:16
+
+msgid "Use the global Y axis as the forward direction"
+msgstr "Використати глобальну вісь Y як напрямок вперед"
+
+
 msgid "Z Forward"
-msgstr ""
+msgstr "Z Вперед"
 
-#: ../../ops/export-cameras.rst:66 ../../ops/import-cameras.rst:19
-msgid "-X Forward"
-msgstr ""
 
-#: ../../ops/export-cameras.rst:69 ../../ops/import-cameras.rst:22
-msgid "-Y Forward"
-msgstr ""
+msgid "Use the global Z axis as the forward direction"
+msgstr "Використати глобальну вісь Z як напрямок вперед"
 
-#: ../../ops/export-cameras.rst:72 ../../ops/import-cameras.rst:25
-msgid "-Z Forward"
-msgstr ""
 
-#: ../../ops/export-cameras.rst:76 ../../ops/import-cameras.rst:29
+msgid "Negative X Forward"
+msgstr "Від'ємна X Вперед"
+
+
+msgid "Use the negative global X axis as the forward direction"
+msgstr "Використати від'ємну глобальну вісь X як напрямок вперед"
+
+
+msgid "Negative Y Forward"
+msgstr "Від'ємна Y Вперед"
+
+
+msgid "Use the negative global Y axis as the forward direction"
+msgstr "Використати від'ємну глобальну вісь Y як напрямок вперед"
+
+
+msgid "Negative Z Forward"
+msgstr "Від'ємна Z Вперед"
+
+
+msgid "Use the negative global Z axis as the forward direction"
+msgstr "Використати від'ємну глобальну вісь Z як напрямок вперед"
+
+
 msgid "Up"
-msgstr ""
+msgstr "Вгору"
 
-#: ../../ops/export-cameras.rst:79 ../../ops/import-cameras.rst:32
+
+msgid "Axis up"
+msgstr "Вісь вгору"
+
+
 msgid "X Up"
-msgstr ""
+msgstr "X Вгору"
 
-#: ../../ops/export-cameras.rst:82 ../../ops/import-cameras.rst:35
+
+msgid "Use the global X axis as the up direction"
+msgstr "Використати глобальну вісь X як напрямок вгору"
+
+
 msgid "Y Up"
-msgstr ""
+msgstr "Y Вгору"
 
-#: ../../ops/export-cameras.rst:85 ../../ops/import-cameras.rst:38
+
+msgid "Use the global Y axis as the up direction"
+msgstr "Використати глобальну вісь Y як напрямок вгору"
+
+
 msgid "Z Up"
-msgstr ""
+msgstr "Z Вгору"
 
-#: ../../ops/export-cameras.rst:88 ../../ops/import-cameras.rst:41
-msgid "-X Up"
-msgstr ""
 
-#: ../../ops/export-cameras.rst:91 ../../ops/import-cameras.rst:44
-msgid "-Y Up"
-msgstr ""
+msgid "Use the global Z axis as the up direction"
+msgstr "Використати глобальну вісь Z як напрямок вгору"
 
-#: ../../ops/export-cameras.rst:94 ../../ops/import-cameras.rst:47
-msgid "-Z Up"
-msgstr ""
 
-#: ../../ops/export-cameras.rst:98 ../../ops/import-cameras.rst:51
-#: ../../ops/import-scene.rst:7
+msgid "Negative X Up"
+msgstr "Від'ємна X Вгору"
+
+
+msgid "Use the negative global X axis as the up direction"
+msgstr "Використати від'ємну глобальну вісь X як напрямок вгору"
+
+
+msgid "Negative Y Up"
+msgstr "Від'ємна Y Вгору"
+
+
+msgid "Use the negative global Y axis as the up direction"
+msgstr "Використати від'ємну глобальну вісь Y як напрямок вгору"
+
+
+msgid "Negative Z Up"
+msgstr "Від'ємна Z Вгору"
+
+
+msgid "Use the negative global Z axis as the up direction"
+msgstr "Використати від'ємну глобальну вісь Z як напрямок вгору"
+
+
 msgid "File Name"
 msgstr "Назва Файлу"
 
-#: ../../ops/image-quick-select.rst:1
-msgid "Select image"
-msgstr ""
 
-#: ../../ops/import-cameras.rst:2
+msgid "Quick image selection by object name"
+msgstr "Швидкий пошук зображення за назвою об'єкту"
+
+
 msgid "Import Cameras"
 msgstr "Імпортувати Камери"
 
-#: ../../ops/import-cameras.rst:3
+
 msgid "Import camera data"
-msgstr ""
+msgstr "Імпортувати дані камер"
 
-#: ../../ops/import-scene.rst:2
+
 msgid "Import Scene"
-msgstr "Імпортувати Сцену"
+msgstr "Імпорт Сцени"
 
-#: ../../ops/import-scene.rst:3
-msgid "Import paint object"
-msgstr ""
 
-#: ../../ops/import-scene.rst:11
+msgid "Import a scene from third-party software"
+msgstr "Імпортувати сцену зі стороннього програмного забезпечення"
+
+
 msgid "Type"
 msgstr "Тип"
 
-#: ../../ops/import-scene.rst:13
+
 msgid "File type to be imported"
 msgstr "Тип файлу для імпорту"
 
-#: ../../ops/quick-select.rst:2
+
 msgid "Select Image"
 msgstr ""
 
-#: ../../ops/remove-image-from-bind-history.rst:2
+
 msgid "Remove Image from Bind History"
-msgstr "Видалити з Зображення з Історії"
+msgstr "Усунути Зображення з Історії Пов'язаних"
 
-#: ../../ops/remove-image-from-bind-history.rst:3
-msgid "Remove item from image bind history"
-msgstr ""
 
-#: ../../ops/setup-context.rst:2
+msgid "Remove image from bind history"
+msgstr "Усунути зображення з історії пов'язаних"
+
+
 msgid "Setup Context"
 msgstr "Налаштувати Контекст"
 
-#: ../../ops/show-preferences.rst:2
+
+msgid "Setup the scene, tool, and data to work with"
+msgstr "Налаштувати сцену, інструмент і дані для роботи"
+
+
 msgid "Show Preferences"
 msgstr "Відкрити Налаштування"
 
-#: ../../ops/show-preferences.rst:3
+
 msgid "Camera Projection Painter user preferences"
-msgstr ""
+msgstr "Користувацькі налаштування Camera Projection Painter"
 

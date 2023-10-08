@@ -1,17 +1,17 @@
 Bind Camera Images
 ##################
 
-Пов'язує зображення до камер використовуючи назви. Може бути використаний як для всіх камер що присутні у сцені, так і
-для активної камери (для режиму малювання текстур це активна камера сцени, для об'єктного режиму - виділена камера або
-ж також активна камера сцени якщо виділено об'єкт іншого типу).
+Associates images to cameras using names. Can be used both for all cameras present in the scene, and
+for the active camera (for the texture drawing mode, this is the scene's active camera, for object mode - the selected camera or
+the scene camera is also active if an object of a different type is selected).
 
-Пошук зображень в першу чергу завжди відбувається серед вже відкритих файлів, потім, якщо збігів не знайдено - серед
-файлів у обраній директорії. Для цього оператор в користувацькому інтерфейсі має два режими запуску. Режим імпорту
-потрібно використати якщо необхідні зображення ще не відкрито - в цьому випадку буде можливість обрати директорію для
-пошуку файлів, і якщо буде знайдено збіги - необхідні зображення буде відкрито і пов'язано до камер. Режим пов'язування
-кардинальної різниці з режимом імпорту не має, але тут немає вибору директорії - якщо необхідних файлів ще не відкрито
-то буде використано директорію з якої востаннє імпортували зображення або дані камер. Цей режим корисний якщо наприклад,
-вручну було обрано інші зображення і потрібно прив'язати їх знову за іменами.
+The search for images first of all always takes place among already open files, then, if no matches are found, among
+files in the selected directory. For this, the operator in the user interface has two launch modes. Import mode
+should be used if the required images are not yet open - in this case, it will be possible to choose a directory for
+searching for files, and if matches are found - the necessary images will be opened and linked to the cameras. Binding mode
+there is no fundamental difference with the import mode, but there is no directory selection here - if the necessary files have not yet been opened
+then the directory from which images or camera data were last imported will be used. This mode is useful if, for example,
+other images were manually selected and need to be linked again by name.
 
 Comparison Options
 ==================
