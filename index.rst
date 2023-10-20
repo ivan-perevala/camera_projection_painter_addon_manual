@@ -33,14 +33,32 @@ Blender.
     :maxdepth: 4
     :caption: General
 
-.. include:: ops/toctrees.inc
+    addon-basics
+
+.. toctree::
+    :maxdepth: 4
+    :caption: Operators
+
+    ops/data-cleanup
+    ops/ensure-canvas
+    ops/quick-select-canvas
+    ops/create-new-canvas
+    ops/import-scene
+    ops/import-cameras
+    ops/bind-camera-images
+    ops/ensure-tool-settings
+    ops/setup-context
+    ops/export-cameras
+    ops/remove-image-from-bind-history
+    ops/show-preferences
 
 
-.. include:: props/toctrees.inc
+.. toctree::
+    :maxdepth: 4
+    :caption: Properties
 
-
-Indices and tables
-******************
-
-* :ref:`genindex`
-* :ref:`modindex`
+    props/preferences
+    props/wmprops
+    props/sceneprops
+    props/objectprops
+    props/cameraprops

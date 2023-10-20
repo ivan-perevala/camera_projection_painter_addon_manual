@@ -48,6 +48,11 @@ msgid "8x8 Bayer dithering strength. The resolution of the previews is rather sm
 msgstr ""
 
 #. :src: bpy.types.Preferences.info_section
+msgctxt "Preferences"
+msgid "Info Section"
+msgstr ""
+
+#. :src: bpy.types.Preferences.info_section
 msgid "Active information section"
 msgstr ""
 
@@ -61,7 +66,17 @@ msgid "Information about available updates. Here you can check for a new release
 msgstr ""
 
 #. :src: bpy.types.Preferences.info_section:'README'
+msgctxt "Preferences"
+msgid "Readme"
+msgstr ""
+
+#. :src: bpy.types.Preferences.info_section:'README'
 msgid "Notes that can help you start using the addon, for example, if there is no internet connection"
+msgstr ""
+
+#. :src: bpy.types.Preferences.info_section:'CREDITS'
+msgctxt "Preferences"
+msgid "Credits"
 msgstr ""
 
 #. :src: bpy.types.Preferences.info_section:'CREDITS'
@@ -278,6 +293,29 @@ msgstr ""
 msgid "Use image file name for comparison"
 msgstr ""
 
+#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_data
+msgctxt "CPP_OT_data_cleanup"
+msgid "Cleanup Data"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_data
+msgid "Delete object, mesh, material, texture, light and camera data-blocks"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_images
+msgctxt "CPP_OT_data_cleanup"
+msgid "Cleanup Images"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_images
+msgid "Delete all image data-blocks"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.check_existing
+msgctxt "CPP_OT_export_cameras"
+msgid "Check Existing"
+msgstr ""
+
 #. :src: bpy.types.CPP_OT_export_cameras.filename
 #. :src: bpy.types.CPP_OT_import_cameras.filename
 #. :src: bpy.types.CPP_OT_import_scene.filename
@@ -323,7 +361,85 @@ msgid "Metadata (XMP)"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.fmt_locked
+msgctxt "CPP_OT_export_cameras"
 msgid "Format Locked"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis
+msgctxt "CPP_IO"
+msgid "Forward"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis
+msgid "Axis forward"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'X'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'X'
+msgctxt "CPP_IO"
+msgid "X Forward"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'X'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'X'
+msgid "Use the global X axis as the forward direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'Y'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'Y'
+msgctxt "CPP_IO"
+msgid "Y Forward"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'Y'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'Y'
+msgid "Use the global Y axis as the forward direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'Z'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'Z'
+msgctxt "CPP_IO"
+msgid "Z Forward"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'Z'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'Z'
+msgid "Use the global Z axis as the forward direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'NEGATIVE_X'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'NEGATIVE_X'
+msgctxt "CPP_IO"
+msgid "Negative X Forward"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'NEGATIVE_X'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'NEGATIVE_X'
+msgid "Use the negative global X axis as the forward direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'NEGATIVE_Y'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'NEGATIVE_Y'
+msgctxt "CPP_IO"
+msgid "Negative Y Forward"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'NEGATIVE_Y'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'NEGATIVE_Y'
+msgid "Use the negative global Y axis as the forward direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'NEGATIVE_Z'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'NEGATIVE_Z'
+msgctxt "CPP_IO"
+msgid "Negative Z Forward"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.forward_axis:'NEGATIVE_Z'
+#. :src: bpy.types.CPP_OT_import_cameras.forward_axis:'NEGATIVE_Z'
+msgid "Use the negative global Z axis as the forward direction"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.global_scale_double
@@ -337,114 +453,6 @@ msgstr ""
 #. :src: bpy.types.CPP_OT_export_cameras.global_scale_single
 #. :src: bpy.types.CPP_OT_import_cameras.global_scale_single
 msgid "The global scale of the dataset"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "X Forward"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Y Forward"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Z Forward"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Negative X Forward"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Negative Y Forward"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Negative Z Forward"
-msgstr ""
-
-
-msgid "Use the global X axis as the forward direction"
-msgstr ""
-
-
-msgid "Use the global Y axis as the forward direction"
-msgstr ""
-
-
-msgid "Use the global Z axis as the forward direction"
-msgstr ""
-
-
-msgid "Use the negative global X axis as the forward direction"
-msgstr ""
-
-
-msgid "Use the negative global Y axis as the forward direction"
-msgstr ""
-
-
-msgid "Use the negative global Z axis as the forward direction"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "X Up"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Y Up"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Z Up"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Negative X Up"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Negative Y Up"
-msgstr ""
-
-
-msgctxt "CPP_IO"
-msgid "Negative Z Up"
-msgstr ""
-
-
-msgid "Use the global X axis as the up direction"
-msgstr ""
-
-
-msgid "Use the global Y axis as the up direction"
-msgstr ""
-
-
-msgid "Use the global Z axis as the up direction"
-msgstr ""
-
-
-msgid "Use the negative global X axis as the up direction"
-msgstr ""
-
-
-msgid "Use the negative global Y axis as the up direction"
-msgstr ""
-
-
-msgid "Use the negative global Z axis as the up direction"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.name_source
@@ -502,12 +510,12 @@ msgid "Open directory after export"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_csv_write_num_cameras
-msgctxt "CPP_OT_export_cameras"
+msgctxt "RC_CSV_ExportParams"
 msgid "Number of Cameras"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_csv_write_num_cameras
-msgid "Write number of cameras into a file"
+msgid "Write number of cameras into a file for Reality Capture CSV-like file formats"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_calibration_group
@@ -518,7 +526,7 @@ msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_calibration_group
 #. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_calibration_group
-msgid "By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters"
+msgid "By defining a group for Reality Capture (XMP) we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_distortion_group
@@ -529,7 +537,7 @@ msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_distortion_group
 #. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_distortion_group
-msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
+msgid "By defining a group for Reality Capture (XMP) we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode
@@ -540,13 +548,18 @@ msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode
 #. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_export_mode
-msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses"
+msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses for Reality Capture (XMP)"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode:'DO_NOT_EXPORT'
 #. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_export_mode:'DO_NOT_EXPORT'
 msgctxt "RC_METADATA_XMP_ExportMode"
 msgid "Do Not Export"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode:'DO_NOT_EXPORT'
+#. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_export_mode:'DO_NOT_EXPORT'
+msgid "Do not export camera poses"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_export_mode:'DRAFT'
@@ -590,7 +603,7 @@ msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_in_meshing
 #. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_in_meshing
-msgid "Whether to use an image to create the object mesh data"
+msgid "Whether to use an image to create the object mesh data for Reality Capture (XMP)"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_in_texturing
@@ -601,7 +614,7 @@ msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_in_texturing
 #. :src: bpy.types.RC_MetadataXMP_Props.rc_metadata_xmp_in_texturing
-msgid "Whether to use an image to create an object texture"
+msgid "Whether to use an image to create an object texture for Reality Capture (XMP)"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_include_editor_options
@@ -610,7 +623,7 @@ msgid "Include Editor Options"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_include_editor_options
-msgid "Export editor states, e.g. enabled/disabled flags for texturing, meshing, and similar"
+msgid "Export editor states, e.g. enabled/disabled flags for texturing, meshing, and similar for Reality Capture (XMP)"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags
@@ -619,7 +632,7 @@ msgid "Overwrite"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags
-msgid "What data to overwrite"
+msgid "What data to overwrite for Reality Capture (XMP)"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_overwrite_flags:'rc_metadata_xmp_export_mode'
@@ -673,7 +686,84 @@ msgid "Calibration Groups"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_export_cameras.rc_metadata_xmp_use_calibration_groups
-msgid "Select to export the information on the created calibration groups"
+msgid "Select to export the information on the created calibration groups for Reality Capture (XMP)"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis
+msgctxt "CPP_IO"
+msgid "Up"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis
+msgid "Axis up"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'X'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'X'
+msgctxt "CPP_IO"
+msgid "X Up"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'X'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'X'
+msgid "Use the global X axis as the up direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'Y'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'Y'
+msgctxt "CPP_IO"
+msgid "Y Up"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'Y'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'Y'
+msgid "Use the global Y axis as the up direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'Z'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'Z'
+msgctxt "CPP_IO"
+msgid "Z Up"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'Z'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'Z'
+msgid "Use the global Z axis as the up direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'NEGATIVE_X'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'NEGATIVE_X'
+msgctxt "CPP_IO"
+msgid "Negative X Up"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'NEGATIVE_X'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'NEGATIVE_X'
+msgid "Use the negative global X axis as the up direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'NEGATIVE_Y'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'NEGATIVE_Y'
+msgctxt "CPP_IO"
+msgid "Negative Y Up"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'NEGATIVE_Y'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'NEGATIVE_Y'
+msgid "Use the negative global Y axis as the up direction"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'NEGATIVE_Z'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'NEGATIVE_Z'
+msgctxt "CPP_IO"
+msgid "Negative Z Up"
+msgstr ""
+
+#. :src: bpy.types.CPP_OT_export_cameras.up_axis:'NEGATIVE_Z'
+#. :src: bpy.types.CPP_OT_import_cameras.up_axis:'NEGATIVE_Z'
+msgid "Use the negative global Z axis as the up direction"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_import_scene.file_format
@@ -1700,63 +1790,63 @@ msgstr ""
 msgid "Check Tool"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\reports.py:408
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:408
 msgctxt "BHQAB_Preferences"
 msgid "Open Log Files Directory"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\reports.py:414
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:414
 msgctxt "Operator"
 msgid "Open Log: \"{filename}\"BHQAB_Preferences"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\reports.py:414
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:414
 msgctxt "BHQAB_Preferences"
 msgid "Open Log: \"{filename}\""
-msgstr ""
+msgstr "Відкрити Лог: \"{filename}\""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:221
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:231
 msgid "Warning"
-msgstr ""
+msgstr "Попередження"
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:907
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:917
 msgid "Can not check for updates now"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1079
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:1089
 msgid "Installing update"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:820
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:830
 msgctxt "Operator"
 msgid "Update to {tag_name}"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:899
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:909
 msgid "Check for updates now"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1071
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:1081
 msgid "Failed to create backup directory"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1076
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:1086
 msgid "Failed to make backup"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1087
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:1097
 msgid "Unable to remove local installation files, please, check directory permissions"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:805
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:815
 msgid "Pre-release"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:1110
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:1120
 msgid "Update failed, installation restored from backup. Please install the update manually"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:807
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:817
 msgid ""
 "Released version {tag_name} {prerelease_fmt}({published_at}), last checked at {checked_at}\n"
 "Release Notes:\n"
@@ -1764,7 +1854,7 @@ msgid ""
 "{body}"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:861
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:871
 msgid ""
 "Cache File: {fp}\n"
 "Rate Limit: {rate_limit}\n"
@@ -1772,139 +1862,142 @@ msgid ""
 "Reset Time: {reset_at}"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:904
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:914
 msgid "Unable check for updates before {reset_at}, exceeded rate limit"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:820
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:830
 msgid "Update to {tag_name}"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\lib\bhqab\utils_ui.py:827
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:837
 msgid "You are using the latest version, checked at {checked_at}"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1221
-msgctxt "ToolTip"
+#: F:\addons\camera_projection_painter_addon\src\main.py:1218
 msgid "Yes"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1221
-msgctxt "ToolTip"
+#: F:\addons\camera_projection_painter_addon\src\main.py:1218
 msgid "No"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1238
-msgctxt "ToolTip"
+#: F:\addons\camera_projection_painter_addon\src\main.py:1235
 msgid ""
 "Image Index: %d\n"
 "Camera Index: %d"
 msgstr ""
 
-#. :src: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1242
-msgctxt "ToolTip"
-msgid "%s - object"
-msgstr ""
-
-#. :src: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1243
-msgctxt "ToolTip"
-msgid "%s - camera"
-msgstr ""
-
-#. :src: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1245
-msgctxt "ToolTip"
-msgid "%s - image"
-msgstr ""
-
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\main.py:1229
-msgctxt "ToolTip"
+#: F:\addons\camera_projection_painter_addon\src\main.py:1226
 msgid "Loaded into memory: %s"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ops\bind_images.py:69
+#: F:\addons\camera_projection_painter_addon\src\main.py:1240
+msgid "%s - camera"
+msgstr ""
+
+#: F:\addons\camera_projection_painter_addon\src\main.py:1242
+msgid "%s - image"
+msgstr ""
+
+#: F:\addons\camera_projection_painter_addon\src\main.py:1239
+msgid "%s - object"
+msgstr ""
+
+#: F:\addons\camera_projection_painter_addon\src\ops\bind_images.py:68
 msgid "Bind the image to the active camera"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ops\bind_images.py:71
+#: F:\addons\camera_projection_painter_addon\src\ops\bind_images.py:70
 msgid "Bind images to all cameras in the scene"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ops\bind_images.py:181
+#: F:\addons\camera_projection_painter_addon\src\ops\bind_images.py:183
 msgid ", failed to open %d"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ops\import_cameras.py:47
+#: F:\addons\camera_projection_painter_addon\src\ops\import_cameras.py:47
 msgctxt "IOFormat"
 msgid "file(s)"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\props\camera.py:587
+#: F:\addons\camera_projection_painter_addon\src\ops\import_scene.py:325
+msgid "Please, select your reconstructed scene file."
+msgstr ""
+
+#: F:\addons\camera_projection_painter_addon\src\ops\import_scene.py:321
+msgid ""
+"Selected file recognized as\n"
+"{file_format}"
+msgstr ""
+
+#: F:\addons\camera_projection_painter_addon\src\props\camera.py:587
 msgctxt "CameraProps"
 msgid "Lens"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\props\camera.py:607
+#: F:\addons\camera_projection_painter_addon\src\props\camera.py:607
 msgctxt "CameraProps"
 msgid "Principal"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\props\camera.py:608
+#: F:\addons\camera_projection_painter_addon\src\props\camera.py:608
 msgctxt "CameraProps"
 msgid "Skew"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:209
+#: F:\addons\camera_projection_painter_addon\src\ui.py:209
 msgid "Bind Camera Images"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:284
+#: F:\addons\camera_projection_painter_addon\src\ui.py:284
 msgid "Import Image"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:294
+#: F:\addons\camera_projection_painter_addon\src\ui.py:294
 msgid "Bind Image"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:539
+#: F:\addons\camera_projection_painter_addon\src\ui.py:539
 msgctxt "SceneProps"
 msgid "Camera Size"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:540
+#: F:\addons\camera_projection_painter_addon\src\ui.py:540
 msgctxt "SceneProps"
 msgid "Image Alpha"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:560
+#: F:\addons\camera_projection_painter_addon\src\ui.py:560
 msgctxt "SceneProps"
 msgid "Landscape"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:561
+#: F:\addons\camera_projection_painter_addon\src\ui.py:561
 msgctxt "SceneProps"
 msgid "Portrait"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:582
+#: F:\addons\camera_projection_painter_addon\src\ui.py:582
 msgctxt "SceneProps"
 msgid "Color"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:585
+#: F:\addons\camera_projection_painter_addon\src\ui.py:585
 msgctxt "SceneProps"
 msgid "Type"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:587
+#: F:\addons\camera_projection_painter_addon\src\ui.py:587
 msgctxt "SceneProps"
 msgid "Facing"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:200
+#: F:\addons\camera_projection_painter_addon\src\ui.py:200
 msgid "Import Camera Images"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\camera_projection_painter\ui.py:159
+#: F:\addons\camera_projection_painter_addon\src\ui.py:159
 msgctxt "Preferences"
 msgid "Update Available"
 msgstr ""
@@ -1917,296 +2010,378 @@ msgstr ""
 msgid "Please, follow installation instructions. You are using debug version."
 msgstr ""
 
-# CPP_OT_setup_context
-msgctxt "CPP_OT_setup_context"
-msgid "Setup Context"
-msgstr ""
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Bind Image"
+#~ msgstr ""
 
 
-msgid "Setup the scene, tool, and data to work with"
-msgstr ""
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Could not bind image(s) of either available or \"{directory:s}\" directory with selected options{fmt_failed_to_open:s}"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_setup_context"
-msgid "Context setup aborted"
-msgstr ""
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "The appropriate image is already binded to the options selected. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_setup_context"
-msgid "Context setup completed"
-msgstr ""
-
-# CPP_OT_pref_show
-msgctxt "CPP_OT_pref_show"
-msgid "Show Preferences"
-msgstr ""
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Imported \"{filepath}\""
+#~ msgstr ""
 
 
-msgid "Camera Projection Painter user preferences"
-msgstr ""
+#~ msgid "Remove image from bind history"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_cameras"
+#~ msgid "Imported data of {done_num_cameras:d} camera(s) from {done_num_files:d}/{num_files:d} file(s) in {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_ensure_canvas"
+#~ msgid "Paint canvas is missing"
+#~ msgstr ""
 
 # CPP_OT_import_scene
-msgctxt "CPP_OT_import_scene"
-msgid "Import Scene"
-msgstr ""
-
-
-msgid "Import a scene from third-party software"
-msgstr ""
-
-
-msgctxt "CPP_OT_import_scene"
-msgid ""
-"Selected file recognized as\n"
-"{file_format}"
-msgstr ""
-
-
-msgctxt "CPP_OT_import_scene"
-msgid "Please, select your reconstructed scene file."
-msgstr ""
-
-
-msgctxt "CPP_OT_import_scene"
-msgid "Unable to import file with unknown file extension"
-msgstr ""
-
-
-msgctxt "CPP_OT_import_scene"
-msgid "Imported \"{filepath}\""
-msgstr ""
-
-
-msgctxt "CPP_OT_import_scene"
-msgid "Import Failed \"{filepath}\""
-msgstr ""
-
-# CPP_OT_import_cameras
-msgctxt "CPP_OT_import_cameras"
-msgid "Import Cameras"
-msgstr ""
-
-
-msgid "Import camera data"
-msgstr ""
-
-
-msgctxt "CPP_OT_import_cameras"
-msgid "Imported data of {done_num_cameras:d} camera(s) from {done_num_files:d}/{num_files:d} file(s) in {elapsed:.3f} second(s)"
-msgstr ""
-
-
-msgctxt "CPP_OT_import_cameras"
-msgid "Unable to import {num_files:d} file(s)"
-msgstr ""
-
-# CPP_OT_export_cameras
-msgctxt "CPP_OT_export_cameras"
-msgid "Export Cameras"
-msgstr ""
-
-
-msgid "Export camera data"
-msgstr ""
-
-
-msgctxt "CPP_OT_export_cameras"
-msgid "Exported {num_cameras:d} camera(s) to {num_files:d} file(s) in {elapsed:.3f} seconds"
-msgstr ""
-
-
-msgctxt "CPP_OT_export_cameras"
-msgid "No file(s) exported"
-msgstr ""
-
-# CPP_OT_ensure_tool_settings
-msgctxt "CPP_OT_ensure_tool_settings"
-msgid "Ensure Tool Settings"
-msgstr ""
-
-
-msgctxt "CPP_OT_ensure_tool_settings"
-msgid "Active UV map is missing, continue with limited capabilities"
-msgstr ""
-
-
-msgctxt "CPP_OT_ensure_tool_settings"
-msgid "Canvas object has no polygons"
-msgstr ""
-
-
-msgctxt "CPP_OT_ensure_tool_settings"
-msgid "Scene is missing canvas object"
-msgstr ""
-
-# CPP_OT_canvas_new
-msgctxt "CPP_OT_canvas_new"
-msgid "Create New Canvas"
-msgstr ""
-
-# CPP_OT_canvas_quick_select
-msgctxt "CPP_OT_canvas_quick_select"
-msgid "Image Quick Select"
-msgstr ""
-
-
-msgid "Quick image selection by object name"
-msgstr ""
-
-
-msgctxt "CPP_OT_canvas_quick_select"
-msgid "Selected image \"{filename}\""
-msgstr ""
-
-
-msgctxt "CPP_OT_canvas_quick_select"
-msgid "Unable to evaluate image for quick select"
-msgstr ""
-
-# CPP_OT_ensure_canvas
-msgctxt "CPP_OT_ensure_canvas"
-msgid "Ensure Canvas"
-msgstr ""
-
-
-msgctxt "CPP_OT_ensure_canvas"
-msgid "Selected \"{filename}\" as UDIM paint canvas"
-msgstr ""
-
-
-msgctxt "CPP_OT_ensure_canvas"
-msgid "Selected \"{filename}\" as paint canvas"
-msgstr ""
-
-
-msgctxt "CPP_OT_ensure_canvas"
-msgid "Paint canvas is missing"
-msgstr ""
-
-# CPP_OT_data_cleanup
-msgctxt "CPP_OT_data_cleanup"
-msgid "Data Cleanup"
-msgstr ""
-
-
-msgctxt "CPP_OT_data_cleanup"
-msgid "Cleanup Data"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_data
-msgid "Delete object, mesh, material, texture, light and camera data-blocks"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_images
-msgctxt "CPP_OT_data_cleanup"
-msgid "Cleanup Images"
-msgstr ""
-
-#. :src: bpy.types.CPP_OT_data_cleanup.cleanup_images
-msgid "Delete all image data-blocks"
-msgstr ""
-
-
-msgctxt "CPP_OT_data_cleanup"
-msgid "Data cleanup complete"
-msgstr ""
-
-
-msgctxt "CPP_OT_data_cleanup"
-msgid "Recommended data cleanup skipped"
-msgstr ""
-
-
-msgctxt "CPP_OT_data_cleanup"
-msgid "Data cleanup skipped"
-msgstr ""
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Import Scene"
+#~ msgstr ""
 
 # CPP_OT_bind_images
-msgctxt "CPP_OT_bind_images"
-msgid "Bind Camera Images"
-msgstr ""
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Bind Camera Images"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "Bind the image to the active camera"
-msgstr ""
+#~ msgctxt "CPP_OT_quick_select_canvas"
+#~ msgid "Selected image \"{filename}\""
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "Bind images to all cameras in the scene"
-msgstr ""
+#~ msgid "Setup the scene, tool, and data to work with"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "No active camera, operation skipped"
-msgstr ""
+#~ msgctxt "CPP_OT_export_cameras"
+#~ msgid "Exported {num_cameras:d} camera(s) to {num_files:d} file(s) in {elapsed:.3f} seconds"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid ", failed to open %d"
-msgstr ""
+#~ msgid "By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "The image is open and binded, the previous value has been changed. Search time - {elapsed:.3f} second(s)"
-msgstr ""
+#~ msgctxt "ToolTip"
+#~ msgid "Yes"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "Binded image, the previous value has been changed. Search time - {elapsed:.3f} second(s)"
-msgstr ""
+#~ msgid "Whether to use an image to create an object texture"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "The appropriate image is already binded to the options selected. Search time - {elapsed:.3f} second(s)"
-msgstr ""
+#~ msgctxt "CPP_OT_ensure_tool_settings"
+#~ msgid "Canvas object has no polygons"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "Binded all images, opened {num_opened:d} new, replaced {num_changed:d}. Search time - {elapsed:.3f} second(s)"
-msgstr ""
+#~ msgctxt "CPP_OT_import_cameras"
+#~ msgid "Unable to import {num_files:d} file(s)"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "Binded all images, {num_changed:d} replaced. Search time - {elapsed:.3f} second(s)"
-msgstr ""
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "No active camera, operation skipped"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "For the selected options, all the necessary images are already binded. Search time - {elapsed:.3f} second(s)"
-msgstr ""
+#~ msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "Binded {num_done:d}/{num_cameras:d} required images, opened {num_opened:d} new, replaced {num_changed:d}{fmt_failed_to_open:s}. Search time - {elapsed:.3f} second(s)"
-msgstr ""
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "The image is open and binded, the previous value has been changed. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+# CPP_OT_canvas_new
+#~ msgctxt "CPP_OT_canvas_new"
+#~ msgid "Create New Canvas"
+#~ msgstr ""
+
+# 
+#~ msgid "Preview Render"
+#~ msgstr ""
+
+# CPP_OT_ensure_tool_settings
+#~ msgctxt "CPP_OT_ensure_tool_settings"
+#~ msgid "Ensure Tool Settings"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "Binded {num_done:d}/{num_cameras:d} required images, replaced {num_changed:d}. Search time - {elapsed:.3f} second(s)"
-msgstr ""
+#~ msgid "Import camera data"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "{num_done:d}/{num_cameras:d} of the necessary images are binded for the selected options. Search time - {elapsed:.3f} second(s)"
-msgstr ""
+#~ msgctxt "ToolTip"
+#~ msgid "%s - camera"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "Could not bind image(s) of either available or \"{directory:s}\" directory with selected options{fmt_failed_to_open:s}"
-msgstr ""
+#~ msgid "Operators"
+#~ msgstr ""
+
+# CPP_OT_pref_show
+#~ msgctxt "CPP_OT_pref_show"
+#~ msgid "Show Preferences"
+#~ msgstr ""
 
 
-msgctxt "CPP_OT_bind_images"
-msgid "Could not bind image(s) with selected options{fmt_failed_to_open:s}"
-msgstr ""
+#~ msgctxt "CPP_OT_ensure_canvas"
+#~ msgid "Selected \"{filename}\" as UDIM paint canvas"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_setup_context"
+#~ msgid "Context setup aborted"
+#~ msgstr ""
+
+
+#~ msgid "Export camera data"
+#~ msgstr ""
+
+# CPP_OT_quick_select_canvas
+#~ msgctxt "CPP_OT_quick_select_canvas"
+#~ msgid "Quick Select Canvas"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded image, the previous value has been changed. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid ""
+#~ "Selected file recognized as\n"
+#~ "{file_format}"
+#~ msgstr ""
+
+# CPP_OT_data_cleanup
+#~ msgctxt "CPP_OT_data_cleanup"
+#~ msgid "Data Cleanup"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Please, select your reconstructed scene file."
+#~ msgstr ""
+
+# CPP_OT_import_cameras
+#~ msgctxt "CPP_OT_import_cameras"
+#~ msgid "Import Cameras"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_data_cleanup"
+#~ msgid "Recommended data cleanup skipped"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_export_cameras"
+#~ msgid "No file(s) exported"
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid "Loaded into memory: %s"
+#~ msgstr ""
+
+
+#~ msgid "Quick canvas image selection for paint object"
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid "%s - image"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded all images, opened {num_opened:d} new, replaced {num_changed:d}. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+# CPP_OT_setup_context
+#~ msgctxt "CPP_OT_setup_context"
+#~ msgid "Setup Context"
+#~ msgstr ""
+
+
+#~ msgid "Export editor states, e.g. enabled/disabled flags for texturing, meshing, and similar"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "For the selected options, all the necessary images are already binded. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Import Image"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_ensure_tool_settings"
+#~ msgid "Scene is missing canvas object"
+#~ msgstr ""
+
+
+#~ msgid "Format Locked"
+#~ msgstr ""
+
+
+#~ msgid "Import a scene from third-party software"
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid ""
+#~ "Image Index: %d\n"
+#~ "Camera Index: %d"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Import Failed \"{filepath}\""
+#~ msgstr ""
 
 # CPP_OT_bind_history_remove
-msgctxt "CPP_OT_bind_history_remove"
-msgid "Remove Image from Bind History"
-msgstr ""
+#~ msgctxt "CPP_OT_bind_history_remove"
+#~ msgid "Remove Image from Bind History"
+#~ msgstr ""
 
 
-msgid "Remove image from bind history"
-msgstr ""
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "{num_done:d}/{num_cameras:d} of the necessary images are binded for the selected options. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+# CPP_OT_export_cameras
+#~ msgctxt "CPP_OT_export_cameras"
+#~ msgid "Export Cameras"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_ensure_canvas"
+#~ msgid "Selected \"{filename}\" as paint canvas"
+#~ msgstr ""
+
+
+#~ msgid "Whether to use an image to create the object mesh data"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_quick_select_canvas"
+#~ msgid "Unable to evaluate image for quick select"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Unable to import file with unknown file extension"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Bind images to all cameras in the scene"
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid "No"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Import Camera Images"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_ensure_tool_settings"
+#~ msgid "Active UV map is missing, continue with limited capabilities"
+#~ msgstr ""
+
+
+#~ msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses"
+#~ msgstr ""
+
+
+#~ msgid "What data to overwrite"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded {num_done:d}/{num_cameras:d} required images, opened {num_opened:d} new, replaced {num_changed:d}{fmt_failed_to_open:s}. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgid "Select to export the information on the created calibration groups"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_data_cleanup"
+#~ msgid "Data cleanup skipped"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_data_cleanup"
+#~ msgid "Data cleanup complete"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Could not bind image(s) with selected options{fmt_failed_to_open:s}"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded all images, {num_changed:d} replaced. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid "%s - object"
+#~ msgstr ""
+
+
+#~ msgid "Write number of cameras into a file"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid ", failed to open %d"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_setup_context"
+#~ msgid "Context setup completed"
+#~ msgstr ""
+
+
+#~ msgid "Camera Projection Painter user preferences"
+#~ msgstr ""
+
+# CPP_OT_ensure_canvas
+#~ msgctxt "CPP_OT_ensure_canvas"
+#~ msgid "Ensure Canvas"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded {num_done:d}/{num_cameras:d} required images, replaced {num_changed:d}. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Bind the image to the active camera"
+#~ msgstr ""
 

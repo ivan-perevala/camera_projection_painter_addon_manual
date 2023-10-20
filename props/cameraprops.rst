@@ -137,10 +137,10 @@ Reality Capture "Metadata XMP" properties
 Export Mode
 -----------
 
-Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses
+Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses for Reality Capture (XMP)
 
 Do Not Export
-
+ Do not export camera poses
 
 Draft
  This will treat poses as an imperfect draft to be optimized in the future. The draft mode functions also as a flight log
@@ -154,21 +154,21 @@ Locked
 Calibration Group
 -----------------
 
-By defining a group we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use "-1" if you do not want to group the parameters
+By defining a group for Reality Capture (XMP) we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use "-1" if you do not want to group the parameters
 
 Distortion Group
 ----------------
 
-By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use "-1" if you do not want to group the parameters
+By defining a group for Reality Capture (XMP) we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use "-1" if you do not want to group the parameters
 
 In Texturing
 ------------
 
-Whether to use an image to create an object texture
+Whether to use an image to create an object texture for Reality Capture (XMP)
 
 In Meshing
 ----------
 
-Whether to use an image to create the object mesh data
+Whether to use an image to create the object mesh data for Reality Capture (XMP)
 
 
