@@ -105,6 +105,10 @@ msgctxt "Preferences"
 msgid "Reality Capture"
 msgstr ""
 
+#. :src: bpy.types.Preferences.preferred_software_workflow:'REALITY_CAPTURE'
+msgid "Use presets for Reality Capture"
+msgstr ""
+
 #. :src: bpy.types.Preferences.select_framebuffer_scale
 msgctxt "Preferences"
 msgid "Select Framebuffer Scale"
@@ -206,6 +210,11 @@ msgstr ""
 
 #. :src: bpy.types.Preferences.use_smooth_previews
 msgid "Use fast approximated anti-aliasing for preview images. Blender generates previews as Nearest, so readability is lost. This option does not add more data from the original image but performs smoothing and thus makes it more readable"
+msgstr ""
+
+#. :src: bpy.types.BHQAB_OT_lxyeojmkqr_check_addon_updates
+msgctxt "BHQAB_PreferencesUpdates"
+msgid "Check Now"
 msgstr ""
 
 #. :src: bpy.types.CPP_OT_bind_images.directory
@@ -1790,17 +1799,17 @@ msgstr ""
 msgid "Check Tool"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:408
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:438
 msgctxt "BHQAB_Preferences"
 msgid "Open Log Files Directory"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:414
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:444
 msgctxt "Operator"
 msgid "Open Log: \"{filename}\"BHQAB_Preferences"
 msgstr ""
 
-#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:414
+#: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:444
 msgctxt "BHQAB_Preferences"
 msgid "Open Log: \"{filename}\""
 msgstr "Відкрити Лог: \"{filename}\""
@@ -2012,41 +2021,27 @@ msgstr ""
 
 
 #~ msgctxt "CPP_OT_bind_images"
+#~ msgid "For the selected options, all the necessary images are already binded. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
 #~ msgid "Bind Image"
 #~ msgstr ""
 
 
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Could not bind image(s) of either available or \"{directory:s}\" directory with selected options{fmt_failed_to_open:s}"
+#~ msgctxt "BHQAB_PreferencesBHQAB_PreferencesBHQAB_PreferencesBHQAB_PreferencesBHQAB_Preferences"
+#~ msgid "DebugInfoWarningErrorCritical"
 #~ msgstr ""
 
 
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "The appropriate image is already binded to the options selected. Search time - {elapsed:.3f} second(s)"
+#~ msgctxt "Preferences"
+#~ msgid "Keymap"
 #~ msgstr ""
 
 
-#~ msgctxt "CPP_OT_import_scene"
-#~ msgid "Imported \"{filepath}\""
-#~ msgstr ""
-
-
-#~ msgid "Remove image from bind history"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_import_cameras"
-#~ msgid "Imported data of {done_num_cameras:d} camera(s) from {done_num_files:d}/{num_files:d} file(s) in {elapsed:.3f} second(s)"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_ensure_canvas"
-#~ msgid "Paint canvas is missing"
-#~ msgstr ""
-
-# CPP_OT_import_scene
-#~ msgctxt "CPP_OT_import_scene"
-#~ msgid "Import Scene"
+#~ msgctxt "ToolTip"
+#~ msgid "%s - camera"
 #~ msgstr ""
 
 # CPP_OT_bind_images
@@ -2055,17 +2050,307 @@ msgstr ""
 #~ msgstr ""
 
 
+#~ msgid "Informational messages"
+#~ msgstr ""
+
+# CPP_OT_pref_show
+#~ msgctxt "CPP_OT_pref_show"
+#~ msgid "Show Preferences"
+#~ msgstr ""
+
+
+#~ msgid "Whether to use an image to create an object texture"
+#~ msgstr ""
+
+
+#~ msgid "Camera Projection Painter user preferences"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Info"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "The appropriate image is already binded to the options selected. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgid "Export camera data"
+#~ msgstr ""
+
+
+#~ msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses"
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid ""
+#~ "Image Index: %d\n"
+#~ "Camera Index: %d"
+#~ msgstr ""
+
+
+#~ msgid "Settings used for debugging and development purposes"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_ensure_canvas"
+#~ msgid "Paint canvas is missing"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "No active camera, operation skipped"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_ensure_tool_settings"
+#~ msgid "Canvas object has no polygons"
+#~ msgstr ""
+
+
+#~ msgctxt "Preferences"
+#~ msgid "Active tab for viewing user preferencesAppearance"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "The image is open and binded, the previous value has been changed. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+# CPP_OT_ensure_canvas
+#~ msgctxt "CPP_OT_ensure_canvas"
+#~ msgid "Ensure Canvas"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_ensure_tool_settings"
+#~ msgid "Active UV map is missing, continue with limited capabilities"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "This section is intended for developers. You see it because you have an active \"Developers Extras\" option in the Blender user preferences."
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Please, select your reconstructed scene file."
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid "%s - object"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Import Camera Images"
+#~ msgstr ""
+
+
+#~ msgid "Import camera data"
+#~ msgstr ""
+
+
 #~ msgctxt "CPP_OT_quick_select_canvas"
 #~ msgid "Selected image \"{filename}\""
 #~ msgstr ""
 
 
-#~ msgid "Setup the scene, tool, and data to work with"
+#~ msgctxt "CPP_OT_ensure_canvas"
+#~ msgid "Selected \"{filename}\" as UDIM paint canvas"
+#~ msgstr ""
+
+
+#~ msgid "Import a scene from third-party software"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Critical"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid ""
+#~ "Selected file recognized as\n"
+#~ "{file_format}"
+#~ msgstr ""
+
+
+#~ msgid "Appearance settings"
+#~ msgstr ""
+
+
+#~ msgid "Export editor states, e.g. enabled/disabled flags for texturing, meshing, and similar"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded {num_done:d}/{num_cameras:d} required images, opened {num_opened:d} new, replaced {num_changed:d}{fmt_failed_to_open:s}. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+# CPP_OT_ensure_tool_settings
+#~ msgctxt "CPP_OT_ensure_tool_settings"
+#~ msgid "Ensure Tool Settings"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_data_cleanup"
+#~ msgid "Data cleanup complete"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_setup_context"
+#~ msgid "Context setup aborted"
+#~ msgstr ""
+
+
+#~ msgid "Write number of cameras into a file"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Log Level"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Import Failed \"{filepath}\""
+#~ msgstr ""
+
+# CPP_OT_import_scene
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Import Scene"
+#~ msgstr ""
+
+
+#~ msgid "WarningError"
+#~ msgstr ""
+
+
+#~ msgid "Debug messages (low priority)"
+#~ msgstr ""
+
+
+#~ msgid "The level of the log that will be output to the console. For log to file, this level value will not change"
+#~ msgstr ""
+
+# CPP_OT_bind_history_remove
+#~ msgctxt "CPP_OT_bind_history_remove"
+#~ msgid "Remove Image from Bind History"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded all images, {num_changed:d} replaced. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgctxt "Preferences"
+#~ msgid "Info"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_data_cleanup"
+#~ msgid "Recommended data cleanup skipped"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "{num_done:d}/{num_cameras:d} of the necessary images are binded for the selected options. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_quick_select_canvas"
+#~ msgid "Unable to evaluate image for quick select"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded {num_done:d}/{num_cameras:d} required images, replaced {num_changed:d}. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_ensure_canvas"
+#~ msgid "Selected \"{filename}\" as paint canvas"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded all images, opened {num_opened:d} new, replaced {num_changed:d}. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgid "Format Locked"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Unable to import file with unknown file extension"
 #~ msgstr ""
 
 
 #~ msgctxt "CPP_OT_export_cameras"
-#~ msgid "Exported {num_cameras:d} camera(s) to {num_files:d} file(s) in {elapsed:.3f} seconds"
+#~ msgid "No file(s) exported"
+#~ msgstr ""
+
+# CPP_OT_export_cameras
+#~ msgctxt "CPP_OT_export_cameras"
+#~ msgid "Export Cameras"
+#~ msgstr ""
+
+
+#~ msgid "Whether to use an image to create the object mesh data"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_setup_context"
+#~ msgid "Context setup completed"
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid "Loaded into memory: %s"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Binded image, the previous value has been changed. Search time - {elapsed:.3f} second(s)"
+#~ msgstr ""
+
+
+#~ msgid "Warning messages (medium priority)"
+#~ msgstr ""
+
+
+#~ msgid "Keymap settings"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Debug"
+#~ msgstr ""
+
+
+#~ msgctxt "Preferences"
+#~ msgid "Developer Extras"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Import Image"
+#~ msgstr ""
+
+
+#~ msgid "Information and links"
+#~ msgstr ""
+
+
+#~ msgid "What data to overwrite"
 #~ msgstr ""
 
 
@@ -2078,77 +2363,48 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgid "Whether to use an image to create an object texture"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_ensure_tool_settings"
-#~ msgid "Canvas object has no polygons"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_import_cameras"
-#~ msgid "Unable to import {num_files:d} file(s)"
-#~ msgstr ""
-
-
 #~ msgctxt "CPP_OT_bind_images"
-#~ msgid "No active camera, operation skipped"
-#~ msgstr ""
-
-
-#~ msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "The image is open and binded, the previous value has been changed. Search time - {elapsed:.3f} second(s)"
-#~ msgstr ""
-
-# CPP_OT_canvas_new
-#~ msgctxt "CPP_OT_canvas_new"
-#~ msgid "Create New Canvas"
-#~ msgstr ""
-
-# 
-#~ msgid "Preview Render"
-#~ msgstr ""
-
-# CPP_OT_ensure_tool_settings
-#~ msgctxt "CPP_OT_ensure_tool_settings"
-#~ msgid "Ensure Tool Settings"
-#~ msgstr ""
-
-
-#~ msgid "Import camera data"
-#~ msgstr ""
-
-
-#~ msgctxt "ToolTip"
-#~ msgid "%s - camera"
+#~ msgid "Bind the image to the active camera"
 #~ msgstr ""
 
 
 #~ msgid "Operators"
 #~ msgstr ""
 
-# CPP_OT_pref_show
-#~ msgctxt "CPP_OT_pref_show"
-#~ msgid "Show Preferences"
+
+#~ msgid "Setup the scene, tool, and data to work with"
 #~ msgstr ""
 
 
-#~ msgctxt "CPP_OT_ensure_canvas"
-#~ msgid "Selected \"{filename}\" as UDIM paint canvas"
+#~ msgctxt "CPP_OT_import_scene"
+#~ msgid "Imported \"{filepath}\""
 #~ msgstr ""
 
 
-#~ msgctxt "CPP_OT_setup_context"
-#~ msgid "Context setup aborted"
+#~ msgid "By defining a group we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
+#~ msgstr ""
+
+# 
+#~ msgid "Preview Render"
 #~ msgstr ""
 
 
-#~ msgid "Export camera data"
+#~ msgctxt "CPP_OT_export_cameras"
+#~ msgid "Exported {num_cameras:d} camera(s) to {num_files:d} file(s) in {elapsed:.3f} seconds"
+#~ msgstr ""
+
+# CPP_OT_data_cleanup
+#~ msgctxt "CPP_OT_data_cleanup"
+#~ msgid "Data Cleanup"
+#~ msgstr ""
+
+
+#~ msgid "Error messages (high priority)"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_import_cameras"
+#~ msgid "Unable to import {num_files:d} file(s)"
 #~ msgstr ""
 
 # CPP_OT_quick_select_canvas
@@ -2158,169 +2414,7 @@ msgstr ""
 
 
 #~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Binded image, the previous value has been changed. Search time - {elapsed:.3f} second(s)"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_import_scene"
-#~ msgid ""
-#~ "Selected file recognized as\n"
-#~ "{file_format}"
-#~ msgstr ""
-
-# CPP_OT_data_cleanup
-#~ msgctxt "CPP_OT_data_cleanup"
-#~ msgid "Data Cleanup"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_import_scene"
-#~ msgid "Please, select your reconstructed scene file."
-#~ msgstr ""
-
-# CPP_OT_import_cameras
-#~ msgctxt "CPP_OT_import_cameras"
-#~ msgid "Import Cameras"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_data_cleanup"
-#~ msgid "Recommended data cleanup skipped"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_export_cameras"
-#~ msgid "No file(s) exported"
-#~ msgstr ""
-
-
-#~ msgctxt "ToolTip"
-#~ msgid "Loaded into memory: %s"
-#~ msgstr ""
-
-
-#~ msgid "Quick canvas image selection for paint object"
-#~ msgstr ""
-
-
-#~ msgctxt "ToolTip"
-#~ msgid "%s - image"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Binded all images, opened {num_opened:d} new, replaced {num_changed:d}. Search time - {elapsed:.3f} second(s)"
-#~ msgstr ""
-
-# CPP_OT_setup_context
-#~ msgctxt "CPP_OT_setup_context"
-#~ msgid "Setup Context"
-#~ msgstr ""
-
-
-#~ msgid "Export editor states, e.g. enabled/disabled flags for texturing, meshing, and similar"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "For the selected options, all the necessary images are already binded. Search time - {elapsed:.3f} second(s)"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Import Image"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_ensure_tool_settings"
-#~ msgid "Scene is missing canvas object"
-#~ msgstr ""
-
-
-#~ msgid "Format Locked"
-#~ msgstr ""
-
-
-#~ msgid "Import a scene from third-party software"
-#~ msgstr ""
-
-
-#~ msgctxt "ToolTip"
-#~ msgid ""
-#~ "Image Index: %d\n"
-#~ "Camera Index: %d"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_import_scene"
-#~ msgid "Import Failed \"{filepath}\""
-#~ msgstr ""
-
-# CPP_OT_bind_history_remove
-#~ msgctxt "CPP_OT_bind_history_remove"
-#~ msgid "Remove Image from Bind History"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "{num_done:d}/{num_cameras:d} of the necessary images are binded for the selected options. Search time - {elapsed:.3f} second(s)"
-#~ msgstr ""
-
-# CPP_OT_export_cameras
-#~ msgctxt "CPP_OT_export_cameras"
-#~ msgid "Export Cameras"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_ensure_canvas"
-#~ msgid "Selected \"{filename}\" as paint canvas"
-#~ msgstr ""
-
-
-#~ msgid "Whether to use an image to create the object mesh data"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_quick_select_canvas"
-#~ msgid "Unable to evaluate image for quick select"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_import_scene"
-#~ msgid "Unable to import file with unknown file extension"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
 #~ msgid "Bind images to all cameras in the scene"
-#~ msgstr ""
-
-
-#~ msgctxt "ToolTip"
-#~ msgid "No"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Import Camera Images"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_ensure_tool_settings"
-#~ msgid "Active UV map is missing, continue with limited capabilities"
-#~ msgstr ""
-
-
-#~ msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses"
-#~ msgstr ""
-
-
-#~ msgid "What data to overwrite"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Binded {num_done:d}/{num_cameras:d} required images, opened {num_opened:d} new, replaced {num_changed:d}{fmt_failed_to_open:s}. Search time - {elapsed:.3f} second(s)"
 #~ msgstr ""
 
 
@@ -2333,55 +2427,79 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgctxt "CPP_OT_data_cleanup"
-#~ msgid "Data cleanup complete"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Could not bind image(s) with selected options{fmt_failed_to_open:s}"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Binded all images, {num_changed:d} replaced. Search time - {elapsed:.3f} second(s)"
-#~ msgstr ""
-
-
-#~ msgctxt "ToolTip"
-#~ msgid "%s - object"
-#~ msgstr ""
-
-
-#~ msgid "Write number of cameras into a file"
-#~ msgstr ""
-
-
 #~ msgctxt "CPP_OT_bind_images"
 #~ msgid ", failed to open %d"
 #~ msgstr ""
 
 
+#~ msgid "Remove image from bind history"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Error"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Warning"
+#~ msgstr "Попередження"
+
+
+#~ msgid "Critical error messages"
+#~ msgstr ""
+
+# CPP_OT_import_cameras
+#~ msgctxt "CPP_OT_import_cameras"
+#~ msgid "Import Cameras"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_ensure_tool_settings"
+#~ msgid "Scene is missing canvas object"
+#~ msgstr ""
+
+
+#~ msgctxt "Preferences"
+#~ msgid "Tab"
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid "No"
+#~ msgstr ""
+
+
+#~ msgid "Quick canvas image selection for paint object"
+#~ msgstr ""
+
+
+#~ msgctxt "CPP_OT_bind_images"
+#~ msgid "Could not bind image(s) of either available or \"{directory:s}\" directory with selected options{fmt_failed_to_open:s}"
+#~ msgstr ""
+
+# CPP_OT_setup_context
 #~ msgctxt "CPP_OT_setup_context"
-#~ msgid "Context setup completed"
+#~ msgid "Setup Context"
 #~ msgstr ""
 
 
-#~ msgid "Camera Projection Painter user preferences"
+#~ msgctxt "CPP_OT_import_cameras"
+#~ msgid "Imported data of {done_num_cameras:d} camera(s) from {done_num_files:d}/{num_files:d} file(s) in {elapsed:.3f} second(s)"
 #~ msgstr ""
 
-# CPP_OT_ensure_canvas
-#~ msgctxt "CPP_OT_ensure_canvas"
-#~ msgid "Ensure Canvas"
+# CPP_OT_canvas_new
+#~ msgctxt "CPP_OT_canvas_new"
+#~ msgid "Create New Canvas"
+#~ msgstr ""
+
+
+#~ msgctxt "ToolTip"
+#~ msgid "%s - image"
 #~ msgstr ""
 
 
 #~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Binded {num_done:d}/{num_cameras:d} required images, replaced {num_changed:d}. Search time - {elapsed:.3f} second(s)"
-#~ msgstr ""
-
-
-#~ msgctxt "CPP_OT_bind_images"
-#~ msgid "Bind the image to the active camera"
+#~ msgid "Could not bind image(s) with selected options{fmt_failed_to_open:s}"
 #~ msgstr ""
 

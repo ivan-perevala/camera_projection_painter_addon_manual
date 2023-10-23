@@ -1,6 +1,6 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2023 BlenderHQ
-# This file is distributed under the same license as the Camera Projection Painter package.
+# Translations template for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
@@ -8,7 +8,7 @@ msgstr ""
 
 
 msgid "Camera"
-msgstr ""
+msgstr "Камера"
 
 
 msgid "Image"
@@ -312,7 +312,7 @@ msgstr "Чи використовувати зображення для ство
 
 
 msgid "Object"
-msgstr ""
+msgstr "Об'єкт"
 
 
 msgid "Rotation Matrix"
@@ -624,87 +624,7 @@ msgstr "Відповідає негативному значенню матри�
 
 
 msgid "Preferences"
-msgstr ""
-
-
-msgid "Tab"
-msgstr ""
-
-
-msgid "Active tab for viewing user preferences"
-msgstr "Активна вкладка для перегляду користувацьких налаштувань"
-
-
-msgid "Appearance Section"
-msgstr "Секція Відображення"
-
-
-msgid "Active appearance section"
-msgstr "Секція Відображення"
-
-
-msgid "Viewport"
-msgstr "Вікно Перегляду"
-
-
-msgid "Common viewport settings"
-msgstr "Загальні налаштування вікна перегляду"
-
-
-msgid "Anti-Aliasing"
-msgstr "Згладжування"
-
-
-msgid "Anti-aliasing settings"
-msgstr "Налаштування згладжування"
-
-
-msgid "Info Section"
-msgstr ""
-
-
-msgid "Active information section"
-msgstr "Активна інформаційна секція"
-
-
-msgid "Updates"
-msgstr "Оновлення"
-
-
-msgid "Information about available updates. Here you can check for a new release, review the release notes, and update the addon"
-msgstr "Інформація про наявність оновлень. Тут можна перевірити наявність оновлень, прочитати замітки щодо випуску а також оновити доповнення"
-
-
-msgid "Readme"
-msgstr ""
-
-
-msgid "Notes that can help you start using the addon, for example, if there is no internet connection"
-msgstr "Замітки що можуть допомогти почати використовувати доповнення, наприклад якщо відсутнє підключення до інтернету"
-
-
-msgid "Credits"
-msgstr ""
-
-
-msgid "Thanks to those involved in creating the addon"
-msgstr "Подяка причетним до створення доповнення"
-
-
-msgid "Links"
-msgstr ""
-
-
-msgid "Useful links to online resources that can help you use the addon"
-msgstr "Корисні посилання на онлайн ресурси які можуть допомогти користуватися доповненням"
-
-
-msgid "License"
-msgstr ""
-
-
-msgid "Addon license information"
-msgstr "Інформація про ліцензію доповнення"
+msgstr "Налаштування"
 
 
 msgid "Use Mesh Preview"
@@ -736,7 +656,7 @@ msgstr "Згладжування Попереднього Перегляду"
 
 
 msgid "Use fast approximated anti-aliasing for preview images. Blender generates previews as Nearest, so readability is lost. This option does not add more data from the original image but performs smoothing and thus makes it more readable"
-msgstr ""
+msgstr "Використати спрощене згладжування для зображень попереднього перегляду. Blender створює їх без згладжування, тому іноді вони не читальні. Ця опція не додає ьільше даних з оригінального зображення, але робить попередній перегляд більш читальним"
 
 
 msgid "Cameras Transparency"
@@ -796,7 +716,7 @@ msgstr "З'являється поблизу кисті і слідує за н�
 
 
 msgid "Fixed"
-msgstr "Фіксований"
+msgstr "Фіксована"
 
 
 msgid "Appears only at the bottom of the screen, in the middle"
@@ -815,36 +735,68 @@ msgid "Reality Capture"
 msgstr ""
 
 
+msgid "Use presets for Reality Capture"
+msgstr "Використовувати попередні налаштування для Reality Capture"
+
+
+msgid "Select Framebuffer Scale"
+msgstr "Масштаб Буфера Кадру Виділення"
+
+
+msgid "Select framebuffer scale percentage, available in \"Developer Extras\" section. This exists mostly for optimization purposes, since the smaller size of framebuffer significantly reduces the use of both memory and CPU. The point is that the data from framebuffer will be read not only in one particular place, but also to determine which cameras in the field of view of the observer and require rendering of preview. Changing this option requires restarting the active main operator"
+msgstr "Масштаб у відсотках для буфера кадру виділення, доступний у вкладці \"Додатки Розробника\". Необхідно для оптимізації, оскільки менший розмір буфера кадру значно зменшує навантаження як процесора так і відеокарти. Основним є те що дані буде зчитано не лише в одній конкретній точці, але також і всі разом, аби з'ясувати які камери знаходяться в полі зору спостерігача і потребують оновлення щображень попереднього перегляду. Необхідно перезавантажити основний оператор доповнення якщо опцію було змінено."
+
+
 msgid "Log Level"
-msgstr ""
+msgstr "Рівень Логу"
 
 
 msgid "The level of the log that will be output to the console. For log to file, this level value will not change"
-msgstr ""
+msgstr "Рівень логу для консолі. Для логу в файл це значення рівня нічого не змінить"
 
 
 msgid "Debug"
-msgstr ""
+msgstr "Налагодження"
+
+
+msgid "Debug messages (low priority)"
+msgstr "Повідомлення налагодження (низький пріоритет)"
 
 
 msgid "Info"
-msgstr ""
+msgstr "Інформація"
+
+
+msgid "Informational messages"
+msgstr "Інформаційні повідомлення"
 
 
 msgid "Warning"
 msgstr "Попередження"
 
 
+msgid "Warning messages (medium priority)"
+msgstr "Попередження (середній пріоритет)"
+
+
 msgid "Error"
-msgstr ""
+msgstr "Помилки"
+
+
+msgid "Error messages (high priority)"
+msgstr "Повідомлення про помилки (високий пріоритет)"
 
 
 msgid "Critical"
-msgstr ""
+msgstr "Критичні"
+
+
+msgid "Critical error messages"
+msgstr "Повідомлення про критичні помилки"
 
 
 msgid "Scene"
-msgstr ""
+msgstr "Сцена"
 
 
 msgid "Unit"
@@ -1016,7 +968,7 @@ msgstr "Прозорість зображення коли дивитися з �
 
 
 msgid "Window Manager"
-msgstr ""
+msgstr "Менеджер Вікон"
 
 
 msgid "Configure UDIM"

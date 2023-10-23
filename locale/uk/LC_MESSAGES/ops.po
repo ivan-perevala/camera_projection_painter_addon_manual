@@ -392,7 +392,7 @@ msgstr "Вперед"
 
 
 msgid "Axis forward"
-msgstr ""
+msgstr "Вісь Вперед"
 
 
 msgid "X Forward"

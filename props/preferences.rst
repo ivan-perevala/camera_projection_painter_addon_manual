@@ -1,42 +1,6 @@
 Preferences
 ###########
 
-Tab
-===
-
-Active tab for viewing user preferences
-
-Appearance Section
-==================
-
-Active appearance section
-
-Viewport
- Common viewport settings
-
-Anti-Aliasing
- Anti-aliasing settings
-
-Info Section
-============
-
-Active information section
-
-Updates
- Information about available updates. Here you can check for a new release, review the release notes, and update the addon
-
-Readme
- Notes that can help you start using the addon, for example, if there is no internet connection
-
-Credits
- Thanks to those involved in creating the addon
-
-Links
- Useful links to online resources that can help you use the addon
-
-License
- Addon license information
-
 Use Mesh Preview
 ================
 
@@ -93,7 +57,12 @@ Software
 Preset for software for which the operation will be performed
 
 Reality Capture
+ Use presets for Reality Capture
 
+Select Framebuffer Scale
+========================
+
+Select framebuffer scale percentage, available in "Developer Extras" section. This exists mostly for optimization purposes, since the smaller size of framebuffer significantly reduces the use of both memory and CPU. The point is that the data from framebuffer will be read not only in one particular place, but also to determine which cameras in the field of view of the observer and require rendering of preview. Changing this option requires restarting the active main operator
 
 Log Level
 =========
@@ -101,17 +70,17 @@ Log Level
 The level of the log that will be output to the console. For log to file, this level value will not change
 
 Debug
-
+ Debug messages (low priority)
 
 Info
-
+ Informational messages
 
 Warning
-
+ Warning messages (medium priority)
 
 Error
-
+ Error messages (high priority)
 
 Critical
-
+ Critical error messages
 
