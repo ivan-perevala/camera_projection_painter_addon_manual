@@ -68,7 +68,7 @@ msgstr "Інформація про наявність оновлень. Тут 
 #. :src: bpy.types.Preferences.info_section:'README'
 msgctxt "Preferences"
 msgid "Readme"
-msgstr ""
+msgstr "Нотатки"
 
 #. :src: bpy.types.Preferences.info_section:'README'
 msgid "Notes that can help you start using the addon, for example, if there is no internet connection"
@@ -77,7 +77,7 @@ msgstr "Замітки що можуть допомогти почати вик�
 #. :src: bpy.types.Preferences.info_section:'CREDITS'
 msgctxt "Preferences"
 msgid "Credits"
-msgstr ""
+msgstr "Подяка"
 
 #. :src: bpy.types.Preferences.info_section:'CREDITS'
 msgid "Thanks to those involved in creating the addon"

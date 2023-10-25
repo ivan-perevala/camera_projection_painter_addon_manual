@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023 BlenderHQ
+# This file is distributed under the same license as the Camera Projection Painter package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Camera Projection Painter 3.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-23 20:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk\n"
+"Language-Team: uk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);"
+"\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+msgid "Quick Start"
+msgstr "Початок Роботи"
+
+msgid "Reality Capture"
+msgstr ""
+
+msgid "**Export camera data**"
+msgstr ""
+
+msgid "**Export mesh model**"
+msgstr ""
+
+msgid ""
+"Для того щоб спростити собі завдання під час імпорту моделі до Blender, експортуємо модель як Wavefront (.obj) файл."
+" У нових версіях Blender (3.2+) цей тип файлів імпортується швидко і містить лише необхідні для роботи з доповненням"
+" дані. Тут важливими опціями є:"
+msgstr ""
+
+msgid "``Coordinate System`` - ``Same as XMP``"
+msgstr ""
+
+msgid "``Transformation Preset`` - ``Blender``"
+msgstr ""
+
+msgid ""
+"Їх буде використано :ref:`як попередні налаштування для <Software>` імпорту з Reality Capture під час :doc:`імпорту "
+"сцени <./ops/import-scene>`."
+msgstr ""
+
+#~ msgid "Для того щоб спростити собі завдання під час імпорту моделі до Blender, важливими опціями є:"
+#~ msgstr ""
+
+#~ msgid "фів"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``Transformation Preset`` - ``Blender`` - буде використано :ref:`як "
+#~ "попередні налаштування для <Software>` імпорту з Reality Capture"
+#~ msgstr ""
+
+#~ msgid "``Coordinate System`` - `Same as XMP`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``Transformation Preset`` - ``Blender`` - буде використано :ref:`як "
+#~ "попередні налаштування для <Software>` імпорту з Reality Capture "
+#~ "під час :doc:`імпорту сцени <./ops/import-scene>`"
+#~ msgstr ""
+
