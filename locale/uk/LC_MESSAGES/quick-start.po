@@ -34,6 +34,8 @@ msgid ""
 "The current version of the addon only supports **Reality Capture** files. It is obvious that we plan to expand the "
 "support of files of third-party software."
 msgstr ""
+"Поточна версія доповнення підтримує лише файли **Reality Capture**. Очевидно що плануємо розширити підтримку файлів "
+"сторонніх програм."
 
 msgid "Reality Capture"
 msgstr ""
