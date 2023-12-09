@@ -13,11 +13,10 @@ So, in order to use this operator, you need to select a file to import and selec
 
 Next, the file type will be automatically determined using its extension. Files supported by the current version of the addon:
 
-* **Reality Capture**:
+* ``Wavefront (.obj)``, ``Collada (.dae)`` - used built-in Blender importers.
+* ``Autodesk (*.fbx)`` - the standard FBX file import addon will be used, so it should be enabled.
 
-  * ``Wavefront (.obj)``
-  * ``FBX``
-  * ``Collada (.dae)``
+If these requirements are not met, the files will be hidden in the file manager and refused import. However, this is more information for users who use their own Blender builds.
 
 
 .. Стадія :doc:`налаштування контексту <setup-context>` а також самостійний оператор. Фактично, це лише обгортка для стандартних операторів імпорту з попередніми налаштуваннями.
@@ -32,8 +31,7 @@ Next, the file type will be automatically determined using its extension. Files 
 
 .. Далі буде автоматично визначено тип файлу використовуючи його розширення. Файли які підтримує поточна версія доповнення:
 
-.. * **Reality Capture**:
+.. ``Wavefront (.obj)``, ``Collada (.dae)`` - використовуються вбудовані імпортери Blender.
+.. ``Autodesk (*.fbx)`` - буде використано стандартне доповнення імпорту FBX файлів, тому воно повинно бути увімкнено.
 
-..   * ``Wavefront (.obj)``
-..   * ``FBX``
-..   * ``Collada (.dae)``
+..  Якщо ці вимоги не виконано то файли буде приховано в файловому менеджері і відмовлено в імпорті. Втім, це інформація більше для користувачів що використовують власні збірки Blender.

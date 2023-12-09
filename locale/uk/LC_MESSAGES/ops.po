@@ -539,20 +539,16 @@ msgid "Next, the file type will be automatically determined using its extension.
 msgstr "Далі буде автоматично визначено тип файлу використовуючи його розширення. Файли які підтримує поточна версія доповнення:"
 
 
-msgid "**Reality Capture**:"
-msgstr ""
+msgid "``Wavefront (.obj)``, ``Collada (.dae)`` - used built-in Blender importers."
+msgstr "``Wavefront (.obj)``, ``Collada (.dae)`` - використовуються вбудовані імпортери Blender."
 
 
-msgid "``Wavefront (.obj)``"
-msgstr ""
+msgid "``Autodesk (*.fbx)`` - the standard FBX file import addon will be used, so it should be enabled."
+msgstr "``Autodesk (*.fbx)`` - буде використано стандартне доповнення імпорту FBX файлів, тому воно повинно бути увімкнено."
 
 
-msgid "``FBX``"
-msgstr ""
-
-
-msgid "``Collada (.dae)``"
-msgstr ""
+msgid "If these requirements are not met, the files will be hidden in the file manager and refused import. However, this is more information for users who use their own Blender builds."
+msgstr "Якщо ці вимоги не виконано то файли буде приховано в файловому менеджері і відмовлено в імпорті. Втім, це інформація більше для користувачів що використовують власні збірки Blender."
 
 
 msgid "Quick Select Canvas"
@@ -728,5 +724,25 @@ msgstr "Очевидно що сам по собі оператор не має 
 
 
 #~ msgid "Послідовність стадій виконання така:"
+#~ msgstr ""
+
+
+#~ msgid "**Reality Capture**:"
+#~ msgstr ""
+
+
+#~ msgid "``Wavefront (.obj)``"
+#~ msgstr ""
+
+
+#~ msgid "``FBX``"
+#~ msgstr ""
+
+
+#~ msgid "``Collada (.dae)``"
+#~ msgstr ""
+
+
+#~ msgid "``Wavefront (.obj)``, ``Collada (.dae)`` - used built-in Blender importers. ``Autodesk (*.fbx)`` - the standard FBX file import addon will be used, so it should be enabled."
 #~ msgstr ""
 

@@ -1812,11 +1812,11 @@ msgstr ""
 #: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:444
 msgctxt "BHQAB_Preferences"
 msgid "Open Log: \"{filename}\""
-msgstr ""
+msgstr "Відкрити Лог: \"{filename}\""
 
 #: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:231
 msgid "Warning"
-msgstr ""
+msgstr "Попередження"
 
 #: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:917
 msgid "Can not check for updates now"
@@ -2501,129 +2501,5 @@ msgstr ""
 
 #~ msgctxt "CPP_OT_bind_images"
 #~ msgid "Could not bind image(s) with selected options{fmt_failed_to_open:s}"
-#~ msgstr ""
-
-
-#~ msgid "Fast approximate anti-aliasing"
-#~ msgstr ""
-
-
-#~ msgid "Fast approximate anti-aliasing quality preset"
-#~ msgstr ""
-
-
-#~ msgid "Anti-aliasing method to be used"
-#~ msgstr ""
-
-
-#~ msgid "Less dither, more expensive"
-#~ msgstr ""
-
-
-#~ msgid "99% of the quality. A lot of search steps, diagonal and corner search steps, lowest threshold"
-#~ msgstr ""
-
-
-#~ msgid "Default medium dither"
-#~ msgstr ""
-
-
-#~ msgctxt "Preferences"
-#~ msgid "License"
-#~ msgstr ""
-
-
-#~ msgid "Sub-pixel morphological anti-aliasing quality preset"
-#~ msgstr ""
-
-
-#~ msgid "FXAA preset quality tuning"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "High"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "Low"
-#~ msgstr ""
-
-
-#~ msgid "Less dither, faster"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "None"
-#~ msgstr ""
-
-
-#~ msgid "80% of the quality. Medium threshold, few search steps, no detection of corners and diagonals"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "SMAA"
-#~ msgstr ""
-
-
-#~ msgid "No dither, very expensive"
-#~ msgstr ""
-
-
-#~ msgid "Do not use fast approximate anti-aliasing"
-#~ msgstr ""
-
-
-#~ msgid "60% of the quality. High threshold, very a few search steps, no detection of corners and diagonals"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "FXAA"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "AA Method"
-#~ msgstr ""
-
-
-#~ msgid "Do not use sub-pixel morphological anti-aliasing"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "Ultra"
-#~ msgstr ""
-
-
-#~ msgctxt "Preferences"
-#~ msgid "Links"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "Preset"
-#~ msgstr ""
-
-
-#~ msgid "95% of the quality. Medium threshold, more search steps, detection of corners and diagonals"
-#~ msgstr ""
-
-
-#~ msgid "Sub-pixel morphological anti-aliasing"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "Quality"
-#~ msgstr ""
-
-
-#~ msgctxt "BHQAB_Preferences"
-#~ msgid "Medium"
 #~ msgstr ""
 

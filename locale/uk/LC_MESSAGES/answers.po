@@ -21,7 +21,7 @@ msgstr ""
 "Generated-By: Babel 2.10.3\n"
 
 msgid "Answers"
-msgstr ""
+msgstr "Відповіді"
 
 msgid ""
 "Here you can find answers to questions previously asked by users. We respect the privacy of the author and the "
