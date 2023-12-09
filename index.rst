@@ -10,6 +10,7 @@ Add-on for Blender for working with photo scans and photogrammetry.
     about
     addon-basics
     quick-start
+    answers
 
 .. toctree::
     :maxdepth: 1
