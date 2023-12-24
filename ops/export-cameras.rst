@@ -50,25 +50,10 @@ As for choosing the source of the camera names in the exported file, it depends 
 
 .. Що стосується вибору джерела назв камер у експортованому файлі, то це залежить від набору даних поточної сцени. Найчастіше достатньо стандартних налаштувань (використовувати назву об'єкта камери), але в певних нестандартних ситуаціях це потрібно вказати самостійно.
 
-Overwrite
-=========
+Number of Cameras
+=================
 
-What data to overwrite for Reality Capture (XMP)
-
-Export Mode
- Overwrite "Export Mode" parameter for export
-
-Calibration Group
- Overwrite "Calibration Group" parameter for export
-
-Distortion Group
- Overwrite "Distortion Group" parameter for export
-
-In Texturing
- Overwrite "In Texturing" parameter for export
-
-In Meshing
- Overwrite "In Meshing" parameter for export
+Write number of cameras into a file for Reality Capture CSV-like file formats
 
 Calibration Groups
 ==================
@@ -116,11 +101,6 @@ In Meshing
 ==========
 
 Whether to use an image to create the object mesh data for Reality Capture (XMP)
-
-Number of Cameras
-=================
-
-Write number of cameras into a file for Reality Capture CSV-like file formats
 
 Forward
 =======

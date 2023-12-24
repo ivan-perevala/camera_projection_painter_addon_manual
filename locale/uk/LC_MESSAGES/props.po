@@ -23,15 +23,15 @@ msgid "Millimeters Focal Length"
 msgstr "Фокальна Відстань в Міліметрах"
 
 
-msgid "Focal length of the camera in millimeters. The value is stored and can be displayed with double precision"
-msgstr "Фокальна відстань камери у міліметрах. Значення зберігається і може бути відображене з подвійною точністю"
+msgid "Focal length of the camera in millimeters. The value is stored with double precision"
+msgstr "Фокальна відстань камери у міліметрах. Значення зберігається з подвійною точністю"
 
 
 msgid "Pixels Focal Length"
 msgstr "Фокальна Відстань у Пікселях"
 
 
-msgid "The focal length of the camera in pixels. The value can be displayed with double precision. Calculated by the formula:"
+msgid "The focal length of the camera in pixels. Calculated by the formula:"
 msgstr "Фокальна відстань камери у пікселях. Значення може бути відображене з подвійною точністю. Обраховується за формулою:"
 
 
@@ -47,16 +47,16 @@ msgid "Sensor"
 msgstr "Сенсор"
 
 
-msgid "The size of the camera sensor in millimeters, taking into account the larger side of the attached image. This means that if the sensor fit option is set to horizontal - the width of the sensor will be used for calculations, for vertical fit type - height accordingly. These values can be set manually. But for when working with photogrammetric scenes, it is necessary to use the automatic type of sensor adjustment. In this case, if the image has a landscape orientation (or the sides are equal), the width of the sensor will be used, and in the case of a portrait - the height of the sensor. As you can see, there are opportunities for using non-standard workflows, but the main mode of operation is the automatic sensor type. Also note the camera-bound image, this is important for importing and exporting to some file formats. The value is stored and can be displayed with double precision"
-msgstr "Розмір сенсору камери у міліметрах, зважаючи на більшу сторону прив'язаного зображення. Це означає що якщо параметр підгонки сенсора встановлено на горизонтальний - буде використано ширину сенсора для обрахунків, для вертикального типу підгонки - відповідно висоту. Ці значення можна встановити вручну. Але для роботи саме з фотограметричними сценами необхідно використовувати автоматичний тип підгонки сенсора. В такому разі якщо зображення має альбомну орієнтацію (або сторони рівні) - буде використано ширину сенсора, а у випадку портретної - висоту. Як бачите, тут присутні можливості для використання нестандартних робочих процесів, але основним способом роботи є автоматичний тип сенсора. Також зважайте на наявність прив'язаного до камери зображення, це важливо для імпорту і експорту в деякі формати файлів. Значення зберігається і може бути відображене з подвійною точністю"
+msgid "The size of the camera sensor in millimeters, taking into account the larger side of the attached image. This means that if the sensor fit option is set to horizontal - the width of the sensor will be used for calculations, for vertical fit type - height accordingly. These values can be set manually. But for when working with photogrammetric scenes, it is necessary to use the automatic type of sensor adjustment. In this case, if the image has a landscape orientation (or the sides are equal), the width of the sensor will be used, and in the case of a portrait - the height of the sensor. As you can see, there are opportunities for using non-standard workflows, but the main mode of operation is the automatic sensor type. Also note the camera-bound image, this is important for importing and exporting to some file formats. The value is stored with double precision"
+msgstr "Розмір сенсору камери у міліметрах, зважаючи на більшу сторону прив'язаного зображення. Це означає що якщо параметр підгонки сенсора встановлено на горизонтальний - буде використано ширину сенсора для обрахунків, для вертикального типу підгонки - відповідно висоту. Ці значення можна встановити вручну. Але для роботи саме з фотограметричними сценами необхідно використовувати автоматичний тип підгонки сенсора. В такому разі якщо зображення має альбомну орієнтацію (або сторони рівні) - буде використано ширину сенсора, а у випадку портретної - висоту. Як бачите, тут присутні можливості для використання нестандартних робочих процесів, але основним способом роботи є автоматичний тип сенсора. Також зважайте на наявність прив'язаного до камери зображення, це важливо для імпорту і експорту в деякі формати файлів. Значення зберігається з подвійною точністю"
 
 
 msgid "Millimeters Skew"
 msgstr "Зсув у Міліметрах"
 
 
-msgid "The horizontal skew of the image in millimeters relative to its center, excluding principal deviation"
-msgstr "Горизонтальний зсув зображення у міліметрах відносно його центру без урахування відхилення"
+msgid "The horizontal skew of the image in millimeters relative to its center, excluding principal deviation. The value is stored with double precision"
+msgstr "Горизонтальний зсув зображення у міліметрах відносно його центру без урахування відхилення. Значення зберігається з подвійною точністю"
 
 
 msgid "Pixels Skew"
@@ -79,8 +79,8 @@ msgid "Aspect Ratio"
 msgstr "Співвідношення Сторін"
 
 
-msgid "Image aspect ratio correction factor. It means the ratio of the height of the image to its width - that is, values ​​greater than 1.0 will stretch it vertically, smaller values ​​will compress it"
-msgstr "Фактор корекції співвідношення сторін зображення. Мається на увазі співвідношення висоти зображення до його ширини - тобто значення більше 1.0 розтягнуть його по вертикалі, менші ж - стиснуть"
+msgid "Image aspect ratio correction factor. It means the ratio of the height of the image to its width - that is, values ​​greater than 1.0 will stretch it vertically, smaller values ​​will compress it. The value is stored with double precision"
+msgstr "Фактор корекції співвідношення сторін зображення. Мається на увазі співвідношення висоти зображення до його ширини - тобто значення більше 1.0 розтягнуть його по вертикалі, менші ж - стиснуть. Значення зберігається з подвійною точністю"
 
 
 msgid "Millimeters Principal X"
@@ -175,48 +175,48 @@ msgid "K1"
 msgstr ""
 
 
-msgid "Represents linear radial distortion. It corrects or introduces distortion that increases linearly with radial distance"
-msgstr "Представляє лінійне радіальне спотворення. Він коригує або вносить викривлення, що лінійно зростає з радіальною відстанню"
+msgid "Represents linear radial distortion. It corrects or introduces distortion that increases linearly with radial distance. The value is stored with double precision"
+msgstr "Представляє лінійне радіальне спотворення. Він коригує або вносить викривлення, що лінійно зростає з радіальною відстанню. Значення зберігається з подвійною точністю"
 
 
 msgid "K2"
 msgstr ""
 
 
-msgid "Represents cubic radial distortion. It corrects or introduces distortion that increases with the cube of the radial distance"
-msgstr "Представляє кубічне радіальне викривлення. Він коригує або вносить викривлення, що збільшується разом із кубом радіальної відстані"
+msgid "Represents cubic radial distortion. It corrects or introduces distortion that increases with the cube of the radial distance. The value is stored with double precision"
+msgstr "Представляє кубічне радіальне викривлення. Він коригує або вносить викривлення, що збільшується разом із кубом радіальної відстані. Значення зберігається з подвійною точністю"
 
 
 msgid "K3"
 msgstr ""
 
 
-msgid "Represents quintic (fifth-order) radial distortion. It corrects or introduces distortion that increases with the fifth power of the radial distance"
-msgstr "Представляє квінтичне (п’ятого порядку) радіальне викривлення. Він виправляє або вносить викривлення, що збільшується з п’ятим ступенем радіальної відстані"
+msgid "Represents quintic (fifth-order) radial distortion. It corrects or introduces distortion that increases with the fifth power of the radial distance. The value is stored with double precision"
+msgstr "Представляє квінтичне (п’ятого порядку) радіальне викривлення. Він виправляє або вносить викривлення, що збільшується з п’ятим ступенем радіальної відстані. Значення зберігається з подвійною точністю"
 
 
 msgid "K4"
 msgstr ""
 
 
-msgid "Represents seventh-order radial distortion. It corrects or introduces distortion that increases with the seventh power of the radial distance"
-msgstr "Представляє радіальне викривлення сьомого порядку. Він виправляє або вносить викривлення, що збільшується із збільшенням радіальної відстані в сьомому ступені"
+msgid "Represents seventh-order radial distortion. It corrects or introduces distortion that increases with the seventh power of the radial distance. The value is stored with double precision"
+msgstr "Представляє радіальне викривлення сьомого порядку. Він виправляє або вносить викривлення, що збільшується із збільшенням радіальної відстані в сьомому ступені. Значення зберігається з подвійною точністю"
 
 
 msgid "P1"
 msgstr ""
 
 
-msgid "Represents linear tangential distortion. Corrects or introduces distortion that increases linearly with the distance from the image center"
-msgstr "Представляє лінійне тангенціальне спотворення. Виправляє або вносить спотворення, що лінійно зростає з відстанню від центру зображення"
+msgid "Represents linear tangential distortion. Corrects or introduces distortion that increases linearly with the distance from the image center. The value is stored with double precision"
+msgstr "Представляє лінійне тангенціальне спотворення. Виправляє або вносить спотворення, що лінійно зростає з відстанню від центру зображення. Значення зберігається з подвійною точністю"
 
 
 msgid "P2"
 msgstr ""
 
 
-msgid "Represents quadratic tangential distortion. Corrects or introduces distortion that increases with the square of the distance from the image center"
-msgstr "Представляє квадратичне тангенціальне викривлення. Виправляє або вносить спотворення, що збільшується з квадратом відстані від центру зображення"
+msgid "Represents quadratic tangential distortion. Corrects or introduces distortion that increases with the square of the distance from the image center. The value is stored with double precision"
+msgstr "Представляє квадратичне тангенціальне викривлення. Виправляє або вносить спотворення, що збільшується з квадратом відстані від центру зображення. Значення зберігається з подвійною точністю"
 
 
 msgid "Bind History"
@@ -231,396 +231,12 @@ msgid "The image that was previously attached to this camera"
 msgstr "Зображення що раніше було прив'язане до цієї камери"
 
 
-msgid "RC Metadata XMP"
-msgstr "RC Метадані XMP"
+msgid "Reality Capture Properties"
+msgstr "Параметри Reality Capture"
 
 
-msgid "Reality Capture \"Metadata XMP\" properties"
-msgstr "Параметри Reality Capture \"Метадані XMP\""
-
-
-msgid "Export Mode"
-msgstr "Режим Експорту"
-
-
-msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses for Reality Capture (XMP)"
-msgstr "Залежно від того наскільки Ви довіряєте реєстрації, можна обрати відповідні опції або ж не експортувати позиції камер для Reality Capture (XMP)"
-
-
-msgid "Do Not Export"
-msgstr "Не Експортувати"
-
-
-msgid "Do not export camera poses"
-msgstr "Не експортувати позиції камер"
-
-
-msgid "Draft"
-msgstr "Чернетка"
-
-
-msgid "This will treat poses as an imperfect draft to be optimized in the future. The draft mode functions also as a flight log"
-msgstr "Позначає позиції як не досконалі чернетки що потрібно оптимізувати в майбутньому. Режим чернетки також може використовуватися як лог польоту"
-
-
-msgid "Exact"
-msgstr "Чистовик"
-
-
-msgid "If you trust the alignment absolutely. By choosing this option, you are saying to the application that poses are precise, but the global position, orientation, and scale is not known"
-msgstr "Якщо Ви повністю довіряєте вирівнюванню. Обираючи цю опцію, Ви вказуєте аплікації що позиції є прецезійними, але глобальні положення, орієнтація і масштаб не відомі"
-
-
-msgid "Locked"
-msgstr "Заблокований Чистовик"
-
-
-msgid "This is the same as the exact option with the difference that the camera position and calibration will not be changed, when locked"
-msgstr "Те ж саме що і чистовик але положення камер і параметри калібрації не буде змінено"
-
-
-msgid "Calibration Group"
-msgstr "Група Калібрації"
-
-
-msgid "By defining a group for Reality Capture (XMP) we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters"
-msgstr "Групою для Reality Capture (XMP) ми зазначаємо що у всіх зображень у цій групі однакові властивості калібрації, тобто однакова фокальна відстань, однакове відхилення від центру, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
-
-
-msgid "Distortion Group"
-msgstr "Група Дисторсії"
-
-
-msgid "By defining a group for Reality Capture (XMP) we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
-msgstr "Групою для Reality Capture (XMP) ми зазначаємо що у всіх зображень у цій групі однакові властивості дисторсії, тобто однакові коефіцієнти дисторсії, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
-
-
-msgid "In Texturing"
-msgstr "Для Текстури"
-
-
-msgid "Whether to use an image to create an object texture for Reality Capture (XMP)"
-msgstr "Чи використовувати зображення для створення текстури об'єкта для Reality Capture (XMP)"
-
-
-msgid "In Meshing"
-msgstr "Для Сітки"
-
-
-msgid "Whether to use an image to create the object mesh data for Reality Capture (XMP)"
-msgstr "Чи використовувати зображення для створення сітки об'єкта для Reality Capture (XMP)"
-
-
-msgid "Object"
-msgstr "Об'єкт"
-
-
-msgid "Rotation Matrix"
-msgstr "Матриця Повороту"
-
-
-msgid "Row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system. Properties are stored as double-precision floats, according to the IEEE-754 standard, so imported values ​​will not lose precision"
-msgstr "Матриця повороту 3х3 по рядках у системі координат Blender (Картезіанській). Властивості зберігаються як дроби з подвійною точністю, відповідно до стандарту IEEE-754, тому імпортовані значення не втратять точності"
-
-
-msgid "Row: 1, Column: 1"
-msgstr "Рядок: 1, Колона: 1"
-
-
-msgid "Represents 1 row and 1 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
-msgstr "Відповідає 1 рядку і 1 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
-
-
-msgid "Row: 1, Column: 2"
-msgstr "Рядок: 1, Колона: 2"
-
-
-msgid "Represents 1 row and 2 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
-msgstr "Відповідає 1 рядку і 2 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
-
-
-msgid "Row: 1, Column: 3"
-msgstr "Рядок: 1, Колона: 3"
-
-
-msgid "Represents 1 row and 3 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
-msgstr "Відповідає 1 рядку і 3 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
-
-
-msgid "Row: 2, Column: 1"
-msgstr "Рядок: 2, Колона: 1"
-
-
-msgid "Represents 2 row and 1 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
-msgstr "Відповідає 2 рядку і 1 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
-
-
-msgid "Row: 2, Column: 2"
-msgstr "Рядок: 2, Колона: 2"
-
-
-msgid "Represents 2 row and 2 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
-msgstr "Відповідає 2 рядку і 2 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
-
-
-msgid "Row: 2, Column: 3"
-msgstr "Рядок: 2, Колона: 3"
-
-
-msgid "Represents 2 row and 3 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
-msgstr "Відповідає 2 рядку і 3 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
-
-
-msgid "Row: 3, Column: 1"
-msgstr "Рядок: 3, Колона: 1"
-
-
-msgid "Represents 3 row and 1 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
-msgstr "Відповідає 3 рядку і 1 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
-
-
-msgid "Row: 3, Column: 2"
-msgstr "Рядок: 3, Колона: 2"
-
-
-msgid "Represents 3 row and 2 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
-msgstr "Відповідає 3 рядку і 2 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
-
-
-msgid "Row: 3, Column: 3"
-msgstr "Рядок: 3, Колона: 3"
-
-
-msgid "Represents 3 row and 3 column of row-major object rotation matrix 3x3 in Blender (Cartesian) coordinate system"
-msgstr "Відповідає 3 рядку і 3 колонці матриці повороту 3х3 по рядках у системі координат Blender (Картезіанській)"
-
-
-msgid "Location"
-msgstr "Розташування"
-
-
-msgid "The position of the object in Blender's Cartesian coordinate system. Properties are stored as double-precision floats, according to the IEEE-754 standard, so imported values ​​will not lose precision"
-msgstr "Розташування об'єкту у Картезіанській системі координат Blender. Властивості зберігаються як дроби з подвійною точністю, відповідно до стандарту IEEE-754, тому імпортовані значення не втратять точності"
-
-
-msgid "X"
+msgid "The properties that were imported from Reality Capture.They will be used for export"
 msgstr ""
-
-
-msgid "The position of the object in Blender's Cartesian coordinate system by X axis"
-msgstr "Розташування об'єкту у Картезіанській системі координат Blender за віссю X"
-
-
-msgid "Y"
-msgstr ""
-
-
-msgid "The position of the object in Blender's Cartesian coordinate system by Y axis"
-msgstr "Розташування об'єкту у Картезіанській системі координат Blender за віссю Y"
-
-
-msgid "Z"
-msgstr ""
-
-
-msgid "The position of the object in Blender's Cartesian coordinate system by Z axis"
-msgstr "Розташування об'єкту у Картезіанській системі координат Blender за віссю Z"
-
-
-msgid "RC X, Y, Alt"
-msgstr "RC X, Y, Alt"
-
-
-msgid "Representation of object position as Reality Capture X, Y, Alt coordinates. Values ​​are stored in double precision according to the IEEE-754 standard in Blender's coordinate system, but can also be displayed in double precision and converted as X, Y, Alt"
-msgstr "Репрезентація розташування об'єкта як координати Reality Capture X, Y, Alt. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у координатній системі Blender, але їх також може бути відображено з подвійною точністю і конвертовано як X, Y, Alt"
-
-
-msgid "The location of the object in the Reality Capture coordinate system along the X-axis. Corresponds to the value along the negative Y-axis in Blender's Cartesian coordinate system"
-msgstr "Розташування об'єкту у координатній системі Reality Capture за віссю X. Відповідає значенню за негативною віссю Y у картезіанській системі координат Blender"
-
-
-msgid "The location of the object in the Reality Capture coordinate system along the Y-axis. Corresponds to the value along the X-axis in Blender's Cartesian coordinate system"
-msgstr "Розташування об'єкту у координатній системі Reality Capture за віссю Y. Відповідає значенню за віссю X у картезіанській системі координат Blender"
-
-
-msgid "Alt"
-msgstr ""
-
-
-msgid "The location of the object in the Reality Capture coordinate system along the Alt-axis. Corresponds to the value along the X-axis in Blender's Cartesian coordinate system"
-msgstr "Розташування об'єкту у координатній системі Reality Capture за віссю Alt. Відповідає значенню за віссю Z у картезіанській системі координат Blender"
-
-
-msgid "RC Heading, Pitch, Roll"
-msgstr "RC Никання, Тангаж і Крен"
-
-
-msgid "Representation of object orientation as Reality Capture Heading, Pitch, Roll. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as Heading, Pitch, Roll"
-msgstr "Репрезентація повороту об'єкта у вигляді Reality Capture Никання, Тангаж, Крен. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як Никання, Тангаж, Крен"
-
-
-msgid "Heading"
-msgstr "Никання"
-
-
-msgid "The object's heading value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
-msgstr "Значення никання об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
-
-
-msgid "`Heading = degrees(-atan2(M₁₁, M₀₁))`"
-msgstr "`Никання = degrees(-atan2(M₁₁, M₀₁))`"
-
-
-msgid "where `Mᵢⱼ` is an element of the rotation matrix"
-msgstr "де `Mᵢⱼ` - елемент матриці повороту"
-
-
-msgid "Pitch"
-msgstr "Тангаж"
-
-
-msgid "The object's pitch value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
-msgstr "Значення тангажу об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
-
-
-msgid "`Pitch = degrees(asin(M₂₁))`"
-msgstr "`Тангаж = degrees(asin(M₂₁))`"
-
-
-msgid "Roll"
-msgstr "Крен"
-
-
-msgid "The object's roll value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
-msgstr "Значення крену об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
-
-
-msgid "`Roll = degrees(-atan2(M₂₀, M₂₂))`"
-msgstr "`Крен = degrees(-atan2(M₂₀, M₂₂))`"
-
-
-msgid "RC Omega, Phi, Kappa"
-msgstr "RC Омега, Фі, Каппа"
-
-
-msgid "Representation of object orientation as Reality Capture Omega, Phi, Kappa Euler angles. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as Omega, Phi, Kappa"
-msgstr "Репрезентація повороту об'єкта у вигляді кутів Ейлера Reality Capture Омега, Фі, Каппа. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як Омега, Фі, Каппа"
-
-
-msgid "Omega"
-msgstr "Омега"
-
-
-msgid "The object's omega value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
-msgstr "Значення омега об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
-
-
-msgid "`ω = degrees(-atan2(M₀₀, M₀₁))`"
-msgstr "`ω = degrees(-atan2(M₀₀, M₀₁))`"
-
-
-msgid "Phi"
-msgstr "Фі"
-
-
-msgid "The object's phi value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
-msgstr "Значення фі об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
-
-
-msgid "`φ = degrees(-asin(M₀₂))`"
-msgstr "`φ = degrees(-asin(M₀₂))`"
-
-
-msgid "Kappa"
-msgstr "Каппа"
-
-
-msgid "The object's kappa value in the Reality Capture coordinate system. Corresponds to the matrix elements in to the Blender coordinate system according to the formula:"
-msgstr "Значення каппа об'єкту у координатній системі Reality Capture. Відповідає елементам матриці у координатній системі Blender за формулою:"
-
-
-msgid "`κ = degrees(atan2(M₁₂, M₂₂))"
-msgstr "`κ = degrees(atan2(M₁₂, M₂₂))`"
-
-
-msgid "RC Rotation Component"
-msgstr "RC Компонент Повороту"
-
-
-msgid "Representation of object orientation as Reality Capture rotation component. Values are stored in double precision according to the IEEE-754 standard in Blender's rotation matrix, but also can be displayed in double precision and converted as rotation component"
-msgstr "Репрезентація повороту об'єкта у вигляді компоненту повороту Reality Capture. Значення зберігаються з подвійною точністю, відповідно до стандарту IEEE-754, у матриці повороту Blender, але їх також може бути відображено з подвійною точністю і конвертовано як компонент повороту"
-
-
-msgid "Item: 1 (Row: 1, Column: 1)"
-msgstr "Значення: 1 (Рядок: 1, Колона: 1)"
-
-
-msgid "Corresponds to Blender rotation matrix negative value at column: 2, row: 1"
-msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 2, рядку: 1"
-
-
-msgid "Item: 2 (Row: 1, Column: 2)"
-msgstr "Значення: 2 (Рядок: 1, Колона: 2)"
-
-
-msgid "Corresponds to Blender rotation matrix value at column: 1, row: 1"
-msgstr "Відповідає значенню матриці повороту Blender в колоні: 1, рядку: 1"
-
-
-msgid "Item: 3 (Row: 1, Column: 3)"
-msgstr "Значення: 3 (Рядок: 1, Колона: 3)"
-
-
-msgid "Corresponds to Blender rotation matrix value at column: 3, row: 1"
-msgstr "Відповідає значенню матриці повороту Blender в колоні: 3, рядку: 1"
-
-
-msgid "Item: 4 (Row: 2, Column: 1)"
-msgstr "Значення: 4 (Рядок: 2, Колона: 1)"
-
-
-msgid "Corresponds to Blender rotation matrix value at column: 2, row: 2"
-msgstr "Відповідає значенню матриці повороту Blender в колоні: 2, рядку: 2"
-
-
-msgid "Item: 5 (Row: 2, Column: 2)"
-msgstr "Значення: 5 (Рядок: 2, Колона: 2)"
-
-
-msgid "Corresponds to Blender rotation matrix negative value at column: 1, row: 2"
-msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 1, рядку: 2"
-
-
-msgid "Item: 6 (Row: 2, Column: 3)"
-msgstr "Значення: 6 (Рядок: 2, Колона: 3)"
-
-
-msgid "Corresponds to Blender rotation matrix negative value at column: 3, row: 2"
-msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 3, рядку: 2"
-
-
-msgid "Item: 7 (Row: 3, Column: 1)"
-msgstr "Значення: 7 (Рядок: 3, Колона: 1)"
-
-
-msgid "Corresponds to Blender rotation matrix value at column: 2, row: 3"
-msgstr "Відповідає значенню матриці повороту Blender в колоні: 2, рядку: 3"
-
-
-msgid "Item: 8 (Row: 3, Column: 2)"
-msgstr "Значення: 8 (Рядок: 3, Колона: 2)"
-
-
-msgid "Corresponds to Blender rotation matrix negative value at column: 1, row: 3"
-msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 1, рядку: 3"
-
-
-msgid "Item: 9 (Row: 3, Column: 3)"
-msgstr "Значення: 9 (Рядок: 3, Колона: 3)"
-
-
-msgid "Corresponds to Blender rotation matrix negative value at column: 3, row: 3"
-msgstr "Відповідає негативному значенню матриці повороту Blender в колоні: 3, рядку: 3"
 
 
 msgid "Preferences"
@@ -823,30 +439,6 @@ msgid "Camera parameters relative to image sizes in pixels"
 msgstr "Параметри камери відносно розміру зображення у пікселях"
 
 
-msgid "Precision"
-msgstr "Точність"
-
-
-msgid "Precision of display of decimal fractions of camera parameters"
-msgstr "Точність відображення параметрів з десятковими дробами"
-
-
-msgid "Single"
-msgstr "Одинарна"
-
-
-msgid "IEEE-754 single precision float"
-msgstr "Одинарна точність дробу стандарту IEEE-754"
-
-
-msgid "Double"
-msgstr "Подвійна"
-
-
-msgid "IEEE-754 double precision float"
-msgstr "Подвійна точність дробу стандарту IEEE-754"
-
-
 msgid "Highlight Cameras Orientation"
 msgstr "Показати Орієнтацію Камер"
 
@@ -977,4 +569,8 @@ msgstr "Налаштувати UDIM"
 
 msgid "The add-on uses some standard methods for importing, but in certain situations this creates incorrect data for the add-on to work with. If this option is activated, after importing the object, the materials for working with UDIM textures will be set, and after selecting the canvas, the image settings will be checked and adjusted"
 msgstr "Доповнення використовує деякі стандартні методи для імпорту, але в певних ситуаціях це створює некоректні для роботи з доповненням дані. Якщо дана опція активована то після імпорту об'єкту відбудеться налаштування матеріалів для роботи з UDIM текстурами, а після вибору полотна - перевірка і корегування налаштувань зображення"
+
+
+#~ msgid "Object"
+#~ msgstr "Об'єкт"
 

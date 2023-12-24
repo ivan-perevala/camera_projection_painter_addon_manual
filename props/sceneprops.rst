@@ -12,17 +12,6 @@ Millimeters
 Pixels
  Camera parameters relative to image sizes in pixels
 
-Precision
-=========
-
-Precision of display of decimal fractions of camera parameters
-
-Single
- IEEE-754 single precision float
-
-Double
- IEEE-754 double precision float
-
 Highlight Cameras Orientation
 =============================
 

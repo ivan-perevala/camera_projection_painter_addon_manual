@@ -225,80 +225,80 @@ msgctxt "CPP_IO"
 msgid "Directory"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags
+#. :src: bpy.types.CPP_OT_bind_images.name_flags
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags
 msgctxt "PROP_UN_FLAGS"
 msgid "Comparison Options"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags
+#. :src: bpy.types.CPP_OT_bind_images.name_flags
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags
 msgid "Options for comparing names. At least one of the options must be selected for each compared type (object, image, etc.)"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'IGNORE_LETTER_CASE'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'IGNORE_LETTER_CASE'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'IGNORE_LETTER_CASE'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'IGNORE_LETTER_CASE'
 msgctxt "PROP_UN_FLAGS"
 msgid "Ignore Letter Case"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'IGNORE_LETTER_CASE'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'IGNORE_LETTER_CASE'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'IGNORE_LETTER_CASE'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'IGNORE_LETTER_CASE'
 msgid "Ignore character register for matching"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'IGNORE_EXTENSION'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'IGNORE_EXTENSION'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'IGNORE_EXTENSION'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'IGNORE_EXTENSION'
 msgctxt "PROP_UN_FLAGS"
 msgid "Ignore Extensions"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'IGNORE_EXTENSION'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'IGNORE_EXTENSION'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'IGNORE_EXTENSION'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'IGNORE_EXTENSION'
 msgid "Use name only, no file extension when searching"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_CAMERA_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_CAMERA_NAME'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'USE_CAMERA_NAME'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'USE_CAMERA_NAME'
 msgctxt "PROP_UN_FLAGS"
 msgid "Use Object Name"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_CAMERA_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_CAMERA_NAME'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'USE_CAMERA_NAME'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'USE_CAMERA_NAME'
 msgid "Use camera object name for comparison"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_CAM_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_CAM_NAME'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'USE_CAM_NAME'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'USE_CAM_NAME'
 msgctxt "PROP_UN_FLAGS"
 msgid "Use Camera Name"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_CAM_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_CAM_NAME'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'USE_CAM_NAME'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'USE_CAM_NAME'
 msgid "Use camera data name for comparison"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_IMAGE_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_IMAGE_NAME'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'USE_IMAGE_NAME'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'USE_IMAGE_NAME'
 msgctxt "PROP_UN_FLAGS"
 msgid "Use Image Name"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_IMAGE_NAME'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_IMAGE_NAME'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'USE_IMAGE_NAME'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'USE_IMAGE_NAME'
 msgid "Use image data-block name for comparison"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_IMAGE_FILEPATH'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_IMAGE_FILEPATH'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'USE_IMAGE_FILEPATH'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'USE_IMAGE_FILEPATH'
 msgctxt "PROP_UN_FLAGS"
 msgid "Use Image File Name"
 msgstr ""
 
-#. :src: bpy.types.CPP_OT_bind_images.un_flags:'USE_IMAGE_FILEPATH'
-#. :src: bpy.types.CPP_OT_import_cameras.un_flags:'USE_IMAGE_FILEPATH'
+#. :src: bpy.types.CPP_OT_bind_images.name_flags:'USE_IMAGE_FILEPATH'
+#. :src: bpy.types.CPP_OT_import_cameras.name_flags:'USE_IMAGE_FILEPATH'
 msgid "Use image file name for comparison"
 msgstr ""
 
@@ -1812,11 +1812,11 @@ msgstr ""
 #: F:\addons\camera_projection_painter_addon\src\lib\bhqab\reports.py:444
 msgctxt "BHQAB_Preferences"
 msgid "Open Log: \"{filename}\""
-msgstr "Відкрити Лог: \"{filename}\""
+msgstr ""
 
 #: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:231
 msgid "Warning"
-msgstr "Попередження"
+msgstr ""
 
 #: F:\addons\camera_projection_painter_addon\src\lib\bhqab\utils_ui.py:917
 msgid "Can not check for updates now"
@@ -2484,9 +2484,9 @@ msgstr ""
 #~ msgstr ""
 
 
-#~ msgctxt "CPP_OT_import_cameras"
-#~ msgid "Imported data of {done_num_cameras:d} camera(s) from {done_num_files:d}/{num_files:d} file(s) in {elapsed:.3f} second(s)"
-#~ msgstr ""
+msgctxt "CPP_OT_import_cameras"
+msgid "Imported data of {done_num_cameras:d} camera(s), created {created_num_cameras:d} from {done_num_files:d}/{num_files:d} file(s) in {elapsed:.3f} second(s)"
+msgstr ""
 
 # CPP_OT_canvas_new
 #~ msgctxt "CPP_OT_canvas_new"
@@ -2501,5 +2501,208 @@ msgstr ""
 
 #~ msgctxt "CPP_OT_bind_images"
 #~ msgid "Could not bind image(s) with selected options{fmt_failed_to_open:s}"
+#~ msgstr ""
+
+
+#~ msgid "Image aspect ratio correction factor. It means the ratio of the height of the image to its width - that is, values ​​greater than 1.0 will stretch it vertically, smaller values ​​will compress it. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "AA Method"
+#~ msgstr ""
+
+
+#~ msgid "The size of the camera sensor in millimeters, taking into account the larger side of the attached image. This means that if the sensor fit option is set to horizontal - the width of the sensor will be used for calculations, for vertical fit type - height accordingly. These values can be set manually. But for when working with photogrammetric scenes, it is necessary to use the automatic type of sensor adjustment. In this case, if the image has a landscape orientation (or the sides are equal), the width of the sensor will be used, and in the case of a portrait - the height of the sensor. As you can see, there are opportunities for using non-standard workflows, but the main mode of operation is the automatic sensor type. Also note the camera-bound image, this is important for importing and exporting to some file formats. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgid "Represents cubic radial distortion. It corrects or introduces distortion that increases with the cube of the radial distance. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgid "Represents linear radial distortion. It corrects or introduces distortion that increases linearly with radial distance. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgid "Represents linear tangential distortion. Corrects or introduces distortion that increases linearly with the distance from the image center. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "SMAA"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Low"
+#~ msgstr ""
+
+
+#~ msgid "Deviation of the camera principal point Y. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "None"
+#~ msgstr ""
+
+
+#~ msgid "95% of the quality. Medium threshold, more search steps, detection of corners and diagonals"
+#~ msgstr ""
+
+
+#~ msgid "Do not use sub-pixel morphological anti-aliasing"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "FXAA"
+#~ msgstr ""
+
+
+#~ msgctxt "Preferences"
+#~ msgid "License"
+#~ msgstr ""
+
+
+#~ msgid "Show images in the File Browser"
+#~ msgstr ""
+
+
+#~ msgid "Default medium dither"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Ultra"
+#~ msgstr ""
+
+
+#~ msgctxt "Preferences"
+#~ msgid "Links"
+#~ msgstr ""
+
+
+#~ msgid "Fast approximate anti-aliasing quality preset"
+#~ msgstr ""
+
+
+#~ msgid "FXAA preset quality tuning"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "High"
+#~ msgstr ""
+
+
+#~ msgid "Filter items in File Browser"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Medium"
+#~ msgstr ""
+
+
+#~ msgid "99% of the quality. A lot of search steps, diagonal and corner search steps, lowest threshold"
+#~ msgstr ""
+
+
+#~ msgid "The properties that were imported from Reality Capture.They will be used for export"
+#~ msgstr ""
+
+
+#~ msgid "80% of the quality. Medium threshold, few search steps, no detection of corners and diagonals"
+#~ msgstr ""
+
+
+#~ msgid "60% of the quality. High threshold, very a few search steps, no detection of corners and diagonals"
+#~ msgstr ""
+
+
+#~ msgid "Deviation of the camera principal point X. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgid "Focal length of the camera in millimeters. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgctxt "CameraProps"
+#~ msgid "Reality Capture Properties"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Quality"
+#~ msgstr ""
+
+
+#~ msgid "Less dither, faster"
+#~ msgstr ""
+
+
+#~ msgid "The horizontal skew of the image in millimeters relative to its center, excluding principal deviation. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgid ""
+#~ "The focal length of the camera in pixels. Calculated by the formula:\n"
+#~ "\n"
+#~ "`Pixels Focal Lens = F * P / S`\n"
+#~ "\n"
+#~ "where `F` is the focal length in millimeters, `P` is the larger side of the image, `S` is the size of the camera sensor in millimeters"
+#~ msgstr ""
+
+
+#~ msgid "Anti-aliasing method to be used"
+#~ msgstr ""
+
+
+#~ msgctxt "CameraProps"
+#~ msgid "Y"
+#~ msgstr ""
+
+
+#~ msgid "Do not use fast approximate anti-aliasing"
+#~ msgstr ""
+
+
+#~ msgid "Represents seventh-order radial distortion. It corrects or introduces distortion that increases with the seventh power of the radial distance. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgid "Represents quadratic tangential distortion. Corrects or introduces distortion that increases with the square of the distance from the image center. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgid "Represents quintic (fifth-order) radial distortion. It corrects or introduces distortion that increases with the fifth power of the radial distance. The value is stored with double precision"
+#~ msgstr ""
+
+
+#~ msgid "Less dither, more expensive"
+#~ msgstr ""
+
+
+#~ msgctxt "BHQAB_Preferences"
+#~ msgid "Preset"
+#~ msgstr ""
+
+
+#~ msgid "No dither, very expensive"
+#~ msgstr ""
+
+
+#~ msgid "Fast approximate anti-aliasing"
+#~ msgstr ""
+
+
+#~ msgid "Sub-pixel morphological anti-aliasing"
+#~ msgstr ""
+
+
+#~ msgid "Sub-pixel morphological anti-aliasing quality preset"
 #~ msgstr ""
 

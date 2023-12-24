@@ -263,52 +263,12 @@ msgid "As for choosing the source of the camera names in the exported file, it d
 msgstr "Що стосується вибору джерела назв камер у експортованому файлі, то це залежить від набору даних поточної сцени. Найчастіше достатньо стандартних налаштувань (використовувати назву об'єкта камери), але в певних нестандартних ситуаціях це потрібно вказати самостійно."
 
 
-msgid "Overwrite"
-msgstr "Перезаписати"
+msgid "Number of Cameras"
+msgstr "Кількість Камер"
 
 
-msgid "What data to overwrite for Reality Capture (XMP)"
-msgstr "Які дані потрібно перезаписати для Reality Capture (XMP)"
-
-
-msgid "Export Mode"
-msgstr "Режим Експорту"
-
-
-msgid "Overwrite \"Export Mode\" parameter for export"
-msgstr "Перезаписати опцію \"Режим Експорту\""
-
-
-msgid "Calibration Group"
-msgstr "Група Калібрації"
-
-
-msgid "Overwrite \"Calibration Group\" parameter for export"
-msgstr "Перезаписати опцію \"Група Калібрації\""
-
-
-msgid "Distortion Group"
-msgstr "Група Дисторсії"
-
-
-msgid "Overwrite \"Distortion Group\" parameter for export"
-msgstr "Перезаписати опцію \"Група Дисторсії\""
-
-
-msgid "In Texturing"
-msgstr "Для Текстури"
-
-
-msgid "Overwrite \"In Texturing\" parameter for export"
-msgstr "Перезаписати опцію \"Для Текстури\""
-
-
-msgid "In Meshing"
-msgstr "Для Сітки"
-
-
-msgid "Overwrite \"In Meshing\" parameter for export"
-msgstr "Перезаписати опцію \"Для Сітки\""
+msgid "Write number of cameras into a file for Reality Capture CSV-like file formats"
+msgstr "Записати кількість камер у файл для Reality Capture CSV-подібних форматів файлу"
 
 
 msgid "Calibration Groups"
@@ -325,6 +285,10 @@ msgstr "Включити Опції Редактора"
 
 msgid "Export editor states, e.g. enabled/disabled flags for texturing, meshing, and similar for Reality Capture (XMP)"
 msgstr "Експортувати прапори редактора, наприклад опції що вказують чи використовувати камеру для створення сітки або текстури для Reality Capture (XMP)"
+
+
+msgid "Export Mode"
+msgstr "Режим Експорту"
 
 
 msgid "Depending on how much you trust your registration, you can select the following options or you can also choose not to export camera poses for Reality Capture (XMP)"
@@ -363,28 +327,36 @@ msgid "This is the same as the exact option with the difference that the camera 
 msgstr "Те ж саме що і чистовик але положення камер і параметри калібрації не буде змінено"
 
 
+msgid "Calibration Group"
+msgstr "Група Калібрації"
+
+
 msgid "By defining a group for Reality Capture (XMP) we state that all images in this group have the same calibration properties, e.g. the same focal length, the same principal point. Use \"-1\" if you do not want to group the parameters"
 msgstr "Групою для Reality Capture (XMP) ми зазначаємо що у всіх зображень у цій групі однакові властивості калібрації, тобто однакова фокальна відстань, однакове відхилення від центру, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
+
+
+msgid "Distortion Group"
+msgstr "Група Дисторсії"
 
 
 msgid "By defining a group for Reality Capture (XMP) we state that all images in this group have the same lens properties, e.g. the same lens distortion coefficients. Use \"-1\" if you do not want to group the parameters"
 msgstr "Групою для Reality Capture (XMP) ми зазначаємо що у всіх зображень у цій групі однакові властивості дисторсії, тобто однакові коефіцієнти дисторсії, тощо. Використовуйте \"-1\" якщо не потрібно групувати параметри"
 
 
+msgid "In Texturing"
+msgstr "Для Текстури"
+
+
 msgid "Whether to use an image to create an object texture for Reality Capture (XMP)"
 msgstr "Чи використовувати зображення для створення текстури об'єкта для Reality Capture (XMP)"
 
 
+msgid "In Meshing"
+msgstr "Для Сітки"
+
+
 msgid "Whether to use an image to create the object mesh data for Reality Capture (XMP)"
 msgstr "Чи використовувати зображення для створення сітки об'єкта для Reality Capture (XMP)"
-
-
-msgid "Number of Cameras"
-msgstr "Кількість Камер"
-
-
-msgid "Write number of cameras into a file for Reality Capture CSV-like file formats"
-msgstr "Записати кількість камер у файл для Reality Capture CSV-подібних форматів файлу"
 
 
 msgid "Forward"

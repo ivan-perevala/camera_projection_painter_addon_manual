@@ -1,7 +1,7 @@
 
 project = "Camera Projection Painter"
 author = "Vlad Erium (ssh4), Ivan Perevala (ivpe)"
-version = "3.6.0"
+version = "4.0.0"
 copyright = "2023 BlenderHQ"
 
 extensions = [
