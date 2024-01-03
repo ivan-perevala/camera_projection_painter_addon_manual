@@ -77,3 +77,22 @@ Current Image Viewport Transparency
 
 Transparency of the image when viewed from the camera
 
+Cage
+====
+
+Allows you to distinguish a certain region for work. Useful for large scenes with lots of cameras
+
+Cage Usage
+==========
+
+In which way the region for work affects the scene display
+
+Cameras
+ Hides the cameras
+
+Previews
+ Stops rendering of previews outside the region
+
+Mesh Preview
+ Hides the projection of the object outside the region
+

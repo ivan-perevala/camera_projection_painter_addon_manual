@@ -75,6 +75,14 @@ msgid "Use image file name for comparison"
 msgstr "Використовувати назву файлу зображення для порівняння"
 
 
+msgid "Update Cage"
+msgstr "Оновити Регіон"
+
+
+msgid "Set the region to work to the current scene bounds. The boundaries of the object and the position of all scene cameras are taken into account. It would be set automatically after :doc:`setting context <setup-context>`, but if it has been changed, you can re-calculate the region in this way."
+msgstr "Встановлює регіон для роботи до меж поточної сцени. Враховуються межі об'єкта та положення всіх камер сцени. Після :doc:`налаштування контексту <setup-context>` його буде встановлено автоматично, але якщо його було змінено то в такий спосіб можна оновити регіон."
+
+
 msgid "Create New Canvas"
 msgstr "Створити Нове Полотно"
 
@@ -263,14 +271,6 @@ msgid "As for choosing the source of the camera names in the exported file, it d
 msgstr "Що стосується вибору джерела назв камер у експортованому файлі, то це залежить від набору даних поточної сцени. Найчастіше достатньо стандартних налаштувань (використовувати назву об'єкта камери), але в певних нестандартних ситуаціях це потрібно вказати самостійно."
 
 
-msgid "Number of Cameras"
-msgstr "Кількість Камер"
-
-
-msgid "Write number of cameras into a file for Reality Capture CSV-like file formats"
-msgstr "Записати кількість камер у файл для Reality Capture CSV-подібних форматів файлу"
-
-
 msgid "Calibration Groups"
 msgstr "Групи Калібрації"
 
@@ -357,6 +357,14 @@ msgstr "Для Сітки"
 
 msgid "Whether to use an image to create the object mesh data for Reality Capture (XMP)"
 msgstr "Чи використовувати зображення для створення сітки об'єкта для Reality Capture (XMP)"
+
+
+msgid "Number of Cameras"
+msgstr "Кількість Камер"
+
+
+msgid "Write number of cameras into a file for Reality Capture CSV-like file formats"
+msgstr "Записати кількість камер у файл для Reality Capture CSV-подібних форматів файлу"
 
 
 msgid "Forward"
@@ -475,8 +483,8 @@ msgid "Import Cameras"
 msgstr "Імпортувати Камери"
 
 
-msgid "The :doc:`setup context stage <setup-context>` and an independent operator for importing :doc:`extrinsic <../props/objectprops>` and :doc:`intrinsic <../props/cameraprops>` camera parameters."
-msgstr "Стадія :doc:`налаштування контексту <setup-context>` і самостійний оператор для імпорту :doc:`зовнішніх <../props/objectprops>` і :doc:`внутрішніх <../props/cameraprops>` параметрів камер."
+msgid "The :doc:`setup context stage <setup-context>` and an independent operator for importing extrinsic and :doc:`intrinsic <../props/cameraprops>` camera parameters."
+msgstr "Стадія :doc:`налаштування контексту <setup-context>` і самостійний оператор для імпорту зовнішніх і :doc:`внутрішніх <../props/cameraprops>` параметрів камер."
 
 
 msgid "For import, you need to select one or more files - their type will be determined automatically. Unlike :doc:`scene importer <import-scene>`, the file type will be determined not only by the extension - as soon as the files are selected, they will be partially read and checked. The check will be based on the key characteristics of various file types of third-party software - it can be the first line with a file description or simply the number of elements in a line (for character-separated formats). For ``XML`` files, certain keys will be found in the tree and so on."
@@ -613,108 +621,4 @@ msgstr "Швидкий доступ до користувацьких налаш
 
 msgid "Obviously, the operator itself does not make much sense, since the custom settings are not difficult to reach in the usual way, but during operation it may be necessary to disable or enable some options, for example :ref:`Use Mesh Preview` or :ref:`Use Previews` will continue to work in this mode. It is also worth noting that in the user settings there is a link to the folder with the addon logs, which can tell a lot about a possible issue, so it will also help to get the current log faster and fix the situation."
 msgstr "Очевидно що сам по собі оператор не має багато сенсу, оскільки до користувацьких налаштувань не складно дістатися звичайним способом, але під час роботи може виникнути необхідність вимкнути або ввімкнути деякі опції, наприклад, :ref:`Use Mesh Preview` або :ref:`Use Previews` і далі працювати в такому режимі. Також варто зауважити що в користувацьких налаштуваннях посилання на теку з логами доповнення, які можуть багато чого розповісти про можливу неполадку, тож це також допоможе швидше отримати поточний лог і виправити ситуацію."
-
-
-#~ msgid "Operator to clear existing data before starting a new scene setup."
-#~ msgstr "Оператор для очищення наявних даних перед початком налаштування нової сцени."
-
-
-#~ msgid "If the scene contains only data from a standard file, namely 3 objects: a cube with standard material, a camera and a lamp, then the operator will automatically offer to clear this data (of course, there is a chance that someone will work with it, but it is small). The same goes for images. If the file contains only one standard image that is reserved for the render result, it will also be prompted to delete it."
-#~ msgstr "Якщо сцена містить лише дані зі стандартного файлу, а саме 3 об'єкти: куб зі стандартним матеріалом, камера і лампа то оператор автоматично запропонує очистити ці дані (звісно існує ймовірність того що хтось буде з ними працювати, але вона невелика). Те ж саме стосується і зображень. Якщо файл містить лише одне стандартне зображення, яке зарезервовано для результату рендеру, його теж буде запропоновано видалити."
-
-
-#~ msgid "When it comes to the context setting order, this statement is always executed first. If you do not need to clear the data, you just need to remove both flags and agree to the execution. In this case, all the data will remain in place - this can be useful for resetting the context for the current scene (for example, if you need to finish the context setting interrupted at one of the following stages)."
-#~ msgstr "Коли мова йде про порядок налаштування контексту, цей оператор завжди виконується першим. Якщо не потрібно очищувати дані, необхідно просто прибрати обидва прапорці і погодитися з виконанням. У такому разі всі дані залишаться на місці - це може бути корисним, для переналаштування контексту для поточної сцени (наприклад якщо потрібно закінчити налаштування контексту, перерване на одному із наступних етапів)."
-
-
-#~ msgid "Стадія :doc:`налаштування контексту <setup-context>` під час якої можна очистити наявні дані сцени."
-#~ msgstr ""
-
-
-#~ msgid "Якщо у файлі є:"
-#~ msgstr ""
-
-
-#~ msgid "Куб"
-#~ msgstr ""
-
-
-#~ msgid "Матеріал"
-#~ msgstr ""
-
-
-#~ msgid "Камера"
-#~ msgstr ""
-
-
-#~ msgid "Лампа"
-#~ msgstr ""
-
-
-#~ msgid "тобто це стандартна сцена, то буде запропоновано :ref:`очистити ці дані <Cleanup Data>`."
-#~ msgstr ""
-
-
-#~ msgid "Якщо у файлі є лише одне зображення \"Render Result\" то також буде запропоновано :ref:`очистити зображення <Cleanup Images>`."
-#~ msgstr ""
-
-
-#~ msgid "Якщо потрібно залишити все як є, всі опції виконання потрібно вимкнути і просто погодитися на виконання - наприклад якщо необхідно завершити налаштування що було перервано на одній з наступних стадій."
-#~ msgstr ""
-
-
-#~ msgid "Експортує дані камер в файли сторонніх програм."
-#~ msgstr ""
-
-
-#~ msgid "Доповнення зберігає дані камер з подвійною точністю, відповідно до стандарту IEEE-754, тому файли які було імпортовано зі сторонніх програм можна експортувати назад без втрати точності."
-#~ msgstr ""
-
-
-#~ msgid "Для експорту необхідно обрати шлях і назву файлу, а для деяких форматів (наприклад, Reality Capture Метадані (XMP) що записує кожну камеру в окремий файл) - директорію. Також необхідно обрати формат файлу і джерело назв."
-#~ msgstr ""
-
-
-#~ msgid "Поточна версія доповнення підтримує лише файли **Reality Capture**. Очевидно що плануємо розширити підтримку файлів сторонніх програм."
-#~ msgstr ""
-
-
-#~ msgid "Стосовно вибору формату файлу можна просто обрати наявний файл для перезапису і формат експорту буде обрано автоматично, відповідно до формату наявного файлу. Тут варто зазначити що якщо обрано наявний файл то для експорту в інший формат файлу необхідно зняти виділення з файлу і очистити поле назви файлу, лише потім можна буде обрати інший формат."
-#~ msgstr ""
-
-
-#~ msgid "Що стосується вибору джерела назв камер у експортованому файлі, то це залежить від набору даних поточної сцени. Найчастіше достатньо стандартних налаштувань (використовувати назву об'єкта камери), але в певних нестандартних ситуаціях це потрібно вказати самостійно."
-#~ msgstr ""
-
-
-#~ msgid "Послідовне налаштування контексту для роботи - крок за кроком буде імпортовано сцену і необхідні дані та налаштовано параметри інструментів."
-#~ msgstr ""
-
-
-#~ msgid "Виконання поділено на стадії, кожна з яких - окремий виклик операторів автоматизації. Кожну зі стадій виконання можна пропустити, якщо вона не потрібна в поточній ситуації і перейти до наступної, або ж скасувати її виконання і таким чином завершити налаштування контексту на поточній стадії."
-#~ msgstr ""
-
-
-#~ msgid "Послідовність стадій виконання така:"
-#~ msgstr ""
-
-
-#~ msgid "**Reality Capture**:"
-#~ msgstr ""
-
-
-#~ msgid "``Wavefront (.obj)``"
-#~ msgstr ""
-
-
-#~ msgid "``FBX``"
-#~ msgstr ""
-
-
-#~ msgid "``Collada (.dae)``"
-#~ msgstr ""
-
-
-#~ msgid "``Wavefront (.obj)``, ``Collada (.dae)`` - used built-in Blender importers. ``Autodesk (*.fbx)`` - the standard FBX file import addon will be used, so it should be enabled."
-#~ msgstr ""
 

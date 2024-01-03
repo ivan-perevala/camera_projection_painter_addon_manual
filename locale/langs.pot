@@ -2706,3 +2706,57 @@ msgstr ""
 #~ msgid "Sub-pixel morphological anti-aliasing quality preset"
 #~ msgstr ""
 
+
+#~ msgctxt "CPP"
+#~ msgid "Cage"
+#~ msgstr ""
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Cage Usage"
+#~ msgstr ""
+
+
+#~ msgid "Stops rendering of previews outside the region"
+#~ msgstr ""
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Mesh Preview"
+#~ msgstr ""
+
+
+#~ msgid "Editing Cage"
+#~ msgstr ""
+
+
+#~ msgid "In which way the region for work affects the scene display"
+#~ msgstr ""
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Cage"
+#~ msgstr ""
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Cameras"
+#~ msgstr ""
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Previews"
+#~ msgstr ""
+
+
+#~ msgid "Allows you to distinguish a certain region for work. Useful for large scenes with lots of cameras"
+#~ msgstr ""
+
+
+#~ msgid "Hides the cameras"
+#~ msgstr ""
+
+
+#~ msgid "Hides the projection of the object outside the region"
+#~ msgstr ""
+

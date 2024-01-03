@@ -61,9 +61,9 @@ msgid "Object"
 msgstr "Об'єкт"
 
 msgid ""
-"Data about :doc:`extrinsic <../props/objectprops>` parameters. This is the position and orientation of the camera in"
+"Data about extrinsic parameters. This is the position and orientation of the camera in"
 " space."
-msgstr "Дані про :doc:`зовнішні <../props/objectprops>` параметри. Це положення і орієнтація камери у просторі."
+msgstr "Дані про зовнішні параметри. Це положення і орієнтація камери у просторі."
 
 msgid "Camera (Data Block)"
 msgstr "Камера (Блок даних)"

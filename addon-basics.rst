@@ -26,7 +26,7 @@ So, which data block does Blender store which information?
 Object
 ======
 
-Data about :doc:`extrinsic <../props/objectprops>` parameters. This is the position and orientation of the camera in space.
+Data about extrinsic parameters. This is the position and orientation of the camera in space.
 
 .. _data-blocks-camera:
 
@@ -60,7 +60,7 @@ Pixel data (obviously). It is important here that for Blender an image is just a
 .. Об'єкт
 .. ======
 
-.. Дані про :doc:`зовнішні <../props/objectprops>` параметри. Це положення і орієнтація камери у просторі.
+.. Дані про зовнішні параметри. Це положення і орієнтація камери у просторі.
 
 .. Камера (Блок даних)
 .. ===================

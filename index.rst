@@ -8,6 +8,7 @@ Add-on for Blender for working with photo scans and photogrammetry.
     :caption: General
 
     about
+    installation
     addon-basics
     quick-start
     answers
@@ -28,6 +29,7 @@ Add-on for Blender for working with photo scans and photogrammetry.
     ops/export-cameras
     ops/remove-image-from-bind-history
     ops/show-preferences
+    ops/calc-scene-cage
 
 
 .. toctree::
@@ -37,5 +39,4 @@ Add-on for Blender for working with photo scans and photogrammetry.
     props/preferences
     props/wmprops
     props/sceneprops
-    props/objectprops
     props/cameraprops

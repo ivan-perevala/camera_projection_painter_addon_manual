@@ -4,11 +4,6 @@ msgstr ""
 
 #. :src: bpy.types.Preferences.appearance_section
 msgctxt "Preferences"
-msgid "Appearance"
-msgstr "Відображення"
-
-
-msgctxt "Preferences"
 msgid "Appearance Section"
 msgstr "Секція Відображення"
 
@@ -2102,6 +2097,15 @@ msgid "Please, follow installation instructions. You are using debug version."
 msgstr "Будь ласка, дотримуйтеся інструкцій встановлення. Ви використовуєте версію для налагодження"
 
 
+msgctxt "CPP_OT_calc_scene_cage"
+msgid "Update Cage"
+msgstr "Оновити Регіон"
+
+
+msgid "Updates the region for work, taking into account the size of the paint object and the position of all scene cameras"
+msgstr "Оновлює регіон для роботи, враховуючи розміри об'єкту для малювання та положення всіх камери сцени"
+
+
 #~ msgctxt "CPP_OT_bind_images"
 #~ msgid "For the selected options, all the necessary images are already binded. Search time - {elapsed:.3f} second(s)"
 #~ msgstr "Для вказаних опцій, усі відповідні зображення вже пов'язано. Час пошуку - {elapsed:.3f} секунд(и)"
@@ -2796,4 +2800,63 @@ msgstr "Імпортовано дані {done_num_cameras:d} камер(и), с�
 
 #~ msgid "Sub-pixel morphological anti-aliasing quality preset"
 #~ msgstr "Попередні налаштування суб-піксельного морфологічного згладжування"
+
+
+#~ msgctxt "CPP"
+#~ msgid "Cage"
+#~ msgstr "Регіон"
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Cage Usage"
+#~ msgstr "Використання Регіону"
+
+
+#~ msgid "Stops rendering of previews outside the region"
+#~ msgstr "Припиняє рендеринг зображень попереднього перегляду за межами регіону"
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Mesh Preview"
+#~ msgstr "Відображення Прев'ю Сітки"
+
+
+#~ msgid "Editing Cage"
+#~ msgstr "Регіон Редагування"
+
+
+#~ msgid "In which way the region for work affects the scene display"
+#~ msgstr "В який спосіб регіон для роботи впливає на відображення сцени"
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Cage"
+#~ msgstr "Регіон"
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Cameras"
+#~ msgstr "Камери"
+
+
+#~ msgctxt "SceneProps"
+#~ msgid "Previews"
+#~ msgstr "Попередній Перегляд"
+
+
+#~ msgid "Allows you to distinguish a certain region for work. Useful for large scenes with lots of cameras"
+#~ msgstr "Дозволяє виокремити певний регіон для роботи. Корисно для великих сцен з великою кількістю камер"
+
+
+#~ msgid "Hides the cameras"
+#~ msgstr "Ховає камери"
+
+
+#~ msgid "Hides the projection of the object outside the region"
+#~ msgstr "Приховує проекцію об'єкту поза межами регіону"
+
+
+#~ msgctxt "Preferences"
+#~ msgid "Appearance"
+#~ msgstr "Відображення"
 

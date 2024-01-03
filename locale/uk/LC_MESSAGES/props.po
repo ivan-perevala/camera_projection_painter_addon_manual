@@ -1,7 +1,7 @@
 # Translations template for PROJECT.
-# Copyright (C) 2023 ORGANIZATION
+# Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
@@ -557,6 +557,47 @@ msgstr "Прозорість поточного зображення у вікн
 
 msgid "Transparency of the image when viewed from the camera"
 msgstr "Прозорість зображення коли дивитися з камери"
+
+
+msgid "Cage"
+msgstr "Регіон"
+
+
+msgid "Allows you to distinguish a certain region for work. Useful for large scenes with lots of cameras"
+msgstr "Дозволяє виокремити певний регіон для роботи. Корисно для великих сцен з великою кількістю камер"
+
+
+msgid "Cage Usage"
+msgstr "Використання Регіону"
+
+
+msgid "In which way the region for work affects the scene display"
+msgstr "В який спосіб регіон для роботи впливає на відображення сцени"
+
+
+#, fuzzy
+msgid "Cameras"
+msgstr "Камери"
+
+
+msgid "Hides the cameras"
+msgstr "Ховає камери"
+
+
+msgid "Previews"
+msgstr "Попередній Перегляд"
+
+
+msgid "Stops rendering of previews outside the region"
+msgstr "Припиняє рендеринг зображень попереднього перегляду за межами регіону"
+
+
+msgid "Mesh Preview"
+msgstr "Відображення Прев'ю Сітки"
+
+
+msgid "Hides the projection of the object outside the region"
+msgstr "Приховує проекцію об'єкту поза межами регіону"
 
 
 msgid "Window Manager"
